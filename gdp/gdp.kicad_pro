@@ -299,7 +299,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -326,6 +326,14 @@
     [
       "95aff260-2720-4733-a81d-a7a2136fdd14",
       ""
+    ],
+    [
+      "fb334c08-c103-46ff-b900-c3f57a56f58c",
+      "1"
+    ],
+    [
+      "ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1",
+      "2"
     ]
   ],
   "text_variables": {}
