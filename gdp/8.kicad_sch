@@ -1,12 +1,8 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 33bf1433-284c-43dd-aa42-1f41b3796de7)
+  (uuid d4d983a9-5f23-4c83-89ac-2a44a7438254)
 
   (paper "A4")
-
-  (title_block
-    (title "Partner GDP")
-  )
 
   (lib_symbols
   )
