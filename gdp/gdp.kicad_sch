@@ -174,7 +174,7 @@
     )
   )
 
-  (sheet (at 67.31 19.685) (size 31.75 16.51) (fields_autoplaced)
+  (sheet (at 67.31 19.685) (size 31.75 16.51)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 1e5736c7-7f09-4d36-9f85-33f8211ca85b)
@@ -184,6 +184,9 @@
     (property "Sheetfile" "8.kicad_sch" (at 67.31 36.7796 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (property "Text" "AVDC" (at 83.185 27.94 0)
+      (effects (font (size 1.27 1.27) bold))
+    )
     (instances
       (project "gdp"
         (path "/95aff260-2720-4733-a81d-a7a2136fdd14" (page "9"))
@@ -191,7 +194,7 @@
     )
   )
 
-  (sheet (at 67.31 45.085) (size 31.75 16.51) (fields_autoplaced)
+  (sheet (at 67.31 45.085) (size 31.75 16.51)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 5420fe53-9172-4320-b1ae-7476e0c7581b)
@@ -201,6 +204,9 @@
     (property "Sheetfile" "9.kicad_sch" (at 67.31 62.1796 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (property "Text" "AVDC MEMORY" (at 83.185 53.34 0)
+      (effects (font (size 1.27 1.27) bold))
+    )
     (instances
       (project "gdp"
         (path "/95aff260-2720-4733-a81d-a7a2136fdd14" (page "10"))
@@ -208,7 +214,7 @@
     )
   )
 
-  (sheet (at 67.31 121.285) (size 31.75 16.51) (fields_autoplaced)
+  (sheet (at 67.31 121.285) (size 31.75 16.51)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 7e43dd6e-b5cb-462f-9bfd-3d0ee9fd8751)
@@ -217,6 +223,9 @@
     )
     (property "Sheetfile" "12.kicad_sch" (at 67.31 138.3796 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Text" "SYNC + CONTROL" (at 83.185 129.54 0)
+      (effects (font (size 1.27 1.27) bold))
     )
     (instances
       (project "gdp"
@@ -245,7 +254,7 @@
     )
   )
 
-  (sheet (at 24.765 70.485) (size 31.75 16.51) (fields_autoplaced)
+  (sheet (at 24.765 70.485) (size 31.75 16.51)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid a792f856-eda0-4c7e-9974-4020eb15499f)
@@ -255,6 +264,9 @@
     (property "Sheetfile" "3.kicad_sch" (at 24.765 87.5796 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (property "Text" "GDP + CONTROL" (at 40.64 78.74 0)
+      (effects (font (size 1.27 1.27) bold))
+    )
     (instances
       (project "gdp"
         (path "/95aff260-2720-4733-a81d-a7a2136fdd14" (page "4"))
@@ -262,7 +274,7 @@
     )
   )
 
-  (sheet (at 67.31 172.085) (size 31.75 16.51) (fields_autoplaced)
+  (sheet (at 67.31 172.085) (size 31.75 16.51)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid b2d99a56-eb50-41cd-94b5-019756774957)
@@ -271,6 +283,9 @@
     )
     (property "Sheetfile" "14.kicad_sch" (at 67.31 189.1796 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Text" "CLOCK GEN" (at 83.185 180.34 0)
+      (effects (font (size 1.27 1.27) bold))
     )
     (instances
       (project "gdp"
@@ -299,7 +314,7 @@
     )
   )
 
-  (sheet (at 24.765 121.285) (size 31.75 16.51) (fields_autoplaced)
+  (sheet (at 24.765 121.285) (size 31.75 16.51)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid c2399418-5be2-4a84-8b56-c34f01a784cb)
@@ -309,6 +324,9 @@
     (property "Sheetfile" "5.kicad_sch" (at 24.765 138.3796 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (property "Text" "GDP MEMOUT + RAS/SELECT" (at 40.64 129.54 0)
+      (effects (font (size 1.27 1.27) bold))
+    )
     (instances
       (project "gdp"
         (path "/95aff260-2720-4733-a81d-a7a2136fdd14" (page "6"))
@@ -316,7 +334,7 @@
     )
   )
 
-  (sheet (at 24.765 146.685) (size 31.75 16.51) (fields_autoplaced)
+  (sheet (at 24.765 146.685) (size 31.75 16.51)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b)
@@ -326,6 +344,9 @@
     (property "Sheetfile" "6.kicad_sch" (at 24.765 163.7796 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
+    (property "Text" "GDP SCROLL + CAS MUX" (at 40.64 154.94 0)
+      (effects (font (size 1.27 1.27) bold))
+    )
     (instances
       (project "gdp"
         (path "/95aff260-2720-4733-a81d-a7a2136fdd14" (page "7"))
@@ -333,7 +354,7 @@
     )
   )
 
-  (sheet (at 67.31 95.885) (size 31.75 16.51) (fields_autoplaced)
+  (sheet (at 67.31 95.885) (size 31.75 16.51)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid d6b86f16-da3f-4420-ad10-a48d1b11a79a)
@@ -342,6 +363,9 @@
     )
     (property "Sheetfile" "11.kicad_sch" (at 67.31 112.9796 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Text" "CHAR DATA" (at 83.185 104.14 0)
+      (effects (font (size 1.27 1.27) bold))
     )
     (instances
       (project "gdp"
@@ -370,7 +394,7 @@
     )
   )
 
-  (sheet (at 24.765 45.085) (size 31.75 16.51) (fields_autoplaced)
+  (sheet (at 24.765 45.085) (size 31.75 16.51)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1)
@@ -379,6 +403,9 @@
     )
     (property "Sheetfile" "2.kicad_sch" (at 24.765 62.1796 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Text" "ADRESIRANJE + PIO" (at 40.64 53.34 0)
+      (effects (font (size 1.27 1.27) bold))
     )
     (instances
       (project "gdp"
