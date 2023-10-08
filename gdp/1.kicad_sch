@@ -6,6 +6,7 @@
 
   (title_block
     (title "PARTNER GDP")
+    (company "Oddbit Retro")
   )
 
   (lib_symbols

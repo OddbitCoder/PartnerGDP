@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (title "PARTNER GDP")
+    (company "Oddbit Retro")
+  )
+
   (lib_symbols
     (symbol "74LS06_1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U4" (at -1.27 1.27 0)
