@@ -5,8 +5,9 @@
 	(uuid "f929ba65-e59e-478b-9ecb-1ceb67795b84")
 	(paper "A4")
 	(title_block
-		(title "PARTNER GDP")
+		(title "PARTNER GDP: BUS + KEYBOARD INTERFACE")
 		(company "Oddbit Retro")
+		(comment 1 "NARISAL: MIHA GRČAR")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS06"
