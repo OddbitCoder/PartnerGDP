@@ -4738,6 +4738,129 @@
 		)
 	)
 	(symbol
+		(lib_name "74LS244_1")
+		(lib_id "74xx_IEEE:74LS244")
+		(at 224.79 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e844d31-a773-49f0-9b98-53a9abeaa50b")
+		(property "Reference" "U12"
+			(at 224.79 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS244"
+			(at 224.79 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+			(at 169.926 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
+			(at 158.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "3d6eadb6-6e17-4b59-8564-2bb291049282")
+		)
+		(pin "19"
+			(uuid "a17ef3bc-f09b-44af-9c83-71e1c15cc662")
+		)
+		(pin "15"
+			(uuid "833eb05e-5ceb-429c-8c48-8fcc6533f008")
+		)
+		(pin "9"
+			(uuid "4b7bd562-0c7a-43e0-9b14-496c3b85e447")
+		)
+		(pin "14"
+			(uuid "7f11d9b1-0d4e-4a33-a1bd-9290062ff692")
+		)
+		(pin "12"
+			(uuid "39bc931c-a26a-4124-b573-5f044b7ba067")
+		)
+		(pin "6"
+			(uuid "19d7fac4-537c-411d-8ef7-f8e126829a38")
+		)
+		(pin "7"
+			(uuid "2484d184-356d-4aa5-a903-5e7cc8a4ae0a")
+		)
+		(pin "2"
+			(uuid "51e74ba9-9abf-4d7e-977b-e3547252c558")
+		)
+		(pin "20"
+			(uuid "778185d1-2cab-4ef3-b189-b75c8b21c4a7")
+		)
+		(pin "16"
+			(uuid "0b98f26d-a2b7-414e-a97d-407804e05eba")
+		)
+		(pin "17"
+			(uuid "59f279d8-7879-4776-8805-af359d1c884a")
+		)
+		(pin "11"
+			(uuid "4412e791-451e-4d4d-8b37-8caab5963bfb")
+		)
+		(pin "1"
+			(uuid "663e92ba-7c5b-43e7-8547-c7d92b2f25ee")
+		)
+		(pin "18"
+			(uuid "bd60b8c4-9a4f-494a-915d-3adfd395eb7c")
+		)
+		(pin "3"
+			(uuid "9ca2a034-81b6-4120-bea4-cbde97484cc9")
+		)
+		(pin "8"
+			(uuid "30d052d9-0d69-4223-82b3-dbd03cf8acc6")
+		)
+		(pin "4"
+			(uuid "2b77a03f-910e-4361-9c63-5b8033ec11ca")
+		)
+		(pin "13"
+			(uuid "29e7f5e9-8033-494a-8b36-ffe921bde7bd")
+		)
+		(pin "5"
+			(uuid "d460fa8d-120c-460c-9be0-51adcb98a02d")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 177.8 86.36 0)
 		(unit 1)
@@ -4797,6 +4920,129 @@
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "74LS244_1")
+		(lib_id "74xx_IEEE:74LS244")
+		(at 224.79 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20e3b166-bec2-454e-8f2d-2566b7a36cdd")
+		(property "Reference" "U11"
+			(at 224.79 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS244"
+			(at 224.79 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+			(at 169.926 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
+			(at 158.75 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "d61ff7f2-13e4-4074-ab94-459c7758f0ce")
+		)
+		(pin "19"
+			(uuid "a17ef3bc-f09b-44af-9c83-71e1c15cc662")
+		)
+		(pin "15"
+			(uuid "833eb05e-5ceb-429c-8c48-8fcc6533f008")
+		)
+		(pin "9"
+			(uuid "4b7bd562-0c7a-43e0-9b14-496c3b85e447")
+		)
+		(pin "14"
+			(uuid "8ae62463-4698-4cbf-9b00-746dec211233")
+		)
+		(pin "12"
+			(uuid "7548fb13-a92a-4682-b5f1-922c1368182d")
+		)
+		(pin "6"
+			(uuid "8c0a4dab-ea79-4d82-b439-20369acc2350")
+		)
+		(pin "7"
+			(uuid "2484d184-356d-4aa5-a903-5e7cc8a4ae0a")
+		)
+		(pin "2"
+			(uuid "f0156aab-e182-40f4-94e1-408fd7f6f2fc")
+		)
+		(pin "20"
+			(uuid "2db4685b-f571-4118-86f6-ade85f7529c7")
+		)
+		(pin "16"
+			(uuid "716eb30e-9680-46ab-8feb-96d0c7da02d5")
+		)
+		(pin "17"
+			(uuid "59f279d8-7879-4776-8805-af359d1c884a")
+		)
+		(pin "11"
+			(uuid "4412e791-451e-4d4d-8b37-8caab5963bfb")
+		)
+		(pin "1"
+			(uuid "8178772d-b27d-4a6d-a2df-2c45c9d0b046")
+		)
+		(pin "18"
+			(uuid "d086c15b-5969-40e5-949a-7a840890cca1")
+		)
+		(pin "3"
+			(uuid "9ca2a034-81b6-4120-bea4-cbde97484cc9")
+		)
+		(pin "8"
+			(uuid "446d50be-245b-4217-bcd5-0280c4bd0c1f")
+		)
+		(pin "4"
+			(uuid "c04aeec4-0242-4376-b06f-9afae43a39c4")
+		)
+		(pin "13"
+			(uuid "29e7f5e9-8033-494a-8b36-ffe921bde7bd")
+		)
+		(pin "5"
+			(uuid "d460fa8d-120c-460c-9be0-51adcb98a02d")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -4996,6 +5242,129 @@
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
 					(reference "#PWR0115")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "74LS244_1")
+		(lib_id "74xx_IEEE:74LS244")
+		(at 224.79 50.8 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40e6c0f0-2492-4b58-bc68-e988d6263717")
+		(property "Reference" "U13"
+			(at 224.79 45.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS244"
+			(at 224.79 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+			(at 169.926 38.354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
+			(at 158.75 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "a0c21ef1-0e69-44d0-862a-703ed071e7ea")
+		)
+		(pin "19"
+			(uuid "a17ef3bc-f09b-44af-9c83-71e1c15cc662")
+		)
+		(pin "15"
+			(uuid "833eb05e-5ceb-429c-8c48-8fcc6533f008")
+		)
+		(pin "9"
+			(uuid "4b7bd562-0c7a-43e0-9b14-496c3b85e447")
+		)
+		(pin "14"
+			(uuid "f9d3dfbb-632b-479b-b880-255c3bc5615d")
+		)
+		(pin "12"
+			(uuid "6434b4f4-b49d-40c3-999e-c4bb312ed0c8")
+		)
+		(pin "6"
+			(uuid "51460821-5392-415a-a421-fee3cfb36d89")
+		)
+		(pin "7"
+			(uuid "2484d184-356d-4aa5-a903-5e7cc8a4ae0a")
+		)
+		(pin "2"
+			(uuid "b4d0c8d6-744f-4e2b-8fe7-b2ccc849bf68")
+		)
+		(pin "20"
+			(uuid "3553468e-3413-435e-a4eb-bc2dc83cda11")
+		)
+		(pin "16"
+			(uuid "c3d3191b-eccd-44a5-b81a-510eed91683a")
+		)
+		(pin "17"
+			(uuid "59f279d8-7879-4776-8805-af359d1c884a")
+		)
+		(pin "11"
+			(uuid "4412e791-451e-4d4d-8b37-8caab5963bfb")
+		)
+		(pin "1"
+			(uuid "25cb4fa4-19ad-42a8-9b82-10e43e829a82")
+		)
+		(pin "18"
+			(uuid "f9feed9f-1f44-439b-a318-37441fa554b9")
+		)
+		(pin "3"
+			(uuid "9ca2a034-81b6-4120-bea4-cbde97484cc9")
+		)
+		(pin "8"
+			(uuid "ea018bd8-044e-42dc-915e-fde9321803e0")
+		)
+		(pin "4"
+			(uuid "e2b93dd9-6c6a-4b5d-8f51-e2009c4f3284")
+		)
+		(pin "13"
+			(uuid "29e7f5e9-8033-494a-8b36-ffe921bde7bd")
+		)
+		(pin "5"
+			(uuid "d460fa8d-120c-460c-9be0-51adcb98a02d")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
+					(reference "U13")
+					(unit 2)
 				)
 			)
 		)
@@ -5501,131 +5870,6 @@
 		)
 	)
 	(symbol
-		(lib_name "74LS244_1")
-		(lib_id "74xx_IEEE:74LS244")
-		(at 224.79 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a893373-526d-4cfd-8033-f1689f2189d9")
-		(property "Reference" "U14"
-			(at 220.98 78.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LS244"
-			(at 220.98 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
-			(at 169.926 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
-			(at 158.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "0c388807-d816-4be4-976d-f23992a64675")
-		)
-		(pin "19"
-			(uuid "827c8792-616c-486a-bb86-53a1ad920152")
-		)
-		(pin "15"
-			(uuid "cde60b53-e81d-4079-ba71-5c27af89a48e")
-		)
-		(pin "9"
-			(uuid "6a253c8b-5e14-4404-8e1b-c328c7fece94")
-		)
-		(pin "14"
-			(uuid "fdd15bc6-ac90-4f1f-a578-79e607bd5852")
-		)
-		(pin "12"
-			(uuid "0d621390-41e7-46e9-a4d7-0f7e6db91dbc")
-		)
-		(pin "6"
-			(uuid "3bc65be7-48d8-49dd-a5ac-1d6e16c0d139")
-		)
-		(pin "7"
-			(uuid "992fc7e7-afab-4d3e-8a95-535e3eff29ce")
-		)
-		(pin "2"
-			(uuid "054bdbe4-4a71-41f1-8b3c-daa4a8484b21")
-		)
-		(pin "20"
-			(uuid "ee4fad79-d546-46e2-aeb0-313e1acff8d7")
-		)
-		(pin "16"
-			(uuid "d914d383-c7cf-4b1c-9286-605d5e7c498e")
-		)
-		(pin "17"
-			(uuid "a97efd2f-bb42-451d-aa62-6bdaefe3fae8")
-		)
-		(pin "11"
-			(uuid "5ae643cb-43ae-4a43-a929-02266246a1ac")
-		)
-		(pin "1"
-			(uuid "6918a194-c58b-4d31-95a4-10e00cb38bf6")
-		)
-		(pin "18"
-			(uuid "1c604825-cfb9-407f-8cb2-5e88a234dd74")
-		)
-		(pin "3"
-			(uuid "99bd5083-c639-4815-ab98-32e861cfc7cb")
-		)
-		(pin "8"
-			(uuid "1a16911a-b608-4e0c-8d98-cd046dad5e6e")
-		)
-		(pin "4"
-			(uuid "cbe7cc92-15e8-4114-ba9c-ffc5a42a14bd")
-		)
-		(pin "13"
-			(uuid "c948735d-507a-447b-adf1-a1f654d8e1ee")
-		)
-		(pin "5"
-			(uuid "8c70c21f-f102-4d39-876b-bf583046fc08")
-		)
-		(instances
-			(project "gdp"
-				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDD")
 		(at 114.3 86.36 0)
 		(unit 1)
@@ -5687,131 +5931,6 @@
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
 					(reference "#PWR0107")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "74LS244_1")
-		(lib_id "74xx_IEEE:74LS244")
-		(at 224.79 50.8 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "91b9f55b-ae45-4226-96d3-67c2648577e7")
-		(property "Reference" "U13"
-			(at 220.98 45.974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LS244"
-			(at 220.98 48.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
-			(at 169.926 38.354 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
-			(at 158.75 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "b9e27af9-e430-4890-bbd9-20bc0cdd0003")
-		)
-		(pin "19"
-			(uuid "a12b51df-a4f4-4244-9cae-5984b3bd6b83")
-		)
-		(pin "15"
-			(uuid "18a3a17b-7d8a-439a-b4e4-262fe798cb5e")
-		)
-		(pin "9"
-			(uuid "71573b24-f43c-49e7-a5a2-b8d9923fc1b2")
-		)
-		(pin "14"
-			(uuid "fdd15bc6-ac90-4f1f-a578-79e607bd5852")
-		)
-		(pin "12"
-			(uuid "0d621390-41e7-46e9-a4d7-0f7e6db91dbc")
-		)
-		(pin "6"
-			(uuid "3bc65be7-48d8-49dd-a5ac-1d6e16c0d139")
-		)
-		(pin "7"
-			(uuid "52f1802b-b500-4b28-8597-9f5a3bac77b0")
-		)
-		(pin "2"
-			(uuid "054bdbe4-4a71-41f1-8b3c-daa4a8484b21")
-		)
-		(pin "20"
-			(uuid "a29b1aec-b422-48fd-8d8b-b0c23f13d18d")
-		)
-		(pin "16"
-			(uuid "d914d383-c7cf-4b1c-9286-605d5e7c498e")
-		)
-		(pin "17"
-			(uuid "6b691f63-dbb7-4af7-b3ba-99bed25fe081")
-		)
-		(pin "11"
-			(uuid "ac43dfa4-de6e-458b-b6dc-d8170a52bb65")
-		)
-		(pin "1"
-			(uuid "6918a194-c58b-4d31-95a4-10e00cb38bf6")
-		)
-		(pin "18"
-			(uuid "1c604825-cfb9-407f-8cb2-5e88a234dd74")
-		)
-		(pin "3"
-			(uuid "2f58a12c-9f4b-4b39-9489-3795dbd3c928")
-		)
-		(pin "8"
-			(uuid "1a16911a-b608-4e0c-8d98-cd046dad5e6e")
-		)
-		(pin "4"
-			(uuid "cbe7cc92-15e8-4114-ba9c-ffc5a42a14bd")
-		)
-		(pin "13"
-			(uuid "427324d5-2daf-437c-9d00-4bfd285652d9")
-		)
-		(pin "5"
-			(uuid "5690c3c0-081e-4c51-9715-07ca211ba148")
-		)
-		(instances
-			(project "gdp"
-				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
-					(reference "U13")
-					(unit 2)
 				)
 			)
 		)
@@ -6187,131 +6306,6 @@
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "74LS244_1")
-		(lib_id "74xx_IEEE:74LS244")
-		(at 224.79 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8785dfc-4d5e-43e8-afc7-c23f4c610534")
-		(property "Reference" "U15"
-			(at 220.98 112.014 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74LS244"
-			(at 220.98 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
-			(at 169.926 104.394 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
-			(at 158.75 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "11c185f9-3cc4-4e20-b62c-96f0b37593f6")
-		)
-		(pin "19"
-			(uuid "453e00f9-7d98-450f-b858-ec2765f74bc0")
-		)
-		(pin "15"
-			(uuid "4b001d83-3497-4e6c-ac75-72111e2959bf")
-		)
-		(pin "9"
-			(uuid "85d03d07-33be-40ea-8294-67830834a1dc")
-		)
-		(pin "14"
-			(uuid "fdd15bc6-ac90-4f1f-a578-79e607bd5852")
-		)
-		(pin "12"
-			(uuid "0d621390-41e7-46e9-a4d7-0f7e6db91dbc")
-		)
-		(pin "6"
-			(uuid "3bc65be7-48d8-49dd-a5ac-1d6e16c0d139")
-		)
-		(pin "7"
-			(uuid "01873bfa-b66a-4995-839f-f0999b55cbe4")
-		)
-		(pin "2"
-			(uuid "054bdbe4-4a71-41f1-8b3c-daa4a8484b21")
-		)
-		(pin "20"
-			(uuid "f805aa7c-901d-4dea-946a-5f99e4a57439")
-		)
-		(pin "16"
-			(uuid "d914d383-c7cf-4b1c-9286-605d5e7c498e")
-		)
-		(pin "17"
-			(uuid "238159f4-b1e8-4065-87b8-d67c4f957077")
-		)
-		(pin "11"
-			(uuid "1429b67c-78a9-4e16-94d8-ccc4ccbb5912")
-		)
-		(pin "1"
-			(uuid "6918a194-c58b-4d31-95a4-10e00cb38bf6")
-		)
-		(pin "18"
-			(uuid "1c604825-cfb9-407f-8cb2-5e88a234dd74")
-		)
-		(pin "3"
-			(uuid "0d420ec2-b731-4b92-84d3-67f446909578")
-		)
-		(pin "8"
-			(uuid "1a16911a-b608-4e0c-8d98-cd046dad5e6e")
-		)
-		(pin "4"
-			(uuid "cbe7cc92-15e8-4114-ba9c-ffc5a42a14bd")
-		)
-		(pin "13"
-			(uuid "1f959496-75e8-4c48-abea-f3bdd30e0ce7")
-		)
-		(pin "5"
-			(uuid "0f9cff27-b4c6-4a14-86a0-e10ccd24ccd7")
-		)
-		(instances
-			(project "gdp"
-				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
-					(reference "U15")
 					(unit 1)
 				)
 			)
