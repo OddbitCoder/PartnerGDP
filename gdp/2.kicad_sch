@@ -5895,7 +5895,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "IC1")
+					(reference "IC6")
 					(unit 1)
 				)
 			)

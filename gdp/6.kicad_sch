@@ -1056,7 +1056,7 @@
 			)
 			(symbol "74LS244_3_0_0"
 				(pin power_in line
-					(at 0 -10.16 90)
+					(at -3.81 -10.16 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1074,7 +1074,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 20.32 270)
+					(at 3.81 20.32 270)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -5072,7 +5072,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a53cf67-2e50-4246-9f36-8b486434132a")
-		(property "Reference" "U11"
+		(property "Reference" "IC18"
 			(at 144.272 64.77 0)
 			(effects
 				(font
@@ -5180,7 +5180,7 @@
 		(instances
 			(project ""
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
-					(reference "U11")
+					(reference "IC18")
 					(unit 2)
 				)
 			)
@@ -5197,8 +5197,9 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e844d31-a773-49f0-9b98-53a9abeaa50b")
-		(property "Reference" "U12"
+		(property "Reference" "IC18"
 			(at 224.79 78.994 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5207,6 +5208,7 @@
 		)
 		(property "Value" "74LS244"
 			(at 224.79 81.534 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5303,7 +5305,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
-					(reference "U12")
+					(reference "IC18")
 					(unit 1)
 				)
 			)
@@ -5385,8 +5387,9 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20e3b166-bec2-454e-8f2d-2566b7a36cdd")
-		(property "Reference" "U11"
+		(property "Reference" "IC32"
 			(at 224.79 112.014 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5395,6 +5398,7 @@
 		)
 		(property "Value" "74LS244"
 			(at 224.79 114.554 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5491,7 +5495,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
-					(reference "U11")
+					(reference "IC32")
 					(unit 1)
 				)
 			)
@@ -5706,8 +5710,9 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40e6c0f0-2492-4b58-bc68-e988d6263717")
-		(property "Reference" "U13"
+		(property "Reference" "IC32"
 			(at 224.79 45.974 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5716,6 +5721,7 @@
 		)
 		(property "Value" "74LS244"
 			(at 224.79 48.514 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5816,7 +5822,7 @@
 					(unit 2)
 				)
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
-					(reference "U13")
+					(reference "IC32")
 					(unit 2)
 				)
 			)
@@ -5964,7 +5970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "692aeb7c-48b1-4902-a303-c1782d291a72")
-		(property "Reference" "U9"
+		(property "Reference" "IC14"
 			(at 82.2041 20.32 0)
 			(effects
 				(font
@@ -6060,7 +6066,7 @@
 		(instances
 			(project ""
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
-					(reference "U9")
+					(reference "IC14")
 					(unit 1)
 				)
 			)
@@ -6208,7 +6214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78b4fded-f80c-4f03-ae59-55b5d8dca6f9")
-		(property "Reference" "U12"
+		(property "Reference" "IC25"
 			(at 144.4341 17.78 0)
 			(effects
 				(font
@@ -6316,7 +6322,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
-					(reference "U12")
+					(reference "IC25")
 					(unit 2)
 				)
 			)
@@ -6662,7 +6668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2ee6d29-d489-4f9a-bb4c-3c516c3d19d9")
-		(property "Reference" "U10"
+		(property "Reference" "IC10"
 			(at 82.2041 66.04 0)
 			(effects
 				(font
@@ -6758,7 +6764,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
-					(reference "U10")
+					(reference "IC10")
 					(unit 1)
 				)
 			)
@@ -6841,8 +6847,9 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eece0571-b8ce-465f-b09e-68e7e2ea5ed9")
-		(property "Reference" "U16"
+		(property "Reference" "IC25"
 			(at 224.79 145.034 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6851,6 +6858,7 @@
 		)
 		(property "Value" "74LS244"
 			(at 224.79 147.574 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +6955,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d5ea0e5f-1e62-4ebe-9548-dbc71a82a27b"
-					(reference "U16")
+					(reference "IC25")
 					(unit 1)
 				)
 			)
