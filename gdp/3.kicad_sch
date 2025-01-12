@@ -292,7 +292,7 @@
 				(pin tri_state inverted
 					(at 12.7 12.7 180)
 					(length 5.08)
-					(name "IO8"
+					(name "O2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -310,7 +310,7 @@
 				(pin tri_state inverted
 					(at 12.7 10.16 180)
 					(length 5.08)
-					(name "IO7"
+					(name "IO6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -328,7 +328,7 @@
 				(pin tri_state inverted
 					(at 12.7 7.62 180)
 					(length 5.08)
-					(name "IO6"
+					(name "IO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -346,7 +346,7 @@
 				(pin tri_state inverted
 					(at 12.7 5.08 180)
 					(length 5.08)
-					(name "IO5"
+					(name "IO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -364,7 +364,7 @@
 				(pin tri_state inverted
 					(at 12.7 2.54 180)
 					(length 5.08)
-					(name "IO4"
+					(name "IO3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -382,7 +382,7 @@
 				(pin tri_state inverted
 					(at 12.7 0 180)
 					(length 5.08)
-					(name "I03"
+					(name "I02"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -400,7 +400,7 @@
 				(pin tri_state inverted
 					(at 12.7 -2.54 180)
 					(length 5.08)
-					(name "IO2"
+					(name "IO1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -418,7 +418,7 @@
 				(pin tri_state inverted
 					(at 12.7 -5.08 180)
 					(length 5.08)
-					(name "IO1"
+					(name "O1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1992,7 +1992,7 @@
 				(pin tri_state inverted
 					(at 12.7 12.7 180)
 					(length 5.08)
-					(name "IO8"
+					(name "IO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2010,7 +2010,7 @@
 				(pin tri_state inverted
 					(at 12.7 10.16 180)
 					(length 5.08)
-					(name "IO7"
+					(name "IO3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2028,7 +2028,7 @@
 				(pin tri_state inverted
 					(at 12.7 7.62 180)
 					(length 5.08)
-					(name "O6"
+					(name "Q4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2046,7 +2046,7 @@
 				(pin tri_state inverted
 					(at 12.7 5.08 180)
 					(length 5.08)
-					(name "O5"
+					(name "Q3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2064,7 +2064,7 @@
 				(pin tri_state inverted
 					(at 12.7 2.54 180)
 					(length 5.08)
-					(name "O4"
+					(name "Q2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2082,7 +2082,7 @@
 				(pin tri_state inverted
 					(at 12.7 0 180)
 					(length 5.08)
-					(name "O3"
+					(name "Q1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2616,7 +2616,7 @@
 		(uuid "212d8dd9-6668-445d-8068-a059bc38a3f8")
 	)
 	(bus_entry
-		(at 245.11 139.7)
+		(at 241.3 139.7)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2625,7 +2625,7 @@
 		(uuid "2993b024-cb50-4f6d-be16-d75b262b6899")
 	)
 	(bus_entry
-		(at 245.11 88.9)
+		(at 241.3 88.9)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2634,7 +2634,7 @@
 		(uuid "77ef806a-7488-4c8a-86f9-4d49dcdfbc58")
 	)
 	(bus_entry
-		(at 245.11 40.64)
+		(at 241.3 40.64)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2643,7 +2643,7 @@
 		(uuid "8122140d-3c46-4d66-8396-1a9b66f7f81f")
 	)
 	(bus_entry
-		(at 245.11 86.36)
+		(at 241.3 86.36)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -2757,7 +2757,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 86.36) (xy 214.63 86.36)
+			(xy 241.3 86.36) (xy 214.63 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2787,7 +2787,7 @@
 	)
 	(bus
 		(pts
-			(xy 247.65 157.48) (xy 252.73 157.48)
+			(xy 243.84 157.48) (xy 248.92 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2867,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 88.9) (xy 245.11 88.9)
+			(xy 214.63 88.9) (xy 241.3 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2977,7 +2977,7 @@
 	)
 	(bus
 		(pts
-			(xy 247.65 43.18) (xy 247.65 88.9)
+			(xy 243.84 43.18) (xy 243.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3007,7 +3007,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 40.64) (xy 245.11 40.64)
+			(xy 214.63 40.64) (xy 241.3 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3097,7 +3097,7 @@
 	)
 	(bus
 		(pts
-			(xy 247.65 142.24) (xy 247.65 157.48)
+			(xy 243.84 142.24) (xy 243.84 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3107,7 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 139.7) (xy 245.11 139.7)
+			(xy 214.63 139.7) (xy 241.3 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3297,7 +3297,7 @@
 	)
 	(bus
 		(pts
-			(xy 247.65 88.9) (xy 247.65 91.44)
+			(xy 243.84 88.9) (xy 243.84 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3697,7 +3697,7 @@
 	)
 	(bus
 		(pts
-			(xy 247.65 91.44) (xy 247.65 142.24)
+			(xy 243.84 91.44) (xy 243.84 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4147,7 +4147,7 @@
 		(uuid "1099f793-b85b-4d9a-b200-99e1da8e461c")
 	)
 	(label "GA7"
-		(at 238.76 139.7 0)
+		(at 237.49 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4752,7 +4752,7 @@
 	)
 	(global_label "{GA7 ~{WRITE} ~{CAS} ~{DINX}}"
 		(shape output)
-		(at 252.73 157.48 0)
+		(at 248.92 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4762,7 +4762,7 @@
 		)
 		(uuid "8ed92a04-93ad-4743-ab6b-b6019c1a9537")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.3052 157.48 0)
+			(at 273.4952 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

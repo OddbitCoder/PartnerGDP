@@ -4,5 +4,10 @@
 	(generator_version "8.0")
 	(uuid "f555b6db-7d34-4696-bd0b-97cc736e943d")
 	(paper "A4")
+	(title_block
+		(title "PARTNER GDP: CLOCK GEN")
+		(company "Oddbit Retro")
+		(comment 1 "NARISAL: MIHA GRČAR")
+	)
 	(lib_symbols)
 )

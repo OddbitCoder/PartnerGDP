@@ -2558,7 +2558,7 @@
 		(uuid "a71a732e-e9f4-46bc-85fb-45eaac9fca84")
 	)
 	(junction
-		(at 208.28 46.99)
+		(at 209.55 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac792023-b11e-44d0-880e-4056972f04bc")
@@ -2749,7 +2749,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 58.42) (xy 208.28 58.42)
+			(xy 190.5 58.42) (xy 209.55 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2809,7 +2809,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 64.77) (xy 208.28 64.77)
+			(xy 187.96 64.77) (xy 209.55 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2829,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 55.88) (xy 208.28 55.88)
+			(xy 193.04 55.88) (xy 209.55 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2969,7 +2969,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 52.07) (xy 261.62 52.07)
+			(xy 234.95 52.07) (xy 261.62 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3049,7 +3049,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 46.99) (xy 208.28 46.99)
+			(xy 201.93 46.99) (xy 209.55 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3109,7 +3109,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 57.15) (xy 261.62 57.15)
+			(xy 234.95 57.15) (xy 261.62 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3149,7 +3149,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 64.77) (xy 261.62 64.77)
+			(xy 234.95 64.77) (xy 261.62 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3249,7 +3249,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 69.85) (xy 261.62 69.85)
+			(xy 234.95 69.85) (xy 261.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -3309,7 +3309,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 62.23) (xy 261.62 62.23)
+			(xy 234.95 62.23) (xy 261.62 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3339,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 59.69) (xy 261.62 59.69)
+			(xy 234.95 59.69) (xy 261.62 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3349,7 +3349,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 43.18) (xy 208.28 43.18)
+			(xy 198.12 43.18) (xy 209.55 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3589,7 +3589,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 62.23) (xy 208.28 62.23)
+			(xy 177.8 62.23) (xy 209.55 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3749,7 +3749,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 53.34) (xy 208.28 53.34)
+			(xy 195.58 53.34) (xy 209.55 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3929,7 +3929,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 54.61) (xy 261.62 54.61)
+			(xy 234.95 54.61) (xy 261.62 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3959,17 +3959,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 46.99) (xy 208.28 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d126e286-45e5-4b97-9a5e-8da7e4741ace")
-	)
-	(wire
-		(pts
-			(xy 233.68 67.31) (xy 261.62 67.31)
+			(xy 234.95 67.31) (xy 261.62 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3986,6 +3976,16 @@
 			(type default)
 		)
 		(uuid "d3bd8f8f-ec8e-4719-998d-3f90077c38bc")
+	)
+	(wire
+		(pts
+			(xy 209.55 46.99) (xy 209.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e976d9-4ba1-4f78-8eb9-7defc2975495")
 	)
 	(wire
 		(pts
@@ -4109,7 +4109,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 69.85) (xy 208.28 69.85)
+			(xy 182.88 69.85) (xy 209.55 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4199,7 +4199,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 67.31) (xy 208.28 67.31)
+			(xy 185.42 67.31) (xy 209.55 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5560,7 +5560,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 220.98 81.28 0)
+		(at 222.25 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5569,7 +5569,7 @@
 		(fields_autoplaced yes)
 		(uuid "28c146fd-7b55-47b2-b56d-6d08c2f69626")
 		(property "Reference" "#PWR095"
-			(at 220.98 87.63 0)
+			(at 222.25 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +5578,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 85.09 0)
+			(at 222.25 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,7 +5586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 81.28 0)
+			(at 222.25 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,7 +5595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 81.28 0)
+			(at 222.25 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5604,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 220.98 81.28 0)
+			(at 222.25 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6322,7 +6322,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 220.98 30.48 0)
+		(at 222.25 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6331,7 +6331,7 @@
 		(fields_autoplaced yes)
 		(uuid "72d676b2-a1f4-4c41-a81a-d8e4474cb9d4")
 		(property "Reference" "#PWR094"
-			(at 220.98 34.29 0)
+			(at 222.25 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +6340,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 220.98 25.4 0)
+			(at 222.25 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6348,7 +6348,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 30.48 0)
+			(at 222.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +6357,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 30.48 0)
+			(at 222.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +6366,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 220.98 30.48 0)
+			(at 222.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7004,7 +7004,7 @@
 	(symbol
 		(lib_name "74LS166_1")
 		(lib_id "74xx:74LS166")
-		(at 220.98 55.88 0)
+		(at 222.25 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7013,7 +7013,7 @@
 		(fields_autoplaced yes)
 		(uuid "a835207d-2e54-47e7-a728-266b769d86e1")
 		(property "Reference" "IC30"
-			(at 226.822 30.988 0)
+			(at 228.092 30.988 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7022,7 +7022,7 @@
 			)
 		)
 		(property "Value" "74LS538"
-			(at 226.822 33.528 0)
+			(at 228.092 33.528 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -7031,7 +7031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 55.88 0)
+			(at 222.25 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +7040,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 180.34 53.848 0)
+			(at 181.61 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +7049,7 @@
 			)
 		)
 		(property "Description" "Decoder"
-			(at 180.34 50.292 0)
+			(at 181.61 50.292 0)
 			(effects
 				(font
 					(size 1.27 1.27)
