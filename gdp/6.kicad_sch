@@ -3953,7 +3953,7 @@
 	)
 	(bus
 		(pts
-			(xy 256.54 163.83) (xy 265.43 163.83)
+			(xy 256.54 161.29) (xy 265.43 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4293,7 +4293,7 @@
 	)
 	(bus
 		(pts
-			(xy 256.54 152.4) (xy 256.54 163.83)
+			(xy 256.54 152.4) (xy 256.54 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4876,7 +4876,7 @@
 	)
 	(global_label "GA[0..6]"
 		(shape output)
-		(at 265.43 163.83 0)
+		(at 265.43 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4886,7 +4886,7 @@
 		)
 		(uuid "9e654c47-4435-454b-b86e-d6ba70e88b37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.0958 163.83 0)
+			(at 276.0958 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)

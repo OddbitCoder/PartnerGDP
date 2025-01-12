@@ -5,8 +5,9 @@
 	(uuid "52382506-650d-41a5-b22a-a4b4857bf30d")
 	(paper "A4")
 	(title_block
-		(title "PARTNER GDP")
+		(title "PARTNER GDP: VIDEOMIX")
 		(company "Oddbit Retro")
+		(comment 1 "NARISAL: MIHA GRČAR")
 	)
 	(lib_symbols
 		(symbol "74LS06_1"

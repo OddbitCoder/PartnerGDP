@@ -4225,7 +4225,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 29.21) (xy 247.65 43.18)
+			(xy 247.65 31.75) (xy 247.65 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4492,16 +4492,6 @@
 			(type default)
 		)
 		(uuid "873d884e-c114-4ac3-89b5-eabacedd126e")
-	)
-	(wire
-		(pts
-			(xy 116.84 67.31) (xy 121.92 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a5d43b3-b558-4bd1-86f6-2213a0c01b71")
 	)
 	(wire
 		(pts
@@ -6776,7 +6766,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 247.65 21.59 0)
+		(at 247.65 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6784,7 +6774,7 @@
 		(dnp no)
 		(uuid "4b60eb7d-1575-4007-8146-828b05566d42")
 		(property "Reference" "#PWR0132"
-			(at 247.65 25.4 0)
+			(at 247.65 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6793,7 +6783,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 247.65 17.145 0)
+			(at 247.65 19.685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6801,7 +6791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 21.59 0)
+			(at 247.65 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +6800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 21.59 0)
+			(at 247.65 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6819,7 +6809,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 21.59 0)
+			(at 247.65 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +7549,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 247.65 25.4 0)
+		(at 247.65 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7567,15 +7557,6 @@
 		(dnp no)
 		(uuid "9baadbde-8ecd-4770-ad7d-c330b968f4dd")
 		(property "Reference" "R16"
-			(at 248.92 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2K2"
 			(at 248.92 26.67 0)
 			(effects
 				(font
@@ -7584,8 +7565,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "2K2"
+			(at 248.92 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" ""
-			(at 245.872 25.4 90)
+			(at 245.872 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7594,7 +7584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 25.4 0)
+			(at 247.65 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7603,7 +7593,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 247.65 25.4 0)
+			(at 247.65 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +7886,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 116.84 67.31 0)
+		(at 121.92 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7905,7 +7895,7 @@
 		(fields_autoplaced yes)
 		(uuid "c0752007-295c-4099-93dc-0f44976453bc")
 		(property "Reference" "#PWR0129"
-			(at 116.84 73.66 0)
+			(at 121.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7914,7 +7904,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 116.84 71.12 0)
+			(at 121.92 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7923,7 +7913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,7 +7922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7941,7 +7931,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

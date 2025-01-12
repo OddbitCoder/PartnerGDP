@@ -7356,7 +7356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef9e524f-23b5-496b-ac53-a4313c3bbfd7")
-		(property "Reference" "IC15"
+		(property "Reference" "IC15A"
 			(at 150.495 166.37 0)
 			(effects
 				(font
@@ -7423,7 +7423,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC15")
+					(reference "IC15A")
 					(unit 1)
 				)
 			)
