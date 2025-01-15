@@ -10667,7 +10667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6e341dc-3fbd-4b49-a7a0-915271874787")
-		(property "Reference" "R1"
+		(property "Reference" "R13"
 			(at 162.56 118.745 0)
 			(effects
 				(font
@@ -10721,7 +10721,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/fb334c08-c103-46ff-b900-c3f57a56f58c"
-					(reference "R1")
+					(reference "R13")
 					(unit 1)
 				)
 			)
