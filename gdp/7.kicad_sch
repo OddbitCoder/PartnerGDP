@@ -4891,7 +4891,7 @@
 			)
 		)
 	)
-	(global_label "SRCL3"
+	(global_label "SCRL3"
 		(shape output)
 		(at 213.995 140.335 0)
 		(fields_autoplaced yes)

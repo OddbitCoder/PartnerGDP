@@ -4072,7 +4072,7 @@
 			)
 		)
 	)
-	(global_label "~{MI}"
+	(global_label "~{M1}"
 		(shape input)
 		(at 115.57 67.31 180)
 		(fields_autoplaced yes)
@@ -4084,7 +4084,7 @@
 		)
 		(uuid "429eb3ef-017a-445c-8592-e9f41007094b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 110.5286 67.31 0)
+			(at 109.9239 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
