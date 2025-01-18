@@ -3446,7 +3446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ad5b7ed-84e2-4d74-82cf-b31331e45696")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0123"
 			(at 102.87 151.13 0)
 			(effects
 				(font
@@ -3497,7 +3497,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "#PWR0135")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -3512,7 +3512,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26af17df-de76-46f5-8b83-0cfcbf11ab79")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0128"
 			(at 184.15 100.33 0)
 			(effects
 				(font
@@ -3562,7 +3562,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "#PWR0143")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -3578,7 +3578,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a54afee-c11d-424a-989b-92a5c7ce11bf")
-		(property "Reference" "IC44"
+		(property "Reference" "IC52"
 			(at 184.15 50.165 0)
 			(effects
 				(font
@@ -3594,7 +3594,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 184.15 58.42 0)
 			(effects
 				(font
@@ -3603,7 +3603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/ROM/2764%20EPROM.pdf"
+		(property "Datasheet" "N/A"
 			(at 184.15 58.42 0)
 			(effects
 				(font
@@ -3612,7 +3612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 184.15 62.23 0)
 			(effects
 				(font
@@ -3699,7 +3699,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "IC44")
+					(reference "IC52")
 					(unit 1)
 				)
 			)
@@ -3715,7 +3715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b9ef26-b6b7-4c25-ab05-5cebcfb3b0a7")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0118"
 			(at 90.17 92.71 0)
 			(effects
 				(font
@@ -3766,7 +3766,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "#PWR0141")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -3782,7 +3782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "338f506e-41f1-4edf-807a-942254984b13")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0129"
 			(at 184.15 151.13 0)
 			(effects
 				(font
@@ -3833,7 +3833,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "#PWR0138")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -3848,7 +3848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4092e69a-c2e8-43c6-ac5d-add6d4377026")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0120"
 			(at 102.87 41.91 0)
 			(effects
 				(font
@@ -3898,7 +3898,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "#PWR0145")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -3914,7 +3914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e3497a5-2687-40e5-81f8-6f80a73d8ea5")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0119"
 			(at 90.17 151.13 0)
 			(effects
 				(font
@@ -3965,7 +3965,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "#PWR0136")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -3981,7 +3981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c9c5ac8-d137-4e26-bf01-5d449911c0a3")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0125"
 			(at 171.45 151.13 0)
 			(effects
 				(font
@@ -4032,7 +4032,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "#PWR0137")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -4048,7 +4048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d3c9958-3062-4b2a-a4be-a6ec17b9b715")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0127"
 			(at 184.15 92.71 0)
 			(effects
 				(font
@@ -4099,7 +4099,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "#PWR0140")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -4115,7 +4115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a906a30-57bb-4ef9-a6da-cadda4e841c0")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0121"
 			(at 102.87 92.71 0)
 			(effects
 				(font
@@ -4166,7 +4166,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "#PWR0142")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -4181,7 +4181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b858af61-a282-4cc7-8075-8c321ec688eb")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0126"
 			(at 184.15 41.91 0)
 			(effects
 				(font
@@ -4231,7 +4231,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "#PWR0144")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -4247,7 +4247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bac75493-9caa-4629-8bd6-a33e740c1991")
-		(property "Reference" "IC19"
+		(property "Reference" "IC53"
 			(at 184.15 108.585 0)
 			(effects
 				(font
@@ -4263,7 +4263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 184.15 116.84 0)
 			(effects
 				(font
@@ -4272,7 +4272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/ROM/2764%20EPROM.pdf"
+		(property "Datasheet" "N/A"
 			(at 184.15 116.84 0)
 			(effects
 				(font
@@ -4281,7 +4281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 184.15 120.65 0)
 			(effects
 				(font
@@ -4368,7 +4368,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "IC19")
+					(reference "IC53")
 					(unit 1)
 				)
 			)
@@ -4384,7 +4384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8ca80f7-795c-4423-a9c4-8d1f139be6a6")
-		(property "Reference" "IC20"
+		(property "Reference" "IC51"
 			(at 102.87 108.585 0)
 			(effects
 				(font
@@ -4400,7 +4400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 102.87 116.84 0)
 			(effects
 				(font
@@ -4409,7 +4409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/ROM/2764%20EPROM.pdf"
+		(property "Datasheet" "N/A"
 			(at 102.87 116.84 0)
 			(effects
 				(font
@@ -4418,7 +4418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 102.87 120.65 0)
 			(effects
 				(font
@@ -4505,7 +4505,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "IC20")
+					(reference "IC51")
 					(unit 1)
 				)
 			)
@@ -4520,7 +4520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec2eee8c-869e-4b80-b889-73dc63f32a90")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0122"
 			(at 102.87 100.33 0)
 			(effects
 				(font
@@ -4570,7 +4570,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "#PWR0146")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -4586,7 +4586,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f346b87c-a8cb-48c0-8502-903d068fa49e")
-		(property "Reference" "IC45"
+		(property "Reference" "IC50"
 			(at 102.87 50.165 0)
 			(effects
 				(font
@@ -4602,7 +4602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 102.87 58.42 0)
 			(effects
 				(font
@@ -4611,7 +4611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/ROM/2764%20EPROM.pdf"
+		(property "Datasheet" "N/A"
 			(at 102.87 58.42 0)
 			(effects
 				(font
@@ -4620,7 +4620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 102.87 62.23 0)
 			(effects
 				(font
@@ -4707,7 +4707,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "IC45")
+					(reference "IC50")
 					(unit 1)
 				)
 			)
@@ -4723,7 +4723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f66f1446-cbcf-4185-abdc-3e26ccea2094")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0124"
 			(at 171.45 92.71 0)
 			(effects
 				(font
@@ -4774,7 +4774,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/5420fe53-9172-4320-b1ae-7476e0c7581b"
-					(reference "#PWR0139")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)

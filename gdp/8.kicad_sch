@@ -5850,7 +5850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "021bc0aa-1a30-48bb-8cde-7ca9352ec1b8")
-		(property "Reference" "R2"
+		(property "Reference" "R24"
 			(at 180.34 24.13 0)
 			(effects
 				(font
@@ -5868,7 +5868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 177.292 25.4 90)
 			(effects
 				(font
@@ -5877,7 +5877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 179.07 25.4 0)
 			(effects
 				(font
@@ -5886,7 +5886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 179.07 25.4 0)
 			(effects
 				(font
@@ -5904,7 +5904,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "R2")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5919,7 +5919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03053bd6-713e-4223-bcdb-bbd2ae8526e4")
-		(property "Reference" "R1"
+		(property "Reference" "R25"
 			(at 187.96 24.13 0)
 			(effects
 				(font
@@ -5937,7 +5937,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 184.912 25.4 90)
 			(effects
 				(font
@@ -5946,7 +5946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 186.69 25.4 0)
 			(effects
 				(font
@@ -5955,7 +5955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 186.69 25.4 0)
 			(effects
 				(font
@@ -5973,7 +5973,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "R1")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -5988,7 +5988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b091593-0e42-4ecb-bfbc-3bb46e82f8e7")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0104"
 			(at 88.9 74.93 0)
 			(effects
 				(font
@@ -6038,7 +6038,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0110")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -6053,7 +6053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17f4408a-4916-4480-bc5d-6e3255baa2a1")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0109"
 			(at 129.54 29.21 0)
 			(effects
 				(font
@@ -6103,7 +6103,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0124")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -6119,7 +6119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1afe4f31-0e5c-46f2-b9b1-1a560ffc3bfa")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0107"
 			(at 88.9 158.75 0)
 			(effects
 				(font
@@ -6170,7 +6170,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0122")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -6185,7 +6185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20894bf3-17b9-44cb-bf6f-6e7b94056eb5")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0106"
 			(at 88.9 123.19 0)
 			(effects
 				(font
@@ -6235,7 +6235,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0121")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -6251,7 +6251,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b152c90-0799-4c0c-8fe3-38c56828fa86")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0108"
 			(at 111.76 62.23 0)
 			(effects
 				(font
@@ -6302,7 +6302,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0123")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -6317,7 +6317,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36d9b556-a964-49fb-a9aa-34240c6be966")
-		(property "Reference" "R6"
+		(property "Reference" "R20"
 			(at 149.86 24.13 0)
 			(effects
 				(font
@@ -6335,7 +6335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 146.812 25.4 90)
 			(effects
 				(font
@@ -6344,7 +6344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 148.59 25.4 0)
 			(effects
 				(font
@@ -6353,7 +6353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 148.59 25.4 0)
 			(effects
 				(font
@@ -6371,7 +6371,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "R6")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6387,7 +6387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37076e2e-05ec-49d4-b828-ef1b26d8a01c")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0110"
 			(at 129.54 67.31 0)
 			(effects
 				(font
@@ -6438,7 +6438,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0125")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -6454,7 +6454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38bd6e23-36c5-41d8-9c7b-009f9afbf9c3")
-		(property "Reference" "IC16"
+		(property "Reference" "IC48"
 			(at 173.6441 113.03 0)
 			(effects
 				(font
@@ -6472,7 +6472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 171.45 133.35 0)
 			(effects
 				(font
@@ -6481,7 +6481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS245"
+		(property "Datasheet" "N/A"
 			(at 126.238 119.888 0)
 			(effects
 				(font
@@ -6490,7 +6490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Octal BUS Transceivers, 3-State outputs"
+		(property "Description" "N/A"
 			(at 126.492 116.332 0)
 			(effects
 				(font
@@ -6562,7 +6562,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "IC16")
+					(reference "IC48")
 					(unit 1)
 				)
 			)
@@ -6578,7 +6578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d556993-c3e4-4782-8465-63e83b6fddac")
-		(property "Reference" "IC4"
+		(property "Reference" "IC47"
 			(at 131.7341 25.4 0)
 			(effects
 				(font
@@ -6596,7 +6596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 129.54 43.18 0)
 			(effects
 				(font
@@ -6605,7 +6605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS367"
+		(property "Datasheet" "N/A"
 			(at 83.312 31.242 0)
 			(effects
 				(font
@@ -6614,7 +6614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hex Bus Driver 3-state outputs"
+		(property "Description" "N/A"
 			(at 83.058 27.94 0)
 			(effects
 				(font
@@ -6674,7 +6674,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "IC4")
+					(reference "IC47")
 					(unit 1)
 				)
 			)
@@ -6689,7 +6689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ddfd947-713c-4783-b82c-a04dd5941ccc")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0112"
 			(at 171.45 116.84 0)
 			(effects
 				(font
@@ -6739,7 +6739,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0127")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -6755,7 +6755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e9e1392-483e-4530-8777-6bfe898c459d")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0105"
 			(at 88.9 105.41 0)
 			(effects
 				(font
@@ -6806,7 +6806,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0111")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -6821,7 +6821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "542aefa3-2416-4ee6-9309-2fa05ec72ea8")
-		(property "Reference" "R4"
+		(property "Reference" "R23"
 			(at 172.72 24.13 0)
 			(effects
 				(font
@@ -6839,7 +6839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 169.672 25.4 90)
 			(effects
 				(font
@@ -6848,7 +6848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 171.45 25.4 0)
 			(effects
 				(font
@@ -6857,7 +6857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 171.45 25.4 0)
 			(effects
 				(font
@@ -6875,7 +6875,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "R4")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6890,7 +6890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6493928b-f777-42f8-b0f5-904f3517411d")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0117"
 			(at 237.49 29.21 0)
 			(effects
 				(font
@@ -6940,7 +6940,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0132")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -6957,7 +6957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "653ff697-85e0-4234-8374-fafabed50a29")
-		(property "Reference" "IC13"
+		(property "Reference" "IC46"
 			(at 88.9 138.684 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6975,7 +6975,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 88.9 143.51 0)
 			(effects
 				(font
@@ -6984,7 +6984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+		(property "Datasheet" "N/A"
 			(at 34.036 131.064 0)
 			(effects
 				(font
@@ -6993,7 +6993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
+		(property "Description" "N/A"
 			(at 22.86 133.35 0)
 			(effects
 				(font
@@ -7065,7 +7065,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "IC13")
+					(reference "IC46")
 					(unit 2)
 				)
 			)
@@ -7081,7 +7081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9634dc85-125b-4a05-9d9d-8a53429281ac")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0113"
 			(at 171.45 160.02 0)
 			(effects
 				(font
@@ -7132,7 +7132,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0128")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -7148,7 +7148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98030d2b-2d43-4b6f-876c-9f0cf92d7949")
-		(property "Reference" "RN1"
+		(property "Reference" "RN3"
 			(at 132.08 72.6439 0)
 			(effects
 				(font
@@ -7175,7 +7175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+		(property "Datasheet" "N/A"
 			(at 121.92 73.66 0)
 			(effects
 				(font
@@ -7184,7 +7184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8 resistor network, star topology, bussed resistors, small symbol"
+		(property "Description" "N/A"
 			(at 121.92 73.66 0)
 			(effects
 				(font
@@ -7223,7 +7223,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "RN1")
+					(reference "RN3")
 					(unit 1)
 				)
 			)
@@ -7238,7 +7238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99c86bd5-d9a6-4a40-81f9-2e927eef54d6")
-		(property "Reference" "R5"
+		(property "Reference" "R22"
 			(at 165.1 24.13 0)
 			(effects
 				(font
@@ -7256,7 +7256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 162.052 25.4 90)
 			(effects
 				(font
@@ -7265,7 +7265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 163.83 25.4 0)
 			(effects
 				(font
@@ -7274,7 +7274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 163.83 25.4 0)
 			(effects
 				(font
@@ -7292,7 +7292,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "R5")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7307,7 +7307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b183741-8be5-4829-9f2f-caf2555056a7")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0111"
 			(at 142.24 24.13 0)
 			(effects
 				(font
@@ -7357,7 +7357,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0126")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -7372,7 +7372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa655af4-5e9b-4756-992e-d8f900b4c789")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0115"
 			(at 214.63 38.1 0)
 			(effects
 				(font
@@ -7422,7 +7422,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0130")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -7439,7 +7439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aeeee11e-3d3b-4398-a34e-ce08ae03fe97")
-		(property "Reference" "IC13"
+		(property "Reference" "IC46"
 			(at 88.9 85.344 0)
 			(do_not_autoplace yes)
 			(effects
@@ -7457,7 +7457,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 88.9 90.17 0)
 			(effects
 				(font
@@ -7466,7 +7466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+		(property "Datasheet" "N/A"
 			(at 34.036 77.724 0)
 			(effects
 				(font
@@ -7475,7 +7475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
+		(property "Description" "N/A"
 			(at 22.86 80.01 0)
 			(effects
 				(font
@@ -7547,7 +7547,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "IC13")
+					(reference "IC46")
 					(unit 1)
 				)
 			)
@@ -7563,7 +7563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4a20f8b-8aa0-4453-9da0-cf876f00ecaf")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0116"
 			(at 214.63 113.03 0)
 			(effects
 				(font
@@ -7614,7 +7614,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0131")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -7630,7 +7630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb5059ef-4661-4d20-9234-2f735572bca2")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0114"
 			(at 194.31 26.67 0)
 			(effects
 				(font
@@ -7681,7 +7681,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "#PWR0129")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -7696,7 +7696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c14d267c-b649-489d-a801-28d337a511eb")
-		(property "Reference" "IC5"
+		(property "Reference" "IC49"
 			(at 214.63 62.23 0)
 			(effects
 				(font
@@ -7730,7 +7730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 214.63 78.74 0)
 			(effects
 				(font
@@ -7862,7 +7862,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "IC5")
+					(reference "IC49")
 					(unit 1)
 				)
 			)
@@ -7877,7 +7877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d89dfb25-c2a0-4f0e-9ee4-b9624a77fb30")
-		(property "Reference" "R3"
+		(property "Reference" "R21"
 			(at 157.48 24.13 0)
 			(effects
 				(font
@@ -7895,7 +7895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 154.432 25.4 90)
 			(effects
 				(font
@@ -7904,7 +7904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 156.21 25.4 0)
 			(effects
 				(font
@@ -7913,7 +7913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 156.21 25.4 0)
 			(effects
 				(font
@@ -7931,7 +7931,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "R3")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -7946,7 +7946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa246c8b-c037-408e-ac08-1ab61e8f4ac5")
-		(property "Reference" "R17"
+		(property "Reference" "R26"
 			(at 238.76 27.94 0)
 			(effects
 				(font
@@ -7964,7 +7964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 235.712 29.21 90)
 			(effects
 				(font
@@ -7973,7 +7973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 237.49 29.21 0)
 			(effects
 				(font
@@ -7982,7 +7982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 237.49 29.21 0)
 			(effects
 				(font
@@ -8000,7 +8000,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/1e5736c7-7f09-4d36-9f85-33f8211ca85b"
-					(reference "R17")
+					(reference "R26")
 					(unit 1)
 				)
 			)

@@ -4728,7 +4728,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 71.12 136.398 90)
 			(effects
 				(font
@@ -4737,7 +4737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 71.12 134.62 0)
 			(effects
 				(font
@@ -4746,7 +4746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 71.12 134.62 0)
 			(effects
 				(font
@@ -4770,7 +4770,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "R18")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4786,7 +4786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "271b64a3-c628-45bb-bfe8-1409655547ca")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR032"
 			(at 187.96 144.78 0)
 			(effects
 				(font
@@ -4836,7 +4836,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "#PWR065")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4853,7 +4853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ec30e1b-fb17-4d54-ab06-249a651ef2f1")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR027"
 			(at 114.3 115.57 0)
 			(effects
 				(font
@@ -4903,7 +4903,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "#PWR082")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4919,7 +4919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30d84dc4-2002-4a47-be7c-07683f96613c")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR028"
 			(at 114.3 157.48 0)
 			(effects
 				(font
@@ -4969,7 +4969,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "#PWR064")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5000,7 +5000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 71.12 138.938 90)
 			(effects
 				(font
@@ -5009,7 +5009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 71.12 137.16 0)
 			(effects
 				(font
@@ -5018,7 +5018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 71.12 137.16 0)
 			(effects
 				(font
@@ -5042,7 +5042,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "R20")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5078,7 +5078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 137.16 41.91 0)
 			(effects
 				(font
@@ -5087,7 +5087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 137.16 41.91 0)
 			(effects
 				(font
@@ -5096,7 +5096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 138.43 45.72 0)
 			(effects
 				(font
@@ -5174,7 +5174,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "IC7")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -5191,7 +5191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47052ae7-36cc-40eb-b651-615ff8e55df5")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR029"
 			(at 138.43 50.8 0)
 			(effects
 				(font
@@ -5241,7 +5241,7 @@
 		(instances
 			(project ""
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "#PWR074")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5313,7 +5313,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "#PWR01")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5329,7 +5329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51c126ab-ce25-4d58-845e-cad850a02dbe")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR024"
 			(at 67.31 147.32 0)
 			(effects
 				(font
@@ -5379,7 +5379,7 @@
 		(instances
 			(project ""
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "#PWR063")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5395,7 +5395,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57557eb7-ee52-4898-aa70-c625411dc93c")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR030"
 			(at 138.43 86.36 0)
 			(effects
 				(font
@@ -5445,7 +5445,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "#PWR066")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5470,7 +5470,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SCHALT1"
+		(property "Value" "SCHALT"
 			(at 80.01 109.22 0)
 			(effects
 				(font
@@ -5480,7 +5480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 81.28 113.03 0)
 			(effects
 				(font
@@ -5489,7 +5489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 81.28 113.03 0)
 			(effects
 				(font
@@ -5498,7 +5498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 81.28 113.03 0)
 			(effects
 				(font
@@ -5522,7 +5522,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "SH8")
+					(reference "SH5")
 					(unit 1)
 				)
 			)
@@ -5539,7 +5539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9d312b3-03b1-41c8-b783-bffdcd2e5677")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR031"
 			(at 187.96 83.82 0)
 			(effects
 				(font
@@ -5589,7 +5589,7 @@
 		(instances
 			(project ""
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "#PWR075")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5614,7 +5614,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SCHALT1"
+		(property "Value" "SCHALT"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -5624,7 +5624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 78.74 113.03 0)
 			(effects
 				(font
@@ -5633,7 +5633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 78.74 113.03 0)
 			(effects
 				(font
@@ -5642,7 +5642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 78.74 113.03 0)
 			(effects
 				(font
@@ -5666,7 +5666,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "SH7")
+					(reference "SH4")
 					(unit 1)
 				)
 			)
@@ -5690,7 +5690,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SCHALT1"
+		(property "Value" "SCHALT"
 			(at 82.55 109.22 0)
 			(effects
 				(font
@@ -5700,7 +5700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 83.82 113.03 0)
 			(effects
 				(font
@@ -5709,7 +5709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 83.82 113.03 0)
 			(effects
 				(font
@@ -5718,7 +5718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 83.82 113.03 0)
 			(effects
 				(font
@@ -5742,7 +5742,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "SH9")
+					(reference "SH6")
 					(unit 1)
 				)
 			)
@@ -5758,7 +5758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1ef96aa-c4d8-455d-8f11-5389ff0a4019")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR026"
 			(at 97.79 125.73 0)
 			(effects
 				(font
@@ -5808,7 +5808,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "#PWR081")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5842,7 +5842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
 			(at 186.69 77.47 0)
 			(effects
 				(font
@@ -5851,7 +5851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 186.69 77.47 0)
 			(effects
 				(font
@@ -5860,7 +5860,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 182.88 77.47 0)
 			(effects
 				(font
@@ -5998,7 +5998,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "IC17")
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -6032,7 +6032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 116.84 109.22 0)
 			(effects
 				(font
@@ -6041,7 +6041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 116.84 109.22 0)
 			(effects
 				(font
@@ -6050,7 +6050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 110.49 118.11 0)
 			(effects
 				(font
@@ -6116,7 +6116,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "IC6")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -6147,7 +6147,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 71.12 133.858 90)
 			(effects
 				(font
@@ -6156,7 +6156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "N/A"
 			(at 71.12 132.08 0)
 			(effects
 				(font
@@ -6165,7 +6165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 71.12 132.08 0)
 			(effects
 				(font
@@ -6189,7 +6189,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/ed2e3011-1fbf-423e-aa8b-2b4bbe99b1f1"
-					(reference "R19")
+					(reference "R10")
 					(unit 1)
 				)
 			)

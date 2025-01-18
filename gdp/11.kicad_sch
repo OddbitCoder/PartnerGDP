@@ -5171,7 +5171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f6ca6ee-5617-44f0-bcf4-ce7018b9acc9")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0152"
 			(at 208.28 114.3 0)
 			(effects
 				(font
@@ -5221,7 +5221,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0159")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -5238,7 +5238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f98b00f-c765-4a37-b686-8975a173b184")
-		(property "Reference" "IC33"
+		(property "Reference" "IC59"
 			(at 99.06 169.164 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5256,7 +5256,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 99.06 173.99 0)
 			(effects
 				(font
@@ -5265,7 +5265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+		(property "Datasheet" "N/A"
 			(at 44.196 161.544 0)
 			(effects
 				(font
@@ -5274,7 +5274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
+		(property "Description" "N/A"
 			(at 33.02 163.83 0)
 			(effects
 				(font
@@ -5346,7 +5346,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "IC33")
+					(reference "IC59")
 					(unit 1)
 				)
 			)
@@ -5362,7 +5362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15a34007-ce97-46bb-b5f8-bd4373c9dc17")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0141"
 			(at 99.06 68.58 0)
 			(effects
 				(font
@@ -5413,7 +5413,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0147")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -5429,7 +5429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2440cb25-f6f1-420a-ad75-0cd7268c2823")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0153"
 			(at 208.28 147.32 0)
 			(effects
 				(font
@@ -5480,7 +5480,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0160")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -5496,7 +5496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "281cda6b-40b4-4345-981b-f6558ccb1dce")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0145"
 			(at 99.06 151.13 0)
 			(effects
 				(font
@@ -5547,7 +5547,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0149")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -5564,7 +5564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a8c6a56-0324-407b-bf48-1567841a6824")
-		(property "Reference" "IC33"
+		(property "Reference" "IC59"
 			(at 208.28 125.984 0)
 			(effects
 				(font
@@ -5580,7 +5580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 208.28 130.81 0)
 			(effects
 				(font
@@ -5589,7 +5589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+		(property "Datasheet" "N/A"
 			(at 153.416 118.364 0)
 			(effects
 				(font
@@ -5598,7 +5598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
+		(property "Description" "N/A"
 			(at 142.24 120.65 0)
 			(effects
 				(font
@@ -5670,7 +5670,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "IC33")
+					(reference "IC59")
 					(unit 2)
 				)
 			)
@@ -5686,7 +5686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bbf124a-4527-470d-9098-619ae44ac006")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0149"
 			(at 208.28 68.58 0)
 			(effects
 				(font
@@ -5737,7 +5737,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0156")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -5754,7 +5754,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55a5b6cf-037b-4b1b-b101-44427b5fdceb")
-		(property "Reference" "IC27"
+		(property "Reference" "IC60"
 			(at 210.4741 21.59 0)
 			(effects
 				(font
@@ -5772,7 +5772,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 208.28 41.91 0)
 			(effects
 				(font
@@ -5781,7 +5781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS374"
+		(property "Datasheet" "N/A"
 			(at 163.322 23.114 0)
 			(effects
 				(font
@@ -5790,7 +5790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-bit Register, 3-state outputs"
+		(property "Description" "N/A"
 			(at 163.576 26.924 0)
 			(effects
 				(font
@@ -5862,7 +5862,7 @@
 		(instances
 			(project ""
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "IC27")
+					(reference "IC60")
 					(unit 1)
 				)
 			)
@@ -5877,7 +5877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a1103e4-2863-4dda-8f84-b86ad0d0f228")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0146"
 			(at 99.06 157.48 0)
 			(effects
 				(font
@@ -5927,7 +5927,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0151")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -5943,7 +5943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d582528-986c-42b4-8908-eedeb1b74683")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0143"
 			(at 99.06 107.95 0)
 			(effects
 				(font
@@ -5994,7 +5994,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0148")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -6009,7 +6009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b786dde-a305-448b-863e-8be7f959f2d3")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0150"
 			(at 208.28 74.93 0)
 			(effects
 				(font
@@ -6059,7 +6059,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0157")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -6074,7 +6074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7dce2fcd-1810-400b-8c2a-54994bd66cd4")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0144"
 			(at 99.06 118.11 0)
 			(effects
 				(font
@@ -6124,7 +6124,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0152")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -6139,7 +6139,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80ee18b7-0c0a-45f1-88b5-97449a9e7c8b")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0140"
 			(at 99.06 25.4 0)
 			(effects
 				(font
@@ -6189,7 +6189,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0154")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -6205,7 +6205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89e17b8f-080a-44a8-8037-0ed1a7bb8774")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0151"
 			(at 208.28 107.95 0)
 			(effects
 				(font
@@ -6256,7 +6256,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0158")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -6273,7 +6273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "945451e7-3d44-4db6-b41e-002ee11ed527")
-		(property "Reference" "IC34"
+		(property "Reference" "IC58"
 			(at 99.06 129.794 0)
 			(do_not_autoplace yes)
 			(effects
@@ -6291,7 +6291,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 99.06 134.62 0)
 			(effects
 				(font
@@ -6300,7 +6300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+		(property "Datasheet" "N/A"
 			(at 44.196 122.174 0)
 			(effects
 				(font
@@ -6309,7 +6309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
+		(property "Description" "N/A"
 			(at 33.02 124.46 0)
 			(effects
 				(font
@@ -6381,7 +6381,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "IC34")
+					(reference "IC58")
 					(unit 1)
 				)
 			)
@@ -6396,7 +6396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a478ac24-fbb2-4f35-b613-cdb862b26718")
-		(property "Reference" "IC15"
+		(property "Reference" "IC42"
 			(at 98.806 87.63 0)
 			(effects
 				(font
@@ -6412,7 +6412,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 148.59 110.49 0)
 			(effects
 				(font
@@ -6421,7 +6421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 148.59 110.49 0)
 			(effects
 				(font
@@ -6430,7 +6430,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 98.806 88.9 0)
 			(effects
 				(font
@@ -6517,7 +6517,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "IC15")
+					(reference "IC42")
 					(unit 2)
 				)
 			)
@@ -6534,7 +6534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0bcad2f-132a-40f5-8620-1f71c29c9f74")
-		(property "Reference" "IC34"
+		(property "Reference" "IC58"
 			(at 208.28 86.614 0)
 			(effects
 				(font
@@ -6550,7 +6550,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 208.28 91.44 0)
 			(effects
 				(font
@@ -6559,7 +6559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf"
+		(property "Datasheet" "N/A"
 			(at 153.416 78.994 0)
 			(effects
 				(font
@@ -6568,7 +6568,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Octal Buffer and Line Driver With 3-State Output, active-low enables, non-inverting outputs"
+		(property "Description" "N/A"
 			(at 142.24 81.28 0)
 			(effects
 				(font
@@ -6640,7 +6640,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "IC34")
+					(reference "IC58")
 					(unit 2)
 				)
 			)
@@ -6655,7 +6655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccc274c7-485f-4ce9-b706-d86862c52761")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0148"
 			(at 208.28 25.4 0)
 			(effects
 				(font
@@ -6705,7 +6705,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0155")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -6721,7 +6721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e836ec1e-dc06-44a7-9b6d-d38b85c52c52")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0147"
 			(at 99.06 190.5 0)
 			(effects
 				(font
@@ -6772,7 +6772,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0150")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -6788,7 +6788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd976907-d739-4993-aff2-01dfdfc074a5")
-		(property "Reference" "IC26"
+		(property "Reference" "IC57"
 			(at 101.2541 21.59 0)
 			(effects
 				(font
@@ -6806,7 +6806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 99.06 41.91 0)
 			(effects
 				(font
@@ -6815,7 +6815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS374"
+		(property "Datasheet" "N/A"
 			(at 54.102 23.114 0)
 			(effects
 				(font
@@ -6824,7 +6824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8-bit Register, 3-state outputs"
+		(property "Description" "N/A"
 			(at 54.356 26.924 0)
 			(effects
 				(font
@@ -6896,7 +6896,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "IC26")
+					(reference "IC57")
 					(unit 1)
 				)
 			)
@@ -6911,7 +6911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe0b3aff-0046-4c5d-aa91-b72608d32c6d")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0142"
 			(at 99.06 74.93 0)
 			(effects
 				(font
@@ -6961,7 +6961,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "#PWR0153")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)

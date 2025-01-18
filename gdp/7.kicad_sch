@@ -5774,7 +5774,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR044")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -5845,7 +5845,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR032")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -5918,7 +5918,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR034")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -5991,7 +5991,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR028")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -6025,7 +6025,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 191.77 136.525 0)
 			(effects
 				(font
@@ -6034,7 +6034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digchip.com/datasheets/download_datasheet.php?id=369790&part-number=HEF40374BDB"
+		(property "Datasheet" "N/A"
 			(at 191.77 136.525 0)
 			(effects
 				(font
@@ -6043,7 +6043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 191.77 136.525 0)
 			(effects
 				(font
@@ -6121,7 +6121,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC9")
+					(reference "IC45")
 					(unit 1)
 				)
 			)
@@ -6194,7 +6194,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR040")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -6267,7 +6267,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR029")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -6338,7 +6338,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR033")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -6372,7 +6372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 119.38 33.655 0)
 			(effects
 				(font
@@ -6381,7 +6381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digchip.com/datasheets/download_datasheet.php?id=369790&part-number=HEF40374BDB"
+		(property "Datasheet" "N/A"
 			(at 119.38 33.655 0)
 			(effects
 				(font
@@ -6390,7 +6390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 119.38 33.655 0)
 			(effects
 				(font
@@ -6468,7 +6468,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC21")
+					(reference "IC38")
 					(unit 1)
 				)
 			)
@@ -6502,7 +6502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 120.015 174.625 0)
 			(effects
 				(font
@@ -6511,7 +6511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "74xx/74hc_hct74.pdf"
+		(property "Datasheet" "N/A"
 			(at 120.015 174.625 0)
 			(effects
 				(font
@@ -6520,7 +6520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 120.015 174.625 0)
 			(effects
 				(font
@@ -6580,7 +6580,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC1")
+					(reference "IC41")
 					(unit 1)
 				)
 			)
@@ -6651,7 +6651,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR031")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -6693,7 +6693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS42"
+		(property "Datasheet" "N/A"
 			(at 119.38 136.525 0)
 			(effects
 				(font
@@ -6702,7 +6702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 119.38 136.525 0)
 			(effects
 				(font
@@ -6768,7 +6768,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC2")
+					(reference "IC40")
 					(unit 1)
 				)
 			)
@@ -6841,7 +6841,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR039")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -6912,7 +6912,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR038")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -6983,7 +6983,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR046")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -7017,7 +7017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 191.77 33.655 0)
 			(effects
 				(font
@@ -7026,7 +7026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digchip.com/datasheets/download_datasheet.php?id=369790&part-number=HEF40374BDB"
+		(property "Datasheet" "N/A"
 			(at 191.77 33.655 0)
 			(effects
 				(font
@@ -7035,7 +7035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 191.77 33.655 0)
 			(effects
 				(font
@@ -7113,7 +7113,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC28")
+					(reference "IC43")
 					(unit 1)
 				)
 			)
@@ -7184,7 +7184,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR045")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -7255,7 +7255,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR037")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -7289,7 +7289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 119.38 85.09 0)
 			(effects
 				(font
@@ -7298,7 +7298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digchip.com/datasheets/download_datasheet.php?id=369790&part-number=HEF40374BDB"
+		(property "Datasheet" "N/A"
 			(at 119.38 85.09 0)
 			(effects
 				(font
@@ -7307,7 +7307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 119.38 85.09 0)
 			(effects
 				(font
@@ -7385,7 +7385,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC48")
+					(reference "IC39")
 					(unit 1)
 				)
 			)
@@ -7458,7 +7458,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR041")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -7492,7 +7492,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 191.77 85.09 0)
 			(effects
 				(font
@@ -7501,7 +7501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digchip.com/datasheets/download_datasheet.php?id=369790&part-number=HEF40374BDB"
+		(property "Datasheet" "N/A"
 			(at 191.77 85.09 0)
 			(effects
 				(font
@@ -7510,7 +7510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 191.77 85.09 0)
 			(effects
 				(font
@@ -7588,7 +7588,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC35")
+					(reference "IC44")
 					(unit 1)
 				)
 			)
@@ -7619,7 +7619,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 201.295 188.595 0)
 			(effects
 				(font
@@ -7628,7 +7628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 201.295 188.595 0)
 			(effects
 				(font
@@ -7637,7 +7637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "N/A"
 			(at 151.511 167.005 0)
 			(effects
 				(font
@@ -7730,7 +7730,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC15")
+					(reference "IC42")
 					(unit 1)
 				)
 			)
@@ -7803,7 +7803,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR030")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -7876,7 +7876,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR035")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -7949,7 +7949,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR036")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
