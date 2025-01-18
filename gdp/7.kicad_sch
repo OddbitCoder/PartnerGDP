@@ -5774,7 +5774,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR088")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -5845,7 +5845,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR0100")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -5918,7 +5918,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR094")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -5991,7 +5991,139 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR091")
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 80.01 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d158d14-7eaa-494c-9007-da6d5ddb43d0")
+		(property "Reference" "#PWR087"
+			(at 80.01 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 80.01 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e33dc128-92df-4e14-92eb-22cc6ffcac28")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 80.01 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b2bb38b-7439-4d58-a70a-239d99c49333")
+		(property "Reference" "#PWR088"
+			(at 80.01 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 80.01 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb9f721f-6bf8-463a-bb2c-87342a0561be")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -6194,7 +6326,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR0101")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -6267,7 +6399,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR089")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -6338,7 +6470,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR098")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -6468,7 +6600,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC38")
+					(reference "IC39")
 					(unit 1)
 				)
 			)
@@ -6580,7 +6712,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC41")
+					(reference "IC38")
 					(unit 1)
 				)
 			)
@@ -6651,7 +6783,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR093")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -6766,8 +6898,111 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC40")
+					(reference "IC41")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS74")
+		(at 80.01 173.99 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4678297-cf2e-4dd5-a316-c3f5aa4dbc0c")
+		(property "Reference" "IC38"
+			(at 80.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS74"
+			(at 80.01 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 80.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eb29dfa-1ded-4686-b40b-be77e9ef421b")
+		)
+		(pin "2"
+			(uuid "c2a7a878-b471-4d0f-9487-bb9bad1385fd")
+		)
+		(pin "3"
+			(uuid "e6e365ec-7074-462a-b679-405e91ba7c57")
+		)
+		(pin "4"
+			(uuid "dcb98a1c-24bb-4db5-b4b1-dd7570a58149")
+		)
+		(pin "5"
+			(uuid "703a2b2d-9a39-42e7-b9c7-7c5af60e0520")
+		)
+		(pin "6"
+			(uuid "f5b6b454-b464-4c7e-9740-114d6614d067")
+		)
+		(pin "10"
+			(uuid "c4e00970-0fad-49fb-88ee-fbc2af67bb4b")
+		)
+		(pin "11"
+			(uuid "ea52aebc-f133-4eb5-a90b-bf3307a9bed3")
+		)
+		(pin "12"
+			(uuid "728a09d2-9a4f-4f84-8d8e-4c9e762d93f4")
+		)
+		(pin "13"
+			(uuid "9b259b28-aac6-46dd-ad8e-e18acb0365c3")
+		)
+		(pin "8"
+			(uuid "4b786692-2df0-4f58-9388-714a4f76c714")
+		)
+		(pin "9"
+			(uuid "30f0c330-fa72-4b9a-8bcb-06b7c85f4b5c")
+		)
+		(pin "14"
+			(uuid "19e76178-da1d-4d01-bd54-41dff49ada7c")
+		)
+		(pin "7"
+			(uuid "d5201aed-e708-43a5-83fe-78a3b737fb34")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
+					(reference "IC38")
+					(unit 3)
 				)
 			)
 		)
@@ -6839,7 +7074,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR099")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -6910,7 +7145,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR095")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -6981,7 +7216,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR0102")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -7182,7 +7417,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR090")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -7253,7 +7488,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR087")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -7383,7 +7618,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "IC39")
+					(reference "IC40")
 					(unit 1)
 				)
 			)
@@ -7456,7 +7691,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR0103")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -7731,10 +7966,6 @@
 					(reference "IC42")
 					(unit 1)
 				)
-				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
-					(reference "IC42")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -7805,7 +8036,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR092")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -7878,7 +8109,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR097")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -7951,7 +8182,7 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
-					(reference "#PWR096")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
