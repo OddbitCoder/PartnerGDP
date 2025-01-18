@@ -6667,21 +6667,19 @@
 		(dnp no)
 		(uuid "980c7baa-2ac2-4eb1-a2fc-9940c8a32382")
 		(property "Reference" "IC2"
-			(at 117.475 135.89 0)
+			(at 119.38 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "74LS42"
-			(at 115.57 138.43 0)
+			(at 119.38 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
