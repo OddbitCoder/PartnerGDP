@@ -1306,7 +1306,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC15"
+			(property "Reference" "IC42"
 				(at -0.254 3.81 0)
 				(effects
 					(font
@@ -1322,7 +1322,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 				(at 49.53 -19.05 0)
 				(effects
 					(font
@@ -1331,7 +1331,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "N/A"
 				(at 49.53 -19.05 0)
 				(effects
 					(font
@@ -1340,7 +1340,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "N/A"
 				(at -0.254 2.54 0)
 				(effects
 					(font
@@ -1650,24 +1650,6 @@
 			)
 			(symbol "74LS367_2_0"
 				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 0 20.32 270)
 					(length 5.08)
 					(name "VCC"
@@ -1677,7 +1659,25 @@
 							)
 						)
 					)
-					(number "20"
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6682,7 +6682,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 119.38 136.525 0)
 			(effects
 				(font
@@ -7665,10 +7665,10 @@
 		(pin "15"
 			(uuid "e2464fbc-8ff2-4860-bc61-e760f29eccf0")
 		)
-		(pin "10"
+		(pin "8"
 			(uuid "b0775de2-f112-4f20-aed7-870f0937f3b2")
 		)
-		(pin "20"
+		(pin "16"
 			(uuid "48c1523f-3d2d-4b9a-948a-78ce63798945")
 		)
 		(pin "1"
@@ -7728,6 +7728,10 @@
 			)
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/953bb077-6bb4-4683-bd3b-895ed53ec170"
+					(reference "IC42")
+					(unit 1)
+				)
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/d6b86f16-da3f-4420-ad10-a48d1b11a79a"
 					(reference "IC42")
 					(unit 1)
 				)

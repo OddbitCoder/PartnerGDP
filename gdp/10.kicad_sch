@@ -14,7 +14,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC46"
+			(property "Reference" "IC55"
 				(at 0 12.065 0)
 				(effects
 					(font
@@ -30,7 +30,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+			(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -39,7 +39,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/ROM/2764%20EPROM.pdf"
+			(property "Datasheet" "N/A"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -48,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "EPROM 64 KiBit, [Obsolete 2000-11]"
+			(property "Description" "N/A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -393,24 +393,6 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 10.16 3.81 180)
-					(length 5.08) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -12.7 6.35 0)
 					(length 5.08)
@@ -543,7 +525,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC47"
+			(property "Reference" "IC54"
 				(at 0 12.065 0)
 				(effects
 					(font
@@ -559,7 +541,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DIP:DIP-28_W15.24mm"
+			(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -568,7 +550,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://downloads.reactivemicro.com/Electronics/ROM/2764%20EPROM.pdf"
+			(property "Datasheet" "N/A"
 				(at 0 3.81 0)
 				(effects
 					(font
@@ -577,7 +559,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "EPROM 64 KiBit, [Obsolete 2000-11]"
+			(property "Description" "N/A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -915,24 +897,6 @@
 						)
 					)
 					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 10.16 3.81 180)
-					(length 5.08) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5264,9 +5228,6 @@
 		(pin "24"
 			(uuid "1dbd7a6d-0abf-4756-96fb-2278775fad72")
 		)
-		(pin "26"
-			(uuid "a5dcd817-3aec-496e-9ec4-086ceec8ccc2")
-		)
 		(pin "3"
 			(uuid "d869ff11-97d4-4400-beff-71ba260b0d03")
 		)
@@ -5802,9 +5763,6 @@
 		)
 		(pin "24"
 			(uuid "b3f66fff-7667-4ee4-89fd-b85ba255cec7")
-		)
-		(pin "26"
-			(uuid "6b5edd42-5c0b-4d49-b41b-de6979fc1661")
 		)
 		(pin "3"
 			(uuid "51129079-144f-4e49-9412-9de7b61d4f89")
