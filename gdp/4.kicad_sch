@@ -7156,7 +7156,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "019ea6c6-78be-4769-810c-96384392a6b7")
-		(property "Reference" "IC19"
+		(property "Reference" "IC58"
 			(at 165.1 57.15 0)
 			(effects
 				(font
@@ -7250,7 +7250,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC58")
+					(reference "IC58")
 					(unit 1)
 				)
 			)
@@ -7334,7 +7334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "198d2ac2-7b76-43c4-bbc7-b7f49d07c291")
-		(property "Reference" "IC24"
+		(property "Reference" "IC55"
 			(at 227.965 132.08 0)
 			(effects
 				(font
@@ -7428,7 +7428,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC55")
+					(reference "IC55")
 					(unit 1)
 				)
 			)
@@ -7445,7 +7445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a13b356-514c-412b-83b4-beb6bc9ffc90")
-		(property "Reference" "IC20"
+		(property "Reference" "IC53"
 			(at 165.1 132.08 0)
 			(effects
 				(font
@@ -7539,7 +7539,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC53")
+					(reference "IC53")
 					(unit 1)
 				)
 			)
@@ -7555,7 +7555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2221510b-bf74-45f2-9025-53480d95e4db")
-		(property "Reference" "IC17"
+		(property "Reference" "IC60"
 			(at 135.89 57.15 0)
 			(effects
 				(font
@@ -7649,7 +7649,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC60")
+					(reference "IC60")
 					(unit 1)
 				)
 			)
@@ -7666,7 +7666,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "222b4432-5095-40d6-b1b1-3431de81fbcb")
-		(property "Reference" "IC16"
+		(property "Reference" "IC36"
 			(at 102.235 132.08 0)
 			(effects
 				(font
@@ -7760,7 +7760,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC36")
+					(reference "IC36")
 					(unit 1)
 				)
 			)
@@ -7776,7 +7776,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37cc95b6-7ecc-4b26-9af9-2ed024c14e28")
-		(property "Reference" "IC13"
+		(property "Reference" "IC59"
 			(at 73.025 57.15 0)
 			(effects
 				(font
@@ -7870,7 +7870,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC59")
+					(reference "IC59")
 					(unit 1)
 				)
 			)
@@ -7886,7 +7886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "477e9257-e37a-4c8a-a1ca-1d50e6a77660")
-		(property "Reference" "IC26"
+		(property "Reference" "IC56"
 			(at 261.62 132.08 0)
 			(effects
 				(font
@@ -7980,7 +7980,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC56")
+					(reference "IC56")
 					(unit 1)
 				)
 			)
@@ -8126,7 +8126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63eafebf-b530-432a-a3a3-88628ec7b285")
-		(property "Reference" "IC18"
+		(property "Reference" "IC37"
 			(at 135.89 132.08 0)
 			(effects
 				(font
@@ -8220,7 +8220,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC37")
+					(reference "IC37")
 					(unit 1)
 				)
 			)
@@ -8236,7 +8236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ce4a781-0a6c-4101-bb28-ed952f23ea65")
-		(property "Reference" "IC14"
+		(property "Reference" "IC39"
 			(at 73.025 132.08 0)
 			(effects
 				(font
@@ -8330,7 +8330,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC39")
+					(reference "IC39")
 					(unit 1)
 				)
 			)
@@ -8347,7 +8347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8399a61a-ae78-4843-b57f-837a0c521caf")
-		(property "Reference" "IC23"
+		(property "Reference" "IC43"
 			(at 227.965 57.15 0)
 			(effects
 				(font
@@ -8441,7 +8441,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC43")
+					(reference "IC43")
 					(unit 1)
 				)
 			)
@@ -8457,7 +8457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "978fb49d-c240-4325-a6d9-e1e9ac00f55f")
-		(property "Reference" "IC22"
+		(property "Reference" "IC38"
 			(at 198.755 132.08 0)
 			(effects
 				(font
@@ -8551,7 +8551,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC38")
+					(reference "IC38")
 					(unit 1)
 				)
 			)
@@ -8568,7 +8568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae5b2ea1-abfc-48ec-aac7-5cc298916c1b")
-		(property "Reference" "IC15"
+		(property "Reference" "IC57"
 			(at 102.235 57.15 0)
 			(effects
 				(font
@@ -8662,7 +8662,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC57")
+					(reference "IC57")
 					(unit 1)
 				)
 			)
@@ -8679,7 +8679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b509608a-11c2-4636-b9e9-c0d0a4be458c")
-		(property "Reference" "IC11"
+		(property "Reference" "IC40"
 			(at 39.37 57.15 0)
 			(effects
 				(font
@@ -8773,7 +8773,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC40")
+					(reference "IC40")
 					(unit 1)
 				)
 			)
@@ -8789,7 +8789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b728f093-8934-4221-97a0-ff14d2854999")
-		(property "Reference" "IC21"
+		(property "Reference" "IC42"
 			(at 198.755 57.15 0)
 			(effects
 				(font
@@ -8883,7 +8883,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC42")
+					(reference "IC42")
 					(unit 1)
 				)
 			)
@@ -8966,7 +8966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de164b1b-eda6-4ce5-b341-39a0e3a6fa33")
-		(property "Reference" "IC25"
+		(property "Reference" "IC41"
 			(at 261.62 57.15 0)
 			(effects
 				(font
@@ -9060,7 +9060,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC41")
+					(reference "IC41")
 					(unit 1)
 				)
 			)
@@ -9077,7 +9077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6ab4739-f0d6-4331-ba16-a5871438a652")
-		(property "Reference" "IC12"
+		(property "Reference" "IC54"
 			(at 39.37 132.08 0)
 			(effects
 				(font
@@ -9171,7 +9171,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/e98871a8-cfbc-48a6-bd1b-47ad43a4804b"
-					(reference  "IC54")
+					(reference "IC54")
 					(unit 1)
 				)
 			)
