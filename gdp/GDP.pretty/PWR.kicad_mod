@@ -1,0 +1,247 @@
+(footprint "PWR"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Molex Mega-Fit Power Connectors, 76829-0106 (compatible alternatives: 172065-0206, 172065-0306), 3 Pins per row (http://www.molex.com/pdm_docs/sd/768290102_sd.pdf), generated with kicad-footprint-generator")
+	(tags "connector Molex Mega-Fit side entry")
+	(property "Reference" "X10"
+		(at 10.16 15.24 0)
+		(layer "F.SilkS")
+		(uuid "d73b14ef-1887-4e38-be83-eba33ff177ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 4.43 11.92 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cffa41bd-70dc-4972-88f6-87779643c0df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9354f6b1-4d3a-4e3c-802a-d164d2606f9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4992cd60-52f3-4ba2-bc48-5e8ac02eb25d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23d28102-e8fc-4251-8569-5a89fe840f9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.81 -5.08)
+		(end -3.81 13.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf67bbec-bb63-48f6-a691-c211e623d7ae")
+	)
+	(fp_line
+		(start -3.81 13.97)
+		(end 13.97 13.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11e2620a-538d-41dd-9679-aa21ef8d7333")
+	)
+	(fp_line
+		(start 13.97 -5.08)
+		(end -3.81 -5.08)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ad2946f-20b5-429c-8af9-a777a5fcfbd1")
+	)
+	(fp_line
+		(start 13.97 -5.08)
+		(end 13.97 13.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be8e6f94-7b8d-4842-bd35-dce186b7948a")
+	)
+	(fp_line
+		(start -3.81 -5.08)
+		(end -3.81 13.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c46e2454-c41c-4eed-aff4-b3cd95dad5a9")
+	)
+	(fp_line
+		(start -3.81 13.97)
+		(end 13.97 13.97)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c56fd1a-8123-4bd6-a77c-241e2cb95722")
+	)
+	(fp_line
+		(start 13.97 -5.08)
+		(end -3.81 -5.08)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "52604b26-0dc4-48d8-9430-b74fdd8faccd")
+	)
+	(fp_line
+		(start 13.97 13.97)
+		(end 13.97 -5.08)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e11705a-3f03-4a5e-985f-f839ef2f5540")
+	)
+	(fp_line
+		(start -2.54 -3.81)
+		(end -2.54 12.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7f2a2d08-c32b-47d6-9357-b1d09afed50e")
+	)
+	(fp_line
+		(start -2.54 12.7)
+		(end 12.7 12.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c75a6406-da65-4c54-a5cb-44b64229802a")
+	)
+	(fp_line
+		(start 12.7 -3.81)
+		(end -2.54 -3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5556e143-4134-4552-ac73-8cbe530c9dd5")
+	)
+	(fp_line
+		(start 12.7 12.7)
+		(end 12.7 -3.81)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1aac9cda-c60e-4570-ae00-1d8891a49fbb")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.8 2.8)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e8c56f00-4452-4470-b224-89aa9ee81861")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 2.8 2.8)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cb72d3d3-2aeb-40fd-ad92-5b560cc04f0b")
+	)
+	(pad "3" thru_hole circle
+		(at 10.16 0)
+		(size 2.8 2.8)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22c398f5-636c-43b7-9ca5-e42faa4fdb66")
+	)
+	(pad "4" thru_hole circle
+		(at 0 8.89)
+		(size 2.8 2.8)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8b73fe68-3c5f-444d-a478-baa8d7ab7da3")
+	)
+	(pad "5" thru_hole circle
+		(at 5.08 8.89)
+		(size 2.8 2.8)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "144efc51-de6c-419c-9637-ee4625337fbe")
+	)
+	(pad "6" thru_hole circle
+		(at 10.16 8.89)
+		(size 2.8 2.8)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5730ebac-0484-44b4-ba1d-6cb0e3c5430a")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_Mega-Fit_76829-0106_2x03_P5.70mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
