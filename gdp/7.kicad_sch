@@ -2212,12 +2212,6 @@
 		(uuid "e170ea64-d359-48cc-bd3c-ab6d7e15b347")
 	)
 	(junction
-		(at 119.38 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9c523e3-3f60-4bb3-9960-5b743798f902")
-	)
-	(junction
 		(at 99.06 91.44)
 		(diameter 0)
 		(color 0 0 0 0)

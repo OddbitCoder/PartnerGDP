@@ -13714,7 +13714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9e2277d-4c5e-4f2b-8900-816c598271b6")
-		(property "Reference" "IC72"
+		(property "Reference" "IC65"
 			(at 214.63 38.1 0)
 			(effects
 				(font
@@ -13802,7 +13802,7 @@
 		(instances
 			(project ""
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/b2d99a56-eb50-41cd-94b5-019756774957"
-					(reference "IC72")
+					(reference "IC65")
 					(unit 2)
 				)
 			)
