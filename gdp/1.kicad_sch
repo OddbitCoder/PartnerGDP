@@ -8341,7 +8341,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D6.0mm_P5.00mm"
 			(at 224.79 58.42 0)
 			(effects
 				(font
@@ -8776,7 +8776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "GDP:R_XL"
 			(at 174.752 110.49 90)
 			(effects
 				(font
@@ -9178,7 +9178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "GDP:R_XL"
 			(at 219.71 109.093 90)
 			(effects
 				(font
@@ -9247,7 +9247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "GDP:R_XL"
 			(at 219.71 121.793 90)
 			(effects
 				(font
@@ -10264,7 +10264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "GDP:R_XL"
 			(at 219.71 115.443 90)
 			(effects
 				(font
@@ -10333,7 +10333,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "GDP:R_XL"
 			(at 219.71 128.143 90)
 			(effects
 				(font

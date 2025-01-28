@@ -67,7 +67,7 @@ R10 -> GDP:R_XL
 R13 -> GDP:R_XL
 ST6 -> Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
 IC42 -> Package_DIP:DIP-16_W7.62mm
-ST1 -> Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
+ST1 -> GDP:PWR
 RN1 -> Resistor_THT:R_Array_SIP9
 SH15 -> Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
 R38 -> GDP:R_XL

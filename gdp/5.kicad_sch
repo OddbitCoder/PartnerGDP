@@ -5412,7 +5412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04cdb988-2bd3-472b-b2f9-48821ae77fbd")
-		(property "Reference" "RN3"
+		(property "Reference" "RN2"
 			(at 87.63 119.6339 0)
 			(effects
 				(font
@@ -5487,7 +5487,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/c2399418-5be2-4a84-8b56-c34f01a784cb"
-					(reference "RN3")
+					(reference "RN2")
 					(unit 1)
 				)
 			)
@@ -7153,7 +7153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "GDP:R_XL"
 			(at 123.19 121.158 90)
 			(effects
 				(font
@@ -7222,7 +7222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "GDP:R_XL"
 			(at 123.19 114.808 90)
 			(effects
 				(font
@@ -7537,7 +7537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0ef7dac-7e84-4a4c-bf9f-af10ccd9ff70")
-		(property "Reference" "RN2"
+		(property "Reference" "RN3"
 			(at 87.63 30.7339 0)
 			(effects
 				(font
@@ -7612,7 +7612,7 @@
 		(instances
 			(project ""
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/c2399418-5be2-4a84-8b56-c34f01a784cb"
-					(reference "RN2")
+					(reference "RN3")
 					(unit 1)
 				)
 			)
