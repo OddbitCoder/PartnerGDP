@@ -4005,7 +4005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21844e17-26a9-40c9-a4e0-294f4e3d445e")
-		(property "Reference" "IC65"
+		(property "Reference" "IC63"
 			(at 234.95 85.09 0)
 			(effects
 				(font
@@ -4093,7 +4093,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/123266b5-995d-4527-ad06-2cb8a9732efd"
-					(reference "IC65")
+					(reference "IC63")
 					(unit 7)
 				)
 			)
@@ -6331,7 +6331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5f2c817-7407-43b8-94c4-2dec5a1d4b81")
-		(property "Reference" "IC63"
+		(property "Reference" "IC72"
 			(at 234.95 120.65 0)
 			(effects
 				(font
@@ -6419,7 +6419,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/123266b5-995d-4527-ad06-2cb8a9732efd"
-					(reference "IC63")
+					(reference "IC72")
 					(unit 7)
 				)
 			)

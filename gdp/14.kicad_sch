@@ -10740,7 +10740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "009c0775-36e4-4ded-81e5-11bac9c5c321")
-		(property "Reference" "IC63"
+		(property "Reference" "IC72"
 			(at 120.65 41.91 0)
 			(effects
 				(font
@@ -10828,7 +10828,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/b2d99a56-eb50-41cd-94b5-019756774957"
-					(reference "IC63")
+					(reference "IC72")
 					(unit 2)
 				)
 			)
@@ -11397,7 +11397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e14c4db-0034-4f2d-9ae8-e8da5fa40e73")
-		(property "Reference" "IC63"
+		(property "Reference" "IC72"
 			(at 95.25 41.91 0)
 			(effects
 				(font
@@ -11485,7 +11485,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/b2d99a56-eb50-41cd-94b5-019756774957"
-					(reference "IC63")
+					(reference "IC72")
 					(unit 1)
 				)
 			)
@@ -12005,7 +12005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d36b665-6e55-4581-9d8d-3a10ecd65f0f")
-		(property "Reference" "IC63"
+		(property "Reference" "IC72"
 			(at 59.69 41.91 0)
 			(effects
 				(font
@@ -12093,7 +12093,7 @@
 		(instances
 			(project ""
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/b2d99a56-eb50-41cd-94b5-019756774957"
-					(reference "IC63")
+					(reference "IC72")
 					(unit 6)
 				)
 			)
@@ -12835,7 +12835,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76d66ee9-7837-442d-864c-20982f150fa6")
-		(property "Reference" "IC63"
+		(property "Reference" "IC72"
 			(at 165.1 129.54 0)
 			(effects
 				(font
@@ -12923,7 +12923,7 @@
 		(instances
 			(project ""
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/b2d99a56-eb50-41cd-94b5-019756774957"
-					(reference "IC63")
+					(reference "IC72")
 					(unit 5)
 				)
 			)
@@ -13279,7 +13279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5c36734-98b8-44d2-a1e0-879df829743d")
-		(property "Reference" "IC72"
+		(property "Reference" "IC65"
 			(at 59.69 95.25 0)
 			(effects
 				(font
@@ -13367,7 +13367,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/b2d99a56-eb50-41cd-94b5-019756774957"
-					(reference "IC72")
+					(reference "IC65")
 					(unit 1)
 				)
 			)
@@ -13818,7 +13818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e417c81b-23f2-4003-9e52-dab177391048")
-		(property "Reference" "IC63"
+		(property "Reference" "IC72"
 			(at 146.05 41.91 0)
 			(effects
 				(font
@@ -13906,7 +13906,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/b2d99a56-eb50-41cd-94b5-019756774957"
-					(reference "IC63")
+					(reference "IC72")
 					(unit 4)
 				)
 			)

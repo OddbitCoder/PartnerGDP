@@ -6060,7 +6060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17184381-736d-4ecd-94c9-891f0fa1dc34")
-		(property "Reference" "IC72"
+		(property "Reference" "IC1"
 			(at 252.73 52.07 0)
 			(effects
 				(font
@@ -6148,7 +6148,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/7e43dd6e-b5cb-462f-9bfd-3d0ee9fd8751"
-					(reference "IC72")
+					(reference "IC1")
 					(unit 3)
 				)
 			)
