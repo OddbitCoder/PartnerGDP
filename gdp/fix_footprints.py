@@ -27,6 +27,7 @@ def update_kicad_schema(schema_file, mapping, output_file):
         current_footprint = match.group(2)
         # Update the footprint if reference is in the mapping
         if reference in mapping and current_footprint:
+            print(f"Found {reference} {current_footprint}")
             new_footprint = mapping[reference]
             return match.group(0).replace(current_footprint, new_footprint)
         return match.group(0)
