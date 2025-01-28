@@ -5618,7 +5618,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "GDP:R_L"
 			(at 224.917 130.81 90)
 			(effects
 				(font
