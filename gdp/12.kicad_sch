@@ -7943,7 +7943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GDP:R_XL"
+		(property "Footprint" "GDP:R_XL_narrow"
 			(at 142.24 43.942 90)
 			(effects
 				(font
