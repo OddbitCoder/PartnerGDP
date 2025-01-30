@@ -5136,7 +5136,7 @@
 			)
 		)
 	)
-	(global_label "~{CRH}"
+	(global_label "~{CHR}"
 		(shape output)
 		(at 133.35 158.75 0)
 		(fields_autoplaced yes)
@@ -5367,7 +5367,7 @@
 			)
 		)
 	)
-	(global_label "~{CRL}"
+	(global_label "~{CLR}"
 		(shape output)
 		(at 133.35 156.21 0)
 		(fields_autoplaced yes)

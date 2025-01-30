@@ -5497,7 +5497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GDP:R_XL"
+		(property "Footprint" "GDP:R_XL_narrow"
 			(at 141.732 63.5 90)
 			(effects
 				(font
@@ -6022,7 +6022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GDP:R_XL"
+		(property "Footprint" "GDP:R_XL_narrow"
 			(at 101.092 63.5 90)
 			(effects
 				(font
@@ -6156,7 +6156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "GDP:R_XL"
+		(property "Footprint" "GDP:R_XL_narrow"
 			(at 154.432 63.5 90)
 			(effects
 				(font
