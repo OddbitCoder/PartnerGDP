@@ -7857,7 +7857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85b20ae4-454f-4c80-805e-65f5cf054008")
-		(property "Reference" "SH_4"
+		(property "Reference" "SH6"
 			(at 180.34 31.75 0)
 			(effects
 				(font
@@ -7910,7 +7910,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/7e43dd6e-b5cb-462f-9bfd-3d0ee9fd8751"
-					(reference "SH_4")
+					(reference "SH6")
 					(unit 1)
 				)
 			)
@@ -8555,7 +8555,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cae3aecc-12d7-450f-a2b1-ce8ca77b579e")
-		(property "Reference" "SH_5"
+		(property "Reference" "SH12"
 			(at 180.34 39.37 0)
 			(effects
 				(font
@@ -8608,7 +8608,7 @@
 		(instances
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/7e43dd6e-b5cb-462f-9bfd-3d0ee9fd8751"
-					(reference "SH_5")
+					(reference "SH12")
 					(unit 1)
 				)
 			)
