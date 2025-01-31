@@ -4650,7 +4650,7 @@
 			)
 		)
 	)
-	(global_label "YIDGP2"
+	(global_label "VIDGP2"
 		(shape output)
 		(at 238.125 71.755 0)
 		(fields_autoplaced yes)
@@ -4692,7 +4692,7 @@
 			)
 		)
 	)
-	(global_label "YIDGP1"
+	(global_label "VIDGP1"
 		(shape output)
 		(at 238.125 69.215 0)
 		(fields_autoplaced yes)
@@ -4734,7 +4734,7 @@
 			)
 		)
 	)
-	(global_label "TTLY2"
+	(global_label "TTLV2"
 		(shape output)
 		(at 238.125 64.135 0)
 		(fields_autoplaced yes)
@@ -4776,7 +4776,7 @@
 			)
 		)
 	)
-	(global_label "TTLY1"
+	(global_label "TTLV1"
 		(shape output)
 		(at 238.125 66.675 0)
 		(fields_autoplaced yes)
