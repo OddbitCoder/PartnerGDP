@@ -5937,7 +5937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 119.38 106.68 0)
 			(effects
 				(font
