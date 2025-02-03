@@ -11219,6 +11219,176 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 219.71 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a8df958-31bb-4fea-a9c4-6f341af35afa")
+		(property "Reference" "#PWR025"
+			(at 219.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 219.71 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faa1fc60-59b5-4260-b48b-86df93330584")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/b2d99a56-eb50-41cd-94b5-019756774957"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS74")
+		(at 219.71 107.95 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20e0188b-a978-4f75-ad85-2dc4fb0e949a")
+		(property "Reference" "IC65"
+			(at 219.71 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS74"
+			(at 219.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 219.71 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 201.676 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 200.914 94.742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4af258e4-670f-46bc-9117-ba38a1ef6715")
+		)
+		(pin "13"
+			(uuid "dec179fe-1e11-455a-a71e-e1f06496b762")
+		)
+		(pin "4"
+			(uuid "cea2c970-4d85-4c68-81ae-7ee45d1b54b4")
+		)
+		(pin "8"
+			(uuid "1b9eb770-1f9c-41e8-88c7-3cf061ce5ff0")
+		)
+		(pin "9"
+			(uuid "b1ea92f6-c915-48a5-95a2-5ee359a577ec")
+		)
+		(pin "10"
+			(uuid "d3edb50f-9bf0-432a-b1ef-f226e00a869a")
+		)
+		(pin "6"
+			(uuid "4e0ed32a-1d4e-472a-b3c7-ccd1017ae995")
+		)
+		(pin "11"
+			(uuid "2941d7e0-35d1-4576-801b-b4ed9649ffe1")
+		)
+		(pin "7"
+			(uuid "e44ec9e0-0108-4145-8a06-6946b7309870")
+		)
+		(pin "5"
+			(uuid "db5a0af6-3290-4bad-8a20-9b805b532290")
+		)
+		(pin "3"
+			(uuid "327f179d-e39c-4de4-b7b4-8a17dc99c587")
+		)
+		(pin "14"
+			(uuid "c33f5351-a0b8-4c5c-b160-5de75495c6c3")
+		)
+		(pin "12"
+			(uuid "b4d38586-00b5-48dc-aa5d-f1eecafa304b")
+		)
+		(pin "2"
+			(uuid "12114822-9bc7-4a30-b66d-313bf52de0b6")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/b2d99a56-eb50-41cd-94b5-019756774957"
+					(reference "IC65")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS00")
 		(at 91.44 95.25 0)
 		(unit 2)
@@ -13804,6 +13974,71 @@
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/b2d99a56-eb50-41cd-94b5-019756774957"
 					(reference "IC65")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 219.71 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd53079e-f347-4a16-84b3-c8a81ddacf5c")
+		(property "Reference" "#PWR024"
+			(at 219.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 219.71 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ddb045e-d210-46c9-bc15-95e91b141d1a")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/b2d99a56-eb50-41cd-94b5-019756774957"
+					(reference "#PWR024")
+					(unit 1)
 				)
 			)
 		)
