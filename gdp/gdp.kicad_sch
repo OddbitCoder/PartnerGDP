@@ -102,6 +102,52 @@
 		)
 	)
 	(sheet
+		(at 109.22 171.45)
+		(size 31.75 16.51)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "44a9780b-71f6-40f0-9057-b92b2aeabcf0")
+		(property "Sheetname" "15"
+			(at 109.22 170.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "15.kicad_sch"
+			(at 109.22 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Text" "MISC"
+			(at 125.095 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 67.31 45.085)
 		(size 31.75 16.51)
 		(stroke

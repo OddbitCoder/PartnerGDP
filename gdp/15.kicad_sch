@@ -1,0 +1,6212 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f555b6db-7d34-4696-bd0b-97cc736e943d")
+	(paper "A4")
+	(title_block
+		(title "PARTNER GDP: MISC")
+		(company "Oddbit Retro")
+		(comment 1 "NARISAL: MIHA GRČAR")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GNDD"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GNDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 78.74 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00ce756a-14cd-4b74-a663-e54ccb14690b")
+	)
+	(junction
+		(at 73.66 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "020de73d-2253-4311-bfe4-d112e662699c")
+	)
+	(junction
+		(at 58.42 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "038ced41-b26f-4410-b402-4efa41d9594a")
+	)
+	(junction
+		(at 38.1 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "050d589b-5576-488e-90fe-31e93eccc29e")
+	)
+	(junction
+		(at 38.1 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b76726c-7cd8-4ebf-8f42-ff0d55ca7663")
+	)
+	(junction
+		(at 38.1 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c20606f-be7d-437d-8284-0eede360b7de")
+	)
+	(junction
+		(at 58.42 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d8fea60-1b47-4088-9a63-07c11ee59837")
+	)
+	(junction
+		(at 58.42 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e949301-e1f0-4fa5-94a0-55fee419c41f")
+	)
+	(junction
+		(at 38.1 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "114c67ed-e833-4456-8a1a-3ac3bddf8b5c")
+	)
+	(junction
+		(at 33.02 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11755d1e-bb03-4788-9c43-723038bbe8b1")
+	)
+	(junction
+		(at 38.1 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11db18c0-e1b5-4e21-9ec9-f97fa55dbde0")
+	)
+	(junction
+		(at 73.66 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13cdafaf-4fc4-468e-b72d-73c21d5052b9")
+	)
+	(junction
+		(at 78.74 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "164a96f5-a880-45eb-8841-203bd9c3aa74")
+	)
+	(junction
+		(at 53.34 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16f80e76-cb3b-47c6-afef-252979509eed")
+	)
+	(junction
+		(at 33.02 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a5c2070-6a40-49b6-9707-2de0287285d6")
+	)
+	(junction
+		(at 33.02 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b121fa2-4316-4d3a-8eb5-4065082bfc1b")
+	)
+	(junction
+		(at 38.1 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e0745ba-6ba1-4dbe-a5d3-faa606b41097")
+	)
+	(junction
+		(at 58.42 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fa8cb86-e6cc-4bd6-92ac-cb5648c1ba28")
+	)
+	(junction
+		(at 73.66 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "232bb9cf-00a2-45cf-a93a-ba71d310fdd5")
+	)
+	(junction
+		(at 53.34 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "245aa169-f111-44e1-b0b8-917610cfc0c4")
+	)
+	(junction
+		(at 78.74 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2485c2f7-fc4b-490d-8dae-852063d3e230")
+	)
+	(junction
+		(at 33.02 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "277fc34b-69c8-461f-a301-a5c51dabd755")
+	)
+	(junction
+		(at 33.02 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28fccc59-ec63-4a85-80fc-5ae019fc4dc6")
+	)
+	(junction
+		(at 33.02 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "298f2fed-61e0-4bc0-8808-675be49f2e80")
+	)
+	(junction
+		(at 38.1 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29dd5939-b865-4081-9e6c-b311654de925")
+	)
+	(junction
+		(at 38.1 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b7e16b3-e30a-4a78-852f-b65c904ea93d")
+	)
+	(junction
+		(at 58.42 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ce4b50e-c9d7-425a-a841-3011c2b64fe8")
+	)
+	(junction
+		(at 38.1 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32dfb8fd-bb74-4331-9483-33fa75278ef1")
+	)
+	(junction
+		(at 38.1 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34948cda-c8d4-4bc2-bf7b-07cfe06222d7")
+	)
+	(junction
+		(at 78.74 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3598ecfa-d74f-4d92-b15b-af3efe2767d4")
+	)
+	(junction
+		(at 73.66 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41ee6c84-1158-4a86-b89e-ec6220a5ab09")
+	)
+	(junction
+		(at 73.66 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "422eb3c3-932f-4fff-a480-aff9b0b04373")
+	)
+	(junction
+		(at 33.02 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42de4c1e-8ff5-4271-91b6-7f5914fcae77")
+	)
+	(junction
+		(at 78.74 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "438f1c54-8622-42fd-8d22-04144f5dfa14")
+	)
+	(junction
+		(at 38.1 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4532ed4f-7986-40f5-8782-24744daf70f5")
+	)
+	(junction
+		(at 78.74 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a3f5449-f30c-4351-b53c-4983e476367d")
+	)
+	(junction
+		(at 53.34 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4aa11cc8-89b4-4590-894d-ab8e03e42032")
+	)
+	(junction
+		(at 58.42 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fde83e6-82b4-438c-8761-0e1d552c8578")
+	)
+	(junction
+		(at 33.02 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fef5798-1151-423e-b272-efef790987e5")
+	)
+	(junction
+		(at 38.1 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51142544-af3c-4ed7-8006-38a5c97b4ee0")
+	)
+	(junction
+		(at 33.02 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56716bff-4815-4000-8030-446853cb081e")
+	)
+	(junction
+		(at 58.42 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56d042d6-d531-49fd-9d67-ae4dc1f36f8b")
+	)
+	(junction
+		(at 73.66 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "590fe0ce-f82a-4941-8f31-4a86e1ea3981")
+	)
+	(junction
+		(at 58.42 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "599b02ef-a813-4b95-87f3-77932272bb22")
+	)
+	(junction
+		(at 33.02 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a40db80-4fe2-4608-a093-0df2ee3c65ef")
+	)
+	(junction
+		(at 33.02 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c591fe3-e7b9-43db-931d-2bd2743aae1f")
+	)
+	(junction
+		(at 38.1 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5dd40fb4-90e7-45fd-ba30-61cc2c8ecfd3")
+	)
+	(junction
+		(at 33.02 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "660abc51-0d83-4418-9c88-9a7afe504675")
+	)
+	(junction
+		(at 58.42 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67678389-e10a-4d09-bce1-c92bcb050450")
+	)
+	(junction
+		(at 38.1 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67932de4-dcee-4fce-b6c1-9a721bc8faaf")
+	)
+	(junction
+		(at 53.34 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b0c5b90-ac23-4f56-a846-034f7ce49aa6")
+	)
+	(junction
+		(at 33.02 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b487364-0f68-4730-9e73-a481eade6184")
+	)
+	(junction
+		(at 33.02 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ea8f7f6-0880-470e-a8aa-e7ac9908b8d3")
+	)
+	(junction
+		(at 78.74 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7017ade8-c0f3-4eca-ae3d-05620c870247")
+	)
+	(junction
+		(at 58.42 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7092019c-986e-4cf8-853b-a903cc829bc7")
+	)
+	(junction
+		(at 58.42 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72584e45-3fe3-4876-9e4f-b3f3ec4ed398")
+	)
+	(junction
+		(at 58.42 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79053294-654c-4c03-a6a3-ae8d2e9f4b14")
+	)
+	(junction
+		(at 53.34 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7aa70e13-1f50-4aac-8200-9cfac8d2be67")
+	)
+	(junction
+		(at 33.02 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d400f45-db48-4005-914c-7410d784b43c")
+	)
+	(junction
+		(at 53.34 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80501f48-11b9-42f1-ac6b-8d0ff67841cc")
+	)
+	(junction
+		(at 58.42 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81b26bbd-3a68-453c-ba48-fadf86415fd0")
+	)
+	(junction
+		(at 53.34 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8de8782f-5975-4641-81be-26e5366585f6")
+	)
+	(junction
+		(at 53.34 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "907377fe-24fb-485f-97e2-bfad35f6d024")
+	)
+	(junction
+		(at 38.1 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9345f926-86b7-4f29-ad3b-de8a9d90a0d6")
+	)
+	(junction
+		(at 33.02 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9459cc01-70f2-4027-a641-faaac6d11b10")
+	)
+	(junction
+		(at 78.74 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94776f4a-a9cf-4a33-b3ff-4544bedf1216")
+	)
+	(junction
+		(at 53.34 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "988a0641-14c8-4b93-a3ab-4283e642bf6a")
+	)
+	(junction
+		(at 53.34 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9db47310-fbe7-4225-b2ff-81b52bdb9be1")
+	)
+	(junction
+		(at 58.42 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a40f7cfb-4c33-47f1-88d9-6982b9799d6d")
+	)
+	(junction
+		(at 33.02 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a68201f2-cff7-47cf-92ca-86f5e24896a3")
+	)
+	(junction
+		(at 78.74 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7423b9b-6dbc-4b61-82b5-ef273df5a8a2")
+	)
+	(junction
+		(at 58.42 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7f874a0-f55f-4409-99ff-18c663b41fba")
+	)
+	(junction
+		(at 53.34 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a807d745-b0d7-4f0c-a1d6-357cccae0aa1")
+	)
+	(junction
+		(at 53.34 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a918c3d6-2c8e-4ca7-a2d6-f8bf41843d50")
+	)
+	(junction
+		(at 38.1 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aba42539-8a82-465e-99fa-9e42ac9e834a")
+	)
+	(junction
+		(at 78.74 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad4de965-ec73-4d5c-bfd3-c6c7ce60b291")
+	)
+	(junction
+		(at 73.66 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae59e60d-a78d-49e1-8cdf-b36246ffd84f")
+	)
+	(junction
+		(at 58.42 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0aed853-e451-4f49-b328-a0c69c2347f5")
+	)
+	(junction
+		(at 38.1 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baa2a44a-23df-463f-921b-058c3b2ae721")
+	)
+	(junction
+		(at 58.42 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb133a7d-66d5-44b5-9261-47ad49fb8a0a")
+	)
+	(junction
+		(at 53.34 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb44bcdc-88d1-4cf2-be77-f64370340710")
+	)
+	(junction
+		(at 58.42 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beb351f6-9f1e-407c-968c-4da081f273b0")
+	)
+	(junction
+		(at 58.42 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c529231d-3fc1-440d-93f7-e0fbc832a587")
+	)
+	(junction
+		(at 73.66 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c53bf081-7f4b-47eb-bfa7-4437190250bd")
+	)
+	(junction
+		(at 53.34 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c611a3d9-f630-416c-8662-0c0f7f00842b")
+	)
+	(junction
+		(at 38.1 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6d98001-1fd3-4348-8b7a-b38d8a0da69c")
+	)
+	(junction
+		(at 73.66 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7aba438-78f5-4933-8867-4f4821f24c4c")
+	)
+	(junction
+		(at 33.02 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9c08e42-9086-4d71-bd5b-f792150000b6")
+	)
+	(junction
+		(at 53.34 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbab89a5-9a0d-4768-88e2-34ddb5ea5353")
+	)
+	(junction
+		(at 38.1 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3fe80b2-1bb4-47c1-95ba-1e2e120ba490")
+	)
+	(junction
+		(at 53.34 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4fd9fc0-10e8-4206-a8e8-f2fb4ec96db0")
+	)
+	(junction
+		(at 38.1 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5da4c45-e711-48aa-b190-1d3d90a25127")
+	)
+	(junction
+		(at 33.02 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da1194cc-d8fa-4977-a6b9-c193d4b2657e")
+	)
+	(junction
+		(at 53.34 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db789043-7104-45ce-b846-0625be44a913")
+	)
+	(junction
+		(at 33.02 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd095613-e4ec-4373-a82d-d164a05f177c")
+	)
+	(junction
+		(at 58.42 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deaab37e-6725-4a7d-a02e-a02ee0b9a170")
+	)
+	(junction
+		(at 33.02 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0512357-9e01-43ea-a066-0768bf9fc669")
+	)
+	(junction
+		(at 53.34 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e61319c9-301a-4552-b011-6fc52d3400c9")
+	)
+	(junction
+		(at 53.34 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebb04dac-30ae-4ab2-81d9-3e506bf87ecd")
+	)
+	(junction
+		(at 58.42 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2ee6241-743c-4ccd-baf9-86d18e65518e")
+	)
+	(junction
+		(at 53.34 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5da81cc-3413-44a5-9392-a76456587c91")
+	)
+	(junction
+		(at 38.1 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7ac7d75-68c9-49d1-ac81-c4420dbc9e71")
+	)
+	(junction
+		(at 53.34 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff1432ff-d40c-4833-9d79-662c2a4e4a85")
+	)
+	(junction
+		(at 73.66 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff47fa8b-a30a-4649-9c6d-2bb037709bfb")
+	)
+	(wire
+		(pts
+			(xy 53.34 43.18) (xy 53.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "009c70a5-2b21-45a4-930e-d4fc3d4e592e")
+	)
+	(wire
+		(pts
+			(xy 53.34 129.54) (xy 53.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00d62bb1-d62f-47d5-93b9-3dd61fbf5d5a")
+	)
+	(wire
+		(pts
+			(xy 53.34 119.38) (xy 53.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033b6cd2-334f-4af5-8238-ec2e62492d09")
+	)
+	(wire
+		(pts
+			(xy 29.21 137.16) (xy 33.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "076ad7ea-44c9-402e-83f3-6fcb2914f5c7")
+	)
+	(wire
+		(pts
+			(xy 78.74 38.1) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08a1db28-fb1c-4d59-8f1c-2dbbc3735ce8")
+	)
+	(wire
+		(pts
+			(xy 38.1 104.14) (xy 38.1 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a032c54-f802-415d-b92b-6c3cf04e86b1")
+	)
+	(wire
+		(pts
+			(xy 33.02 114.3) (xy 33.02 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c533495-c504-4d92-ac5a-51636a9f80c3")
+	)
+	(wire
+		(pts
+			(xy 78.74 43.18) (xy 78.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff099b7-9caa-41a8-8836-8e6643e3389e")
+	)
+	(wire
+		(pts
+			(xy 38.1 53.34) (xy 38.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "104b7564-4caf-4f83-9526-bbbe3fe6cd46")
+	)
+	(wire
+		(pts
+			(xy 38.1 33.02) (xy 38.1 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e589b1-86ce-442e-9d26-49ea0e2718e8")
+	)
+	(wire
+		(pts
+			(xy 78.74 22.86) (xy 78.74 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12eab72c-4668-41d4-b211-030e910bb066")
+	)
+	(wire
+		(pts
+			(xy 53.34 93.98) (xy 53.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175381e9-21d8-4a53-9452-ce2c094e853b")
+	)
+	(wire
+		(pts
+			(xy 38.1 78.74) (xy 38.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175ec90c-2c10-41b8-81b9-ae140a09d45c")
+	)
+	(wire
+		(pts
+			(xy 58.42 119.38) (xy 58.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b037e96-2929-438d-9ba7-4408f786fa2b")
+	)
+	(wire
+		(pts
+			(xy 58.42 129.54) (xy 58.42 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b82e0a2-d9eb-4901-b89d-0ccf23ff8315")
+	)
+	(wire
+		(pts
+			(xy 38.1 93.98) (xy 38.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4222c7-4c17-40a1-93a0-c80ac3d8f53c")
+	)
+	(wire
+		(pts
+			(xy 38.1 109.22) (xy 38.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e02b08e-1d64-4576-88dd-dbf486e85144")
+	)
+	(wire
+		(pts
+			(xy 38.1 129.54) (xy 38.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e7411f6-2b78-4309-9639-0cb16632ae0a")
+	)
+	(wire
+		(pts
+			(xy 78.74 53.34) (xy 78.74 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee6e033-773d-4d83-aa6e-a5d350e00758")
+	)
+	(wire
+		(pts
+			(xy 33.02 63.5) (xy 33.02 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216595bb-ebaa-4d01-a1d8-3f5257239a39")
+	)
+	(wire
+		(pts
+			(xy 33.02 22.86) (xy 33.02 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c7fae2-f2eb-4586-bb95-0a20682f66e2")
+	)
+	(wire
+		(pts
+			(xy 53.34 63.5) (xy 53.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "231a3a0d-5f55-4ae4-ace3-b6bad23698c9")
+	)
+	(wire
+		(pts
+			(xy 78.74 48.26) (xy 78.74 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2477366f-d6d1-43ed-8a2b-a2cc0ece486f")
+	)
+	(wire
+		(pts
+			(xy 73.66 68.58) (xy 73.66 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c0e748-2d10-4ecd-91a9-c98e2227105a")
+	)
+	(wire
+		(pts
+			(xy 33.02 119.38) (xy 33.02 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "293a5df6-b24c-4835-9ed5-bc852fdada9a")
+	)
+	(wire
+		(pts
+			(xy 49.53 137.16) (xy 53.34 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f324fd4-aae5-47c3-8a4b-4bd3d41ff6bb")
+	)
+	(wire
+		(pts
+			(xy 33.02 88.9) (xy 33.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31aa9587-5e61-4187-8b4f-de6ed3a43d92")
+	)
+	(wire
+		(pts
+			(xy 53.34 53.34) (xy 53.34 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32aaf5d2-2525-441a-87d7-c3680889225c")
+	)
+	(wire
+		(pts
+			(xy 33.02 68.58) (xy 33.02 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bf94ed-8ce0-4463-b57e-deb0b448b6b2")
+	)
+	(wire
+		(pts
+			(xy 38.1 48.26) (xy 38.1 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c0c720-d8a4-4bf5-9690-f96ff7cc161c")
+	)
+	(wire
+		(pts
+			(xy 73.66 22.86) (xy 73.66 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ea628d-e559-49c3-abed-93e2ac89be12")
+	)
+	(wire
+		(pts
+			(xy 53.34 109.22) (xy 53.34 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37541e92-0483-4ac3-ab60-5ea02f3a4bee")
+	)
+	(wire
+		(pts
+			(xy 58.42 73.66) (xy 58.42 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f89ae8-5196-4696-868c-ff0e38fca711")
+	)
+	(wire
+		(pts
+			(xy 33.02 58.42) (xy 33.02 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b71174-7f3c-4659-afda-5988a082ff1d")
+	)
+	(wire
+		(pts
+			(xy 53.34 124.46) (xy 53.34 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c18b35a-864e-4fd9-a261-1956b4a9a1c7")
+	)
+	(wire
+		(pts
+			(xy 53.34 22.86) (xy 53.34 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434c7598-0239-4b0d-9c29-7d19810c6b13")
+	)
+	(wire
+		(pts
+			(xy 53.34 33.02) (xy 53.34 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4387f76a-e6fc-4180-9787-171dd9f43a87")
+	)
+	(wire
+		(pts
+			(xy 33.02 48.26) (xy 33.02 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4abb3006-76a1-4f9c-97d5-154734eec066")
+	)
+	(wire
+		(pts
+			(xy 53.34 68.58) (xy 53.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be467f2-5651-45b0-bba9-b628e4f4ff1a")
+	)
+	(wire
+		(pts
+			(xy 38.1 22.86) (xy 38.1 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d143a69-0362-4a57-9284-157b1c1e8e0a")
+	)
+	(wire
+		(pts
+			(xy 58.42 38.1) (xy 58.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dfadbf2-0752-459f-9bab-fb92ae43c62a")
+	)
+	(wire
+		(pts
+			(xy 73.66 27.94) (xy 73.66 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f13c5ee-f43f-4f05-b02a-8d79627635b8")
+	)
+	(wire
+		(pts
+			(xy 38.1 68.58) (xy 38.1 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4eda8e-3ab8-42ba-aace-2a794dd6db05")
+	)
+	(wire
+		(pts
+			(xy 73.66 48.26) (xy 73.66 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa84d82-695c-497c-b82a-23946f328fbe")
+	)
+	(wire
+		(pts
+			(xy 53.34 73.66) (xy 53.34 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb9e3b5-05f4-47b2-89a8-6d9e75f878b2")
+	)
+	(wire
+		(pts
+			(xy 38.1 58.42) (xy 38.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531a3e4d-5ec0-403c-84a7-7522b4eb42b9")
+	)
+	(wire
+		(pts
+			(xy 53.34 38.1) (xy 53.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5337a037-cc83-43eb-9c7a-4a72d96c1832")
+	)
+	(wire
+		(pts
+			(xy 73.66 63.5) (xy 73.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5797c1cc-42a6-4937-aa82-d9782013e2b7")
+	)
+	(wire
+		(pts
+			(xy 33.02 78.74) (xy 33.02 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589446da-f855-4b4a-b3cf-d6a7884dabdc")
+	)
+	(wire
+		(pts
+			(xy 33.02 129.54) (xy 33.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aa6a9e3-cb9f-4834-bcb2-aabcb2598d37")
+	)
+	(wire
+		(pts
+			(xy 33.02 109.22) (xy 33.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfed12d-b050-42f7-a039-1cb783fe0c41")
+	)
+	(wire
+		(pts
+			(xy 38.1 88.9) (xy 38.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c02c0a3-dd85-4358-848f-35acc01100e9")
+	)
+	(wire
+		(pts
+			(xy 78.74 27.94) (xy 78.74 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd180c5-de0d-4942-8ea6-3f3765007721")
+	)
+	(wire
+		(pts
+			(xy 38.1 43.18) (xy 38.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9a26dd-333b-4c30-b719-2f3c60938076")
+	)
+	(wire
+		(pts
+			(xy 33.02 73.66) (xy 33.02 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0148b8-17ba-4946-8365-ba295481a7fa")
+	)
+	(wire
+		(pts
+			(xy 73.66 33.02) (xy 73.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b707cc-df32-4177-894e-1158c5545a72")
+	)
+	(wire
+		(pts
+			(xy 58.42 93.98) (xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "614cfbdc-df6e-4546-854a-0f1c647c620a")
+	)
+	(wire
+		(pts
+			(xy 58.42 22.86) (xy 58.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61eaf0a8-3d38-4f0d-8c6b-2d8d448721f9")
+	)
+	(wire
+		(pts
+			(xy 33.02 27.94) (xy 33.02 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6262cf76-a34b-4eda-a152-2aeaf4f748f0")
+	)
+	(wire
+		(pts
+			(xy 78.74 33.02) (xy 78.74 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62980dfd-1ebd-4fa9-abea-e23563473159")
+	)
+	(wire
+		(pts
+			(xy 58.42 63.5) (xy 58.42 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669df115-d21b-497c-896f-b0102b6dbe14")
+	)
+	(wire
+		(pts
+			(xy 58.42 43.18) (xy 58.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69766829-a3d8-4260-adc5-2f776ac8fdd3")
+	)
+	(wire
+		(pts
+			(xy 78.74 73.66) (xy 78.74 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b042a58-8bcb-4469-9327-4bbe74ded2f8")
+	)
+	(wire
+		(pts
+			(xy 33.02 53.34) (xy 33.02 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b4ff34c-a7e4-4670-80d2-6e90f0c8ed1e")
+	)
+	(wire
+		(pts
+			(xy 33.02 83.82) (xy 33.02 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708598a7-3ac6-4ed7-a75d-8cfb6098b845")
+	)
+	(wire
+		(pts
+			(xy 33.02 93.98) (xy 33.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74313a73-3f2c-47cd-a24a-d53e13281189")
+	)
+	(wire
+		(pts
+			(xy 38.1 119.38) (xy 38.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a53353-8ed0-4a10-ac29-b619383f06b2")
+	)
+	(wire
+		(pts
+			(xy 73.66 73.66) (xy 73.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765027c2-47e0-4aa4-b80b-6efa5782daea")
+	)
+	(wire
+		(pts
+			(xy 58.42 109.22) (xy 58.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77de3fe6-b1bf-4fbb-8f3e-99abc279165a")
+	)
+	(wire
+		(pts
+			(xy 38.1 27.94) (xy 38.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d08bb1c-d20f-4362-bf80-476e879efdd7")
+	)
+	(wire
+		(pts
+			(xy 78.74 68.58) (xy 78.74 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e945819-4bd7-4975-9aa3-3e29047ab3c2")
+	)
+	(wire
+		(pts
+			(xy 38.1 83.82) (xy 38.1 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1447f4-7868-4810-a5bc-d786c17f1698")
+	)
+	(wire
+		(pts
+			(xy 33.02 33.02) (xy 33.02 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8002aa50-5cec-4523-a9e4-dae5ca08fb22")
+	)
+	(wire
+		(pts
+			(xy 33.02 38.1) (xy 33.02 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80048534-8e32-47aa-9f81-0251e30a2679")
+	)
+	(wire
+		(pts
+			(xy 53.34 48.26) (xy 53.34 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8043963f-1b0b-4ffc-845a-f99d4432d3eb")
+	)
+	(wire
+		(pts
+			(xy 53.34 27.94) (xy 53.34 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825cf09c-6cda-4dba-b4e9-accbb9c19d9d")
+	)
+	(wire
+		(pts
+			(xy 58.42 78.74) (xy 58.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82f30bd6-9a1d-45af-b7b3-6f5e9d141955")
+	)
+	(wire
+		(pts
+			(xy 53.34 104.14) (xy 53.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849f4723-b0c7-4e01-829d-fa0843997723")
+	)
+	(wire
+		(pts
+			(xy 53.34 88.9) (xy 53.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "861b4ec1-cb98-494a-82ff-62316accc44c")
+	)
+	(wire
+		(pts
+			(xy 38.1 114.3) (xy 38.1 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be9c288-1644-43e8-ba65-4ccd6ace572f")
+	)
+	(wire
+		(pts
+			(xy 58.42 58.42) (xy 58.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7a17dc-f507-423d-8d91-acce8d7710bb")
+	)
+	(wire
+		(pts
+			(xy 58.42 114.3) (xy 58.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d23670c-5eb2-4a0e-bccb-1ea64e33a9ea")
+	)
+	(wire
+		(pts
+			(xy 53.34 99.06) (xy 53.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97a4fb22-9458-4e02-905e-ea8eaeb0157b")
+	)
+	(wire
+		(pts
+			(xy 53.34 58.42) (xy 53.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98922487-aaf6-4819-bf30-199d2d282a96")
+	)
+	(wire
+		(pts
+			(xy 58.42 88.9) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995dfe94-6258-4a11-b734-35075cd6f4c6")
+	)
+	(wire
+		(pts
+			(xy 58.42 68.58) (xy 58.42 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e0142ff-759c-41a7-ba56-3b0f9f3880d2")
+	)
+	(wire
+		(pts
+			(xy 58.42 53.34) (xy 58.42 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd0bf3b-03fa-46b8-af85-333772cb3c58")
+	)
+	(wire
+		(pts
+			(xy 38.1 38.1) (xy 38.1 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dc235d-8cff-44d1-9c6c-daeaa4c7f73f")
+	)
+	(wire
+		(pts
+			(xy 58.42 27.94) (xy 58.42 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2fe2d7f-924d-4d35-bace-5ed6905d632b")
+	)
+	(wire
+		(pts
+			(xy 33.02 43.18) (xy 33.02 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e7fdb5-939e-4407-a7a9-6af517f7c3cf")
+	)
+	(wire
+		(pts
+			(xy 73.66 58.42) (xy 73.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e7b701-be6c-4032-a77c-55545ab2b58f")
+	)
+	(wire
+		(pts
+			(xy 38.1 73.66) (xy 38.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e83cf2-b054-45e7-904c-fc1503dac74d")
+	)
+	(wire
+		(pts
+			(xy 69.85 78.74) (xy 73.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad826025-0647-4466-8c9e-2cd3b9a41d40")
+	)
+	(wire
+		(pts
+			(xy 58.42 124.46) (xy 58.42 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adfa0b20-ea99-4149-8d01-511350552349")
+	)
+	(wire
+		(pts
+			(xy 73.66 38.1) (xy 73.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35e4f6c-997f-4e3c-9974-86eef19127e7")
+	)
+	(wire
+		(pts
+			(xy 33.02 124.46) (xy 33.02 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ea761e-5ac4-40c3-83e0-db5712977e06")
+	)
+	(wire
+		(pts
+			(xy 78.74 63.5) (xy 78.74 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b45fedc8-231b-4465-894e-d37711ca6c14")
+	)
+	(wire
+		(pts
+			(xy 53.34 83.82) (xy 53.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74db8c5-f001-4994-9905-3404c1e50d1b")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 58.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba6f03f6-f03c-40fe-9e80-7603eb99703e")
+	)
+	(wire
+		(pts
+			(xy 53.34 78.74) (xy 53.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4409a7-2f24-449c-9161-0d591d30efa3")
+	)
+	(wire
+		(pts
+			(xy 73.66 43.18) (xy 73.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf91e42c-4669-454e-818d-4bf5dcaeef37")
+	)
+	(wire
+		(pts
+			(xy 73.66 53.34) (xy 73.66 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc62ce9-2635-447e-980c-e645aa48f530")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 58.42 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5df1b28-34e6-44a5-8dab-c01cf4d1a90d")
+	)
+	(wire
+		(pts
+			(xy 53.34 114.3) (xy 53.34 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c960b061-921b-4913-9525-967b12ee8b3d")
+	)
+	(wire
+		(pts
+			(xy 78.74 58.42) (xy 78.74 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7b6604-c3f2-48ac-9cfd-c0b246d2c32d")
+	)
+	(wire
+		(pts
+			(xy 38.1 99.06) (xy 38.1 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d733806e-7052-4e0c-94cb-aff18b26576b")
+	)
+	(wire
+		(pts
+			(xy 58.42 33.02) (xy 58.42 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de060cb7-4632-4c6f-bad4-175604bf4f8f")
+	)
+	(wire
+		(pts
+			(xy 33.02 104.14) (xy 33.02 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df954143-79c4-4425-9ffd-c6e0513b08c3")
+	)
+	(wire
+		(pts
+			(xy 38.1 124.46) (xy 38.1 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e384d526-a33c-4e8b-8346-84f8ec164eee")
+	)
+	(wire
+		(pts
+			(xy 58.42 104.14) (xy 58.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9be52b6-0f27-4067-a5e7-98c6876c6df5")
+	)
+	(wire
+		(pts
+			(xy 58.42 83.82) (xy 58.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef116d4e-ab27-4c3e-8bba-225d993cbad7")
+	)
+	(wire
+		(pts
+			(xy 33.02 99.06) (xy 33.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef623dc6-de77-464f-9c6a-4872c83f75af")
+	)
+	(wire
+		(pts
+			(xy 38.1 63.5) (xy 38.1 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7329761-edca-4846-9912-a4c65bc2e358")
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 58.42 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04477a00-b0cd-4b8d-b90b-77fb057200bb")
+		(property "Reference" "#PWR029"
+			(at 58.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 58.42 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c452f3a-7dfb-4fed-b872-3a0457780cae")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0aaa30ca-6c19-49a9-903c-033c83f9435e")
+		(property "Reference" "CK9"
+			(at 41.91 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "467c1a6e-dbdf-4310-8ddc-6dd8c22eb03c")
+		)
+		(pin "2"
+			(uuid "03d4caea-99ea-4982-b6ae-102db3ba7682")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b208551-c88f-441d-b9e4-a4639bd46436")
+		(property "Reference" "CK7"
+			(at 41.91 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02ff79b7-7788-404a-9bb2-84290969d280")
+		)
+		(pin "2"
+			(uuid "3ea3ffa1-0a30-4be6-9ffa-143e5b351559")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ca09b68-48d0-4c5c-9627-f685fe9842cc")
+		(property "Reference" "CK51"
+			(at 82.55 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 82.55 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 76.2 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6afdfaa-03d4-46a1-ae9a-da2d5de1c20a")
+		)
+		(pin "2"
+			(uuid "20522fe2-f9e9-428e-9439-4a4847dc0897")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1288433a-70f6-4ccb-b0e3-65ed77502cac")
+		(property "Reference" "CK45"
+			(at 62.23 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67c626e7-822c-48ff-afd2-306f8526d4e5")
+		)
+		(pin "2"
+			(uuid "3de9dbef-451e-4a72-873a-3fb8c7cb4dfd")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "193bbfec-a751-40a0-9523-9c2718a36792")
+		(property "Reference" "CK12"
+			(at 41.91 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7427b481-5e7b-4e93-ba9e-b07d3602cd91")
+		)
+		(pin "2"
+			(uuid "9f10b92c-5f72-4f85-a90d-c54fee1eeb18")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21163624-e28f-4b2a-bdb2-5323d6c0af03")
+		(property "Reference" "CK15"
+			(at 41.91 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3882bba7-c67e-45fa-9e4e-04448237763d")
+		)
+		(pin "2"
+			(uuid "0829b0c2-34a6-4463-8c3d-80bc5115c30a")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25d47f7d-606a-4a00-8d9c-ca98f8274f41")
+		(property "Reference" "CK22"
+			(at 41.91 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84bb5768-62fb-42b2-a496-87d8c3374660")
+		)
+		(pin "2"
+			(uuid "09ed5365-6b31-4661-b00e-873cb0d01084")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 29.21 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c3617cf-6d41-4a6e-8363-3be6b7b3cd1a")
+		(property "Reference" "#PWR026"
+			(at 29.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 29.21 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 29.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caf2d845-15d6-48b3-a843-3620b1f9eb2b")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "308ffb48-14ee-4763-9dd1-fcb4d8d4ecea")
+		(property "Reference" "CK37"
+			(at 62.23 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c061e2c-b869-498a-b70f-c91df4a9046f")
+		)
+		(pin "2"
+			(uuid "1c4a00a4-0e8d-46c3-b9dc-afff7399ce3d")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 38.1 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "333604f1-578e-4391-9924-41c5a4826f7a")
+		(property "Reference" "#PWR027"
+			(at 38.1 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a28fe16-72d1-4c03-aa96-d808a24d6b05")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "345bd1b8-9d0b-4160-8af3-349df2ae71f9")
+		(property "Reference" "CK21"
+			(at 41.91 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22a776db-ddf0-4af7-bd39-47b725014d27")
+		)
+		(pin "2"
+			(uuid "421d2820-eafe-4aa1-913c-36890750dce5")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "388cb5e6-9645-4eec-bdd9-cb5cbbc823c0")
+		(property "Reference" "CK46"
+			(at 62.23 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30dccfc5-37dc-4e2f-8cac-9740ad9739cf")
+		)
+		(pin "2"
+			(uuid "d79868bd-c3e6-42e3-9f28-843f44ab6a9e")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cf7da11-a026-421c-9ad3-fc7d3a9f91bb")
+		(property "Reference" "CK41"
+			(at 62.23 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fcca7e4-df65-46fb-bfb2-fa02e62fc7a5")
+		)
+		(pin "2"
+			(uuid "12649290-0f1f-466a-b9e1-41e047cacd74")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "407a92e1-0507-4f29-9d39-9524b48ac680")
+		(property "Reference" "CK36"
+			(at 62.23 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e1e6e10-384a-48b4-902a-ddfdfcfe6fa5")
+		)
+		(pin "2"
+			(uuid "0571f1e5-4507-4d68-94b6-a20e8c3ca2aa")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 104.14 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41793ead-8890-4612-ad53-2ca154b5aeb3")
+		(property "Reference" "CK17"
+			(at 41.91 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1908f629-6e06-4c9d-afdf-f430baa6e9bf")
+		)
+		(pin "2"
+			(uuid "9c2a832e-3674-46a7-a128-7218adb208b9")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55e54cdd-3420-4e13-a28e-6dfc6a0b3206")
+		(property "Reference" "CK2"
+			(at 41.91 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4be3346-bc79-4cfe-9743-88fd11dcde16")
+		)
+		(pin "2"
+			(uuid "7b3325e9-156d-45c7-b126-92a80b93a21b")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bd1c139-48cc-462e-98be-9d9bfb0fc54e")
+		(property "Reference" "CK24"
+			(at 62.23 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c909fc89-1a77-47bb-85bf-7674b28ab03a")
+		)
+		(pin "2"
+			(uuid "8372ea8d-f568-4c5f-b5c5-15cde334b5b0")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cb38593-0810-4531-9197-8cf1bf93f81e")
+		(property "Reference" "CK27"
+			(at 62.23 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "699601d1-daba-4806-a294-0835648ef0a9")
+		)
+		(pin "2"
+			(uuid "0ae16576-8127-4c9e-bc68-1a221aafa024")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cc5d1f7-7572-48e1-a918-f509ddaef0c5")
+		(property "Reference" "CK39"
+			(at 62.23 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a0f03e1-16e7-4c99-85c7-9d9c7e30eb0b")
+		)
+		(pin "2"
+			(uuid "26dcb170-288e-4ec9-9bd7-7db071cd177a")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60df7452-a0b4-47bf-ac00-71ec30cdfeb1")
+		(property "Reference" "CK60"
+			(at 82.55 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 82.55 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 76.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96ea403c-8d69-40e0-b661-2f2dd3372a3c")
+		)
+		(pin "2"
+			(uuid "6e918a94-9572-497a-a920-1897ef6fa736")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6286e3d3-603e-4e9e-b730-65156d9c5969")
+		(property "Reference" "CK25"
+			(at 62.23 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68834a64-8c54-4f8c-96d7-0c5f782cbfd8")
+		)
+		(pin "2"
+			(uuid "cc33d7f3-3099-414d-bd80-820e1b5113ca")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6426d039-f275-4cb2-8bbc-c8351e1ab496")
+		(property "Reference" "CK4"
+			(at 41.91 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "763a8a9b-efaa-49f1-a4c7-1d3c86c2e4e3")
+		)
+		(pin "2"
+			(uuid "b349bc8e-8b00-4016-9865-dd108f7d8cbd")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 69.85 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69fa2201-72f1-47e1-99d2-a6ab34e646ea")
+		(property "Reference" "#PWR030"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 69.85 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c1ea163-ef96-4504-89ae-f8cd6370385a")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6db09701-5011-4485-8302-57ab6e6d8150")
+		(property "Reference" "CK49"
+			(at 82.55 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 82.55 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 76.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 76.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 76.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "970b8bad-7ce7-4ee6-b16c-1e5b009b4650")
+		)
+		(pin "2"
+			(uuid "23470ac5-8204-4870-9c62-f001e4184bab")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 78.74 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e7172bd-c85b-4a29-bccc-c35914912c76")
+		(property "Reference" "#PWR031"
+			(at 78.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 78.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "031824d6-87ae-48bd-829f-70ffd551f1d0")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76e68ccd-0960-4e60-8f50-d526e844ba21")
+		(property "Reference" "CK13"
+			(at 41.91 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "482c26ac-db1b-4aa7-8114-b339509a1276")
+		)
+		(pin "2"
+			(uuid "5431b260-512d-420c-9b42-b9b0487b72b4")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "778d7355-4db3-4f5b-87aa-54bf888e03c8")
+		(property "Reference" "CK42"
+			(at 62.23 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9949af07-55ab-45be-92dd-cb944722f5c5")
+		)
+		(pin "2"
+			(uuid "5c6aa819-dbb0-4652-b322-ccfe33f45798")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82be4b26-576f-4019-85d0-8f3bc4b0114f")
+		(property "Reference" "CK32"
+			(at 62.23 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eaf131a-a711-4832-8fb8-1dbef4ecce79")
+		)
+		(pin "2"
+			(uuid "ad51b6a3-bec8-4b15-9b72-2501d79da353")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87b5f4fb-8ee6-4b40-997c-daff5077af2e")
+		(property "Reference" "CK16"
+			(at 41.91 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ec8b7cd-ba56-4713-ab46-b9b6d015fcd3")
+		)
+		(pin "2"
+			(uuid "2b7d454e-4c15-46f7-a9bc-db3efe50fab5")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "999cebcf-15c4-4f4e-a2b5-4e6a48c52b84")
+		(property "Reference" "CK1"
+			(at 41.91 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3e19033-00a5-4c23-9aaf-b447b3449518")
+		)
+		(pin "2"
+			(uuid "ee645b58-e97f-49ff-a8f5-5179c79192d0")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d41ecb2-1f4f-4831-8fcf-2063715da42b")
+		(property "Reference" "CK11"
+			(at 41.91 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2529a5e6-2058-48c4-aadd-8a1f00f39fde")
+		)
+		(pin "2"
+			(uuid "42d23f9f-79fb-44ea-8c18-fb0a0b36a905")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3b7e448-acf4-46d3-a4a6-02150166708a")
+		(property "Reference" "CK3"
+			(at 41.91 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cfcfd59-7ed0-4329-b345-b61be88666ad")
+		)
+		(pin "2"
+			(uuid "43b66802-7101-4220-8b34-1746d2ce54bb")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aceada01-1377-452a-baa1-d118a463b628")
+		(property "Reference" "CK14"
+			(at 41.91 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c722056c-f6a0-4fdc-bcbe-475ed24cf406")
+		)
+		(pin "2"
+			(uuid "b6b95400-0260-47ef-bcb9-fd2e552a6133")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad945c46-758e-4f49-9ccb-c67c38cc34de")
+		(property "Reference" "#PWR028"
+			(at 49.53 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 49.53 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a975473-05d0-43a9-8a36-133a673df9f5")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae5cd6df-8f0f-4fa6-a065-1fc216d5276f")
+		(property "Reference" "CK19"
+			(at 41.91 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee455e6c-55ad-4acc-940b-750c34b14bc1")
+		)
+		(pin "2"
+			(uuid "8e0ff660-6065-44ff-a0f8-c8ff0e53df5e")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0ee858d-b770-4fb1-9668-9f6a8db7139d")
+		(property "Reference" "CK61"
+			(at 82.55 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 82.55 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 76.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f920d479-860b-49ed-b29f-1a214c9c1814")
+		)
+		(pin "2"
+			(uuid "db7e0768-0e4b-4f34-ba70-c5918fa88285")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2bf861b-076e-4361-8380-dd055994b69e")
+		(property "Reference" "CK34"
+			(at 62.23 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "905864fd-2e9b-4812-a058-f7fae57135c0")
+		)
+		(pin "2"
+			(uuid "0b266f90-7833-446e-85f9-dfd38daab498")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3cc03ca-449c-4a21-a180-aa3cfd5d07f8")
+		(property "Reference" "CK10"
+			(at 41.91 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1426fea-ea77-4004-b49d-29da8f7fcc1f")
+		)
+		(pin "2"
+			(uuid "af5fa0ba-6ba8-4730-b1db-56c019d132f0")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf4f074f-32a1-4578-a848-8a6504a0f327")
+		(property "Reference" "CK38"
+			(at 62.23 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0383f03-2581-4cef-bb79-a9b109aa9b2b")
+		)
+		(pin "2"
+			(uuid "73e0e797-a445-43aa-9371-63f60a754fb4")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c25526ab-876b-4dff-a053-22f8e698f19b")
+		(property "Reference" "CK30"
+			(at 62.23 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "534448d3-eee1-48ea-bbf8-d386d758199c")
+		)
+		(pin "2"
+			(uuid "ef818de6-8c9b-4cec-a67d-027a5b9b1410")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6ad6a08-af52-4571-af02-78bedcad5eb9")
+		(property "Reference" "CK29"
+			(at 62.23 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d13ef16a-c0d5-42c4-9364-f260217168fc")
+		)
+		(pin "2"
+			(uuid "8401bea7-1445-4292-8e9c-2aedf3ba26c5")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca055125-72b3-4978-b831-769a671b58dc")
+		(property "Reference" "CK31"
+			(at 62.23 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9e18a46-3be4-4bae-92e8-e76847669ee0")
+		)
+		(pin "2"
+			(uuid "3b48411d-e87e-4485-a34a-819a9754e959")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb10e3cf-3465-4745-a9d6-4656c6062d21")
+		(property "Reference" "CK8"
+			(at 41.91 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aa24a58-629c-4e10-8821-1e7532c4dfa8")
+		)
+		(pin "2"
+			(uuid "c2c5e630-c355-4acb-bb0f-fa194e7caa4c")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cec0bf1c-3b54-4f52-b2e8-d010c551c132")
+		(property "Reference" "CK59"
+			(at 82.55 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 82.55 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87aba7af-7caf-4a2a-a0b3-c2e997166cb5")
+		)
+		(pin "2"
+			(uuid "d6fccd49-568e-4d8f-a196-8e37de19c944")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0fac19d-347d-4070-bd6a-6dd7e2a7acfd")
+		(property "Reference" "CK56"
+			(at 82.55 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 82.55 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 76.2 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4f4719e-7ac4-4bd2-92dc-2fb384d60dcb")
+		)
+		(pin "2"
+			(uuid "509b60c2-ba58-478a-917b-b0e19723e6cf")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8cf1f45-e720-4aad-9c6d-cda3c6147583")
+		(property "Reference" "CK54"
+			(at 82.55 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 82.55 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 76.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e02c0ae-e06c-4757-b87f-b1dfb83bf1ef")
+		)
+		(pin "2"
+			(uuid "413e7ebe-d9dd-4dc0-b37a-616d2b510240")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8d41e0b-b6ad-4ddb-95a1-cc8d95916b8d")
+		(property "Reference" "CK26"
+			(at 62.23 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fd4b4d9-3723-497d-ab48-cf6e4a89cb2c")
+		)
+		(pin "2"
+			(uuid "a98df61f-e51f-470d-b359-00fab85e2653")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da437217-31ff-45ef-b131-d8c9f9f546ad")
+		(property "Reference" "CK33"
+			(at 62.23 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cc3eb7a-ab0e-4fbe-8ad4-1b0aa9494a72")
+		)
+		(pin "2"
+			(uuid "7262e8a3-9ba3-428e-95a7-e0c898d0b104")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbc9db0e-5bed-4475-80fc-05afb73be6d8")
+		(property "Reference" "CK35"
+			(at 62.23 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "953f3d0a-cade-44e2-b340-d5d6578a3d8d")
+		)
+		(pin "2"
+			(uuid "2c5671e7-17cc-4754-a513-9791cc886ea5")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dde6c3b7-6066-4e6f-94e2-bb45ff31534b")
+		(property "Reference" "CK57"
+			(at 82.55 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 82.55 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 76.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a3b9638-9070-4e68-902f-bee2c3f0eaa3")
+		)
+		(pin "2"
+			(uuid "e8597ba2-eec7-49ba-9614-0256a6bda1f1")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de5d5e82-e106-4e00-b312-e80815adc49e")
+		(property "Reference" "CK6"
+			(at 41.91 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9f82eac-0741-40f0-87b2-354e06841baa")
+		)
+		(pin "2"
+			(uuid "e04a85b7-6f05-47c2-94d6-96b66cd95ebc")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dff92e02-a06f-4f21-b4b0-cae216442f64")
+		(property "Reference" "CK47"
+			(at 82.55 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 82.55 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 76.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 76.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 76.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c6cd21a-7d63-4255-8bd7-2f2c6d8110d7")
+		)
+		(pin "2"
+			(uuid "bd9812fb-e7ea-4543-b64b-d846b1639dda")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e17c776e-c2ff-4a31-bc35-5f152ef65248")
+		(property "Reference" "CK44"
+			(at 62.23 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a28ed451-f89b-4028-aaf3-a6dda4916f50")
+		)
+		(pin "2"
+			(uuid "70be4c71-46a8-4438-8cf3-7f79e075199b")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3996b0e-139c-440c-9f70-0e5320607376")
+		(property "Reference" "CK18"
+			(at 41.91 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38e05f6a-d3df-4b63-a428-535580f29129")
+		)
+		(pin "2"
+			(uuid "77af2f5a-6219-4094-83af-fc0a452ffc6d")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5d7fe25-8cc7-484c-8f2b-64987bfba8bd")
+		(property "Reference" "CK20"
+			(at 41.91 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f681cd2-1db1-4854-825d-24eba1e1c0f6")
+		)
+		(pin "2"
+			(uuid "7b26b564-b9d1-4a23-b028-1b8affefeb5c")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea3d88b4-923f-43cf-b40c-8148dd16ae16")
+		(property "Reference" "CK48"
+			(at 82.55 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 82.55 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 76.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 76.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 76.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2876665a-b14c-4edb-b26b-7867c885709e")
+		)
+		(pin "2"
+			(uuid "092ab425-0e2c-4ad9-b932-df1a0e842634")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb4474db-f3a7-49a2-8207-398317be3d3c")
+		(property "Reference" "CK58"
+			(at 82.55 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 82.55 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8abbaf5e-bd1d-4ca3-b108-911a9ef6844c")
+		)
+		(pin "2"
+			(uuid "c739b280-0f03-42c1-955c-560dd9067756")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 35.56 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2762481-0d70-44f0-b36a-6942710ccea1")
+		(property "Reference" "CK5"
+			(at 41.91 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 41.91 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 35.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fd2ae0b-9fae-4459-bdf9-5e19ba199ab5")
+		)
+		(pin "2"
+			(uuid "8abd43fa-bd89-4de4-99bf-374460023d12")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f91ce184-a45e-442a-bec3-15cd8aab6854")
+		(property "Reference" "CK28"
+			(at 62.23 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52599488-d52d-41aa-afa4-a5ef4ded1b8f")
+		)
+		(pin "2"
+			(uuid "38dcb9ca-7c7d-49cb-bce6-6994b60c32bc")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 55.88 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fae8c43b-0df1-4a87-9a08-0810c132319f")
+		(property "Reference" "CK43"
+			(at 62.23 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "U10"
+			(at 62.23 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 55.88 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9129f63c-7d22-49ce-abf8-26164f7fa752")
+		)
+		(pin "2"
+			(uuid "ea059cbe-69c6-42f6-8263-d4bf1ca1e6ea")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "CK43")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

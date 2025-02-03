@@ -5344,7 +5344,7 @@
 				)
 			)
 		)
-		(property "Value" "10U"
+		(property "Value" "U10"
 			(at 192.405 46.355 0)
 			(effects
 				(font
