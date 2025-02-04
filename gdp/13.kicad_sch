@@ -2446,6 +2446,12 @@
 		(uuid "9915fa82-b036-4fe5-8d6e-eb64496f11eb")
 	)
 	(junction
+		(at 170.18 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4dcf07e-40f0-4f52-a479-45fc62103e79")
+	)
+	(junction
 		(at 120.65 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2511,7 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 48.26) (xy 170.18 50.8)
+			(xy 170.18 48.26) (xy 170.18 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2718,6 +2724,16 @@
 			(type default)
 		)
 		(uuid "4df5373c-a628-4d2d-ad90-3edb238f2a04")
+	)
+	(wire
+		(pts
+			(xy 170.18 49.53) (xy 177.8 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f89c000-1a4e-4881-a519-81055d9eea37")
 	)
 	(wire
 		(pts
@@ -2928,6 +2944,16 @@
 			(type default)
 		)
 		(uuid "7acf6101-6754-4549-b85d-76d8367fba34")
+	)
+	(wire
+		(pts
+			(xy 170.18 49.53) (xy 170.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855c3a14-664a-430d-b44d-556e839e20e1")
 	)
 	(wire
 		(pts
@@ -5949,6 +5975,73 @@
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/123266b5-995d-4527-ad06-2cb8a9732efd"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 177.8 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6aa19fc-0cf4-4bbb-8384-bcd0eee832da")
+		(property "Reference" "#PWR032"
+			(at 177.8 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 177.8 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39bbd027-7c7f-4c54-b5ab-72b03f787033")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/123266b5-995d-4527-ad06-2cb8a9732efd"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
