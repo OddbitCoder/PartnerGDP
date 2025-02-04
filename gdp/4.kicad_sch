@@ -8,6 +8,7 @@
 		(title "PARTNER GDP: GDP RAM")
 		(company "Oddbit Retro")
 		(comment 1 "NARISAL: MIHA GRČAR")
+		(comment 2 "Pin numbers are all wrong in the original drawing.")
 	)
 	(lib_symbols
 		(symbol "74LS352_1"
