@@ -8,6 +8,7 @@
 		(title "PARTNER GDP: MISC")
 		(company "Oddbit Retro")
 		(comment 1 "NARISAL: MIHA GRČAR")
+		(comment 2 "Things not in the original drawing.")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -128,6 +129,127 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -414,6 +536,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d8fea60-1b47-4088-9a63-07c11ee59837")
+	)
+	(junction
+		(at 119.38 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e0dab80-d7f6-4c28-875c-0190a30db446")
 	)
 	(junction
 		(at 58.42 104.14)
@@ -1179,6 +1307,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 39.37) (xy 110.49 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220fc8af-c140-406e-9b4a-9c5cab5fc16a")
+	)
+	(wire
+		(pts
 			(xy 53.34 63.5) (xy 53.34 68.58)
 		)
 		(stroke
@@ -1569,6 +1707,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 52.07) (xy 119.38 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65937e88-574f-4123-b362-f3ece48e3b13")
+	)
+	(wire
+		(pts
 			(xy 58.42 63.5) (xy 58.42 68.58)
 		)
 		(stroke
@@ -1819,6 +1967,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 36.83) (xy 119.38 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae61f02-bd61-4612-8449-f437676938c4")
+	)
+	(wire
+		(pts
 			(xy 58.42 68.58) (xy 58.42 73.66)
 		)
 		(stroke
@@ -1856,6 +2014,16 @@
 			(type default)
 		)
 		(uuid "a2fe2d7f-924d-4d35-bace-5ed6905d632b")
+	)
+	(wire
+		(pts
+			(xy 119.38 36.83) (xy 119.38 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31c913a-f678-4bad-97dc-9ed98b75b637")
 	)
 	(wire
 		(pts
@@ -2049,6 +2217,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 39.37) (xy 110.49 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7de0ec8-b42d-4fca-bfbe-1adaa053facb")
+	)
+	(wire
+		(pts
 			(xy 58.42 104.14) (xy 58.42 109.22)
 		)
 		(stroke
@@ -2096,6 +2274,48 @@
 			(type default)
 		)
 		(uuid "f7329761-edca-4846-9912-a4c65bc2e358")
+	)
+	(global_label "ATTD6"
+		(shape input)
+		(at 107.95 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c4dec2f-e9e6-4a11-84a6-835a0235c09d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.4615 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ATTD7"
+		(shape input)
+		(at 107.95 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4a3e29b-27ac-409c-a978-aee8633b3003")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.4615 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GNDD")
@@ -2634,6 +2854,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 119.38 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e603b3d-769c-450d-80d5-4017ce09b1ef")
+		(property "Reference" "R56"
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K2"
+			(at 120.65 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GDP:R_XL"
+			(at 117.602 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 119.38 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0317c8d-242e-46c4-a561-6b3b55333d81")
+		)
+		(pin "2"
+			(uuid "fe56c2bb-c143-4c10-a6c4-dd143b3f145d")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 55.88 88.9 90)
 		(unit 1)
@@ -3097,6 +3386,75 @@
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
 					(reference "CK17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "476ec152-f48e-46b9-8081-100d5911fbbc")
+		(property "Reference" "R55"
+			(at 111.76 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K2"
+			(at 111.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GDP:R_XL"
+			(at 108.712 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fb7ef19-d36e-4b4d-89a4-97b669156329")
+		)
+		(pin "2"
+			(uuid "1743e157-afc8-4a7d-bd4a-801959c589a8")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -4766,6 +5124,73 @@
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
 					(reference "CK38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 119.38 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c18774ed-399c-43da-bfa8-04e9bd917ce9")
+		(property "Reference" "#PWR088"
+			(at 119.38 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 119.38 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bd8efbc-1de1-4ae4-aa33-2489cc917c38")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/44a9780b-71f6-40f0-9057-b92b2aeabcf0"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
