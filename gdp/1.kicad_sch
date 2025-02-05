@@ -8,6 +8,7 @@
 		(title "PARTNER GDP: BUS + KEYBOARD INTERFACE")
 		(company "Oddbit Retro")
 		(comment 1 "NARISAL: MIHA GRČAR")
+		(comment 2 "SH3 does not exist on the original board.")
 	)
 	(lib_symbols
 		(symbol "74xx:74LS06"
@@ -9985,7 +9986,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "a6554384-6484-4fef-9b69-34917320dec6")
 		(property "Reference" "SH3"
