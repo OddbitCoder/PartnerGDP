@@ -648,12 +648,6 @@
 		(uuid "0d8fea60-1b47-4088-9a63-07c11ee59837")
 	)
 	(junction
-		(at 119.38 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e0dab80-d7f6-4c28-875c-0190a30db446")
-	)
-	(junction
 		(at 58.42 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1192,6 +1186,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0512357-9e01-43ea-a066-0768bf9fc669")
+	)
+	(junction
+		(at 119.38 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e336cbf0-4d66-4180-a2a6-e1d8e21655b2")
 	)
 	(junction
 		(at 53.34 119.38)
@@ -1817,7 +1817,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 48.26) (xy 119.38 48.26)
+			(xy 110.49 49.53) (xy 119.38 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1864,6 +1864,16 @@
 			(type default)
 		)
 		(uuid "708598a7-3ac6-4ed7-a75d-8cfb6098b845")
+	)
+	(wire
+		(pts
+			(xy 119.38 50.8) (xy 119.38 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c9e771-68de-4ba6-a486-53d9dae01e08")
 	)
 	(wire
 		(pts
@@ -2167,6 +2177,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 49.53) (xy 119.38 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5a0d7a-c395-4e74-bddd-6a1ce708575d")
+	)
+	(wire
+		(pts
 			(xy 58.42 124.46) (xy 58.42 129.54)
 		)
 		(stroke
@@ -2204,6 +2224,16 @@
 			(type default)
 		)
 		(uuid "b45fedc8-231b-4465-894e-d37711ca6c14")
+	)
+	(wire
+		(pts
+			(xy 110.49 49.53) (xy 110.49 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4d6cf2e-139a-432d-87fa-7ca3971301ed")
 	)
 	(wire
 		(pts
@@ -5262,7 +5292,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 119.38 48.26 0)
+		(at 119.38 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5271,7 +5301,7 @@
 		(fields_autoplaced yes)
 		(uuid "c18774ed-399c-43da-bfa8-04e9bd917ce9")
 		(property "Reference" "#PWR088"
-			(at 119.38 54.61 0)
+			(at 119.38 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +5310,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 119.38 52.07 0)
+			(at 119.38 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5289,7 +5319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 48.26 0)
+			(at 119.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 48.26 0)
+			(at 119.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5307,7 +5337,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 48.26 0)
+			(at 119.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
