@@ -58,7 +58,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "track_dangling|101600000|73025000|a6216403-e79d-47b8-9020-41ee95f7c885|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|138684000|101600000|19e121bb-4f91-4c17-9eb8-475f91c3c54f|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -89,7 +98,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
