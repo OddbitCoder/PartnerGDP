@@ -1,10 +1,11 @@
 import re
+import math
 
-def move_non_hv_segments_to_in3(input_path, output_path):
+def move_segments_by_length_and_width(input_path, output_path):
     with open(input_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Regex to match each full (segment ...) block
+    # Regex to match segment blocks
     segment_pattern = re.compile(
         r"\(segment\s*"
         r"\(start\s+([-+]?\d*\.?\d+)\s+([-+]?\d*\.?\d+)\)\s*"
@@ -17,25 +18,27 @@ def move_non_hv_segments_to_in3(input_path, output_path):
         re.MULTILINE
     )
 
-    def is_non_hv(x1, y1, x2, y2):
-        return not (x1 == x2 or y1 == y2)
+    def should_move(x1, y1, x2, y2, width, layer):
+        if layer != "In1.Cu" or width != 0.25:
+            return False
+        length = math.hypot(x2 - x1, y2 - y1)
+        return 0.635 <= length <= 1.905
 
     def replace_if_needed(match):
         x1, y1, x2, y2 = map(float, match.group(1, 2, 3, 4))
         width = float(match.group(5))
         layer = match.group(6)
-
         segment_text = match.group(0)
-        if width == 0.25 and layer == "In1.Cu" and is_non_hv(x1, y1, x2, y2):
-            # Replace layer string
+
+        if should_move(x1, y1, x2, y2, width, layer):
             return segment_text.replace('(layer "In1.Cu")', '(layer "In3.Cu")')
         return segment_text
 
-    # Update content
+    # Apply transformation
     updated_content = segment_pattern.sub(replace_if_needed, content)
 
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(updated_content)
 
 # Example usage
-move_non_hv_segments_to_in3("gdp.kicad_pcb", "gdp.kicad_pcb")
+move_segments_by_length_and_width("gdp.kicad_pcb", "gdp.kicad_pcb")
