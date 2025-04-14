@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "9db38f9f-835d-48f8-9042-f2a03190f0ca")
 	(paper "A4")
 	(title_block
@@ -62,8 +62,8 @@
 			)
 			(symbol "74LS352_1_0_0"
 				(rectangle
-					(start -10.16 -21.59)
-					(end 8.89 -24.13)
+					(start -10.16 13.97)
+					(end 8.89 -21.59)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -73,8 +73,8 @@
 					)
 				)
 				(rectangle
-					(start -10.16 13.97)
-					(end 8.89 -21.59)
+					(start -10.16 -21.59)
+					(end 8.89 -24.13)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -99,24 +99,6 @@
 			)
 			(symbol "74LS352_1_1_0"
 				(pin power_in line
-					(at 0 -27.94 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 0 33.02 270)
 					(length 3.81)
 					(name "VCC"
@@ -134,109 +116,37 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74LS352_1_1_1"
-				(pin input line
-					(at -13.97 -19.05 0)
+				(pin input inverted
+					(at -13.97 26.67 0)
 					(length 3.81)
-					(name "NC"
+					(name "RAS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -7.62 0)
-					(length 3.81)
-					(name "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -3.81 0)
-					(length 3.81)
-					(name "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 0 0)
-					(length 3.81)
-					(name "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -11.43 0)
-					(length 3.81)
-					(name "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -22.86 180)
-					(length 3.81)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -262,24 +172,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -13.97 -22.86 0)
-					(length 3.81)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input inverted
 					(at -13.97 19.05 0)
 					(length 3.81)
@@ -291,24 +183,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -13.97 26.67 0)
-					(length 3.81)
-					(name "RAS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -335,6 +209,24 @@
 					)
 				)
 				(pin input line
+					(at -13.97 7.62 0)
+					(length 3.81)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -13.97 3.81 0)
 					(length 3.81)
 					(name "A2"
@@ -353,16 +245,70 @@
 					)
 				)
 				(pin input line
-					(at -13.97 7.62 0)
+					(at -13.97 0 0)
 					(length 3.81)
-					(name "A1"
+					(name "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -3.81 0)
+					(length 3.81)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -7.62 0)
+					(length 3.81)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -11.43 0)
+					(length 3.81)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -388,7 +334,62 @@
 						)
 					)
 				)
+				(pin input line
+					(at -13.97 -19.05 0)
+					(length 3.81)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -22.86 0)
+					(length 3.81)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -22.86 180)
+					(length 3.81)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "74LS352_2"
 			(exclude_from_sim no)
@@ -439,8 +440,8 @@
 			)
 			(symbol "74LS352_2_0_0"
 				(rectangle
-					(start -10.16 -21.59)
-					(end 8.89 -24.13)
+					(start -10.16 13.97)
+					(end 8.89 -21.59)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -450,8 +451,8 @@
 					)
 				)
 				(rectangle
-					(start -10.16 13.97)
-					(end 8.89 -21.59)
+					(start -10.16 -21.59)
+					(end 8.89 -24.13)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -476,24 +477,6 @@
 			)
 			(symbol "74LS352_2_1_0"
 				(pin power_in line
-					(at 0 -27.94 90)
-					(length 3.81)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at 0 33.02 270)
 					(length 3.81)
 					(name "VCC"
@@ -511,109 +494,37 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -27.94 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "74LS352_2_1_1"
-				(pin input line
-					(at -13.97 -19.05 0)
+				(pin input inverted
+					(at -13.97 26.67 0)
 					(length 3.81)
-					(name "NC"
+					(name "~{RAS}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -7.62 0)
-					(length 3.81)
-					(name "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -3.81 0)
-					(length 3.81)
-					(name "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 0 0)
-					(length 3.81)
-					(name "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -11.43 0)
-					(length 3.81)
-					(name "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -22.86 180)
-					(length 3.81)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -639,24 +550,6 @@
 						)
 					)
 				)
-				(pin input line
-					(at -13.97 -22.86 0)
-					(length 3.81)
-					(name "DIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input inverted
 					(at -13.97 19.05 0)
 					(length 3.81)
@@ -668,24 +561,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -13.97 26.67 0)
-					(length 3.81)
-					(name "~{RAS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -712,6 +587,24 @@
 					)
 				)
 				(pin input line
+					(at -13.97 7.62 0)
+					(length 3.81)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -13.97 3.81 0)
 					(length 3.81)
 					(name "A2"
@@ -730,16 +623,70 @@
 					)
 				)
 				(pin input line
-					(at -13.97 7.62 0)
+					(at -13.97 0 0)
 					(length 3.81)
-					(name "A1"
+					(name "A3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -3.81 0)
+					(length 3.81)
+					(name "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -7.62 0)
+					(length 3.81)
+					(name "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -11.43 0)
+					(length 3.81)
+					(name "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -765,7 +712,62 @@
 						)
 					)
 				)
+				(pin input line
+					(at -13.97 -19.05 0)
+					(length 3.81)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -22.86 0)
+					(length 3.81)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 -22.86 180)
+					(length 3.81)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
@@ -843,7 +845,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -855,7 +857,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -869,7 +871,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -886,6 +889,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GNDD"
 			(power)
@@ -976,7 +980,8 @@
 			(symbol "GNDD_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GNDD"
 						(effects
 							(font
@@ -993,6 +998,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -5487,7 +5493,6 @@
 	)
 	(label "~{CAS}"
 		(at 180.975 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5498,7 +5503,6 @@
 	)
 	(label "GA0"
 		(at 243.84 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5509,7 +5513,6 @@
 	)
 	(label "GA3"
 		(at 118.11 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5520,7 +5523,6 @@
 	)
 	(label "GA5"
 		(at 118.11 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5531,7 +5533,6 @@
 	)
 	(label "GA5"
 		(at 243.84 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5542,7 +5543,6 @@
 	)
 	(label "GA0"
 		(at 180.975 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5553,7 +5553,6 @@
 	)
 	(label "~{DINX}"
 		(at 243.84 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5564,7 +5563,6 @@
 	)
 	(label "GA1"
 		(at 55.245 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5575,7 +5573,6 @@
 	)
 	(label "GA0"
 		(at 180.975 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5586,7 +5583,6 @@
 	)
 	(label "GA4"
 		(at 180.975 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5597,7 +5593,6 @@
 	)
 	(label "GA1"
 		(at 55.245 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5608,7 +5603,6 @@
 	)
 	(label "GA2"
 		(at 180.975 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5619,7 +5613,6 @@
 	)
 	(label "GA1"
 		(at 118.11 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5630,7 +5623,6 @@
 	)
 	(label "~{DINX}"
 		(at 118.11 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5641,7 +5633,6 @@
 	)
 	(label "~{WRITE}"
 		(at 180.975 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5652,7 +5643,6 @@
 	)
 	(label "GA6"
 		(at 243.84 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5663,7 +5653,6 @@
 	)
 	(label "~{WRITE}"
 		(at 55.245 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5674,7 +5663,6 @@
 	)
 	(label "GA4"
 		(at 180.975 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5685,7 +5673,6 @@
 	)
 	(label "~{DINX}"
 		(at 243.84 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5696,7 +5683,6 @@
 	)
 	(label "GA3"
 		(at 243.84 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5707,7 +5693,6 @@
 	)
 	(label "GA6"
 		(at 55.245 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5718,7 +5703,6 @@
 	)
 	(label "GA2"
 		(at 180.975 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5729,7 +5713,6 @@
 	)
 	(label "GA7"
 		(at 243.84 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5740,7 +5723,6 @@
 	)
 	(label "GA4"
 		(at 243.84 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5751,7 +5733,6 @@
 	)
 	(label "GA3"
 		(at 180.975 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5762,7 +5743,6 @@
 	)
 	(label "GA2"
 		(at 55.245 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5773,7 +5753,6 @@
 	)
 	(label "GA7"
 		(at 180.975 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5784,7 +5763,6 @@
 	)
 	(label "GA2"
 		(at 118.11 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5795,7 +5773,6 @@
 	)
 	(label "~{CAS}"
 		(at 243.84 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5806,7 +5783,6 @@
 	)
 	(label "GA0"
 		(at 243.84 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5817,7 +5793,6 @@
 	)
 	(label "~{DINX}"
 		(at 55.245 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5828,7 +5803,6 @@
 	)
 	(label "~{WRITE}"
 		(at 118.11 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5839,7 +5813,6 @@
 	)
 	(label "GA0"
 		(at 55.245 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5850,7 +5823,6 @@
 	)
 	(label "GA5"
 		(at 118.11 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5861,7 +5833,6 @@
 	)
 	(label "GA4"
 		(at 55.245 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5872,7 +5843,6 @@
 	)
 	(label "~{DINX}"
 		(at 55.245 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5883,7 +5853,6 @@
 	)
 	(label "GA0"
 		(at 118.11 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5894,7 +5863,6 @@
 	)
 	(label "~{WRITE}"
 		(at 55.245 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5905,7 +5873,6 @@
 	)
 	(label "GA6"
 		(at 180.975 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5916,7 +5883,6 @@
 	)
 	(label "GA4"
 		(at 55.245 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5927,7 +5893,6 @@
 	)
 	(label "GA1"
 		(at 180.975 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5938,7 +5903,6 @@
 	)
 	(label "GA5"
 		(at 180.975 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5949,7 +5913,6 @@
 	)
 	(label "GA2"
 		(at 243.84 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5960,7 +5923,6 @@
 	)
 	(label "GA6"
 		(at 243.84 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5971,7 +5933,6 @@
 	)
 	(label "GA7"
 		(at 180.975 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5982,7 +5943,6 @@
 	)
 	(label "GA7"
 		(at 243.84 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5993,7 +5953,6 @@
 	)
 	(label "GA2"
 		(at 243.84 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6004,7 +5963,6 @@
 	)
 	(label "GA2"
 		(at 55.245 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6015,7 +5973,6 @@
 	)
 	(label "GA3"
 		(at 243.84 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6026,7 +5983,6 @@
 	)
 	(label "~{DINX}"
 		(at 180.975 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6037,7 +5993,6 @@
 	)
 	(label "GA7"
 		(at 55.245 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6048,7 +6003,6 @@
 	)
 	(label "GA6"
 		(at 55.245 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6059,7 +6013,6 @@
 	)
 	(label "GA5"
 		(at 243.84 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6070,7 +6023,6 @@
 	)
 	(label "~{WRITE}"
 		(at 180.975 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6081,7 +6033,6 @@
 	)
 	(label "GA4"
 		(at 243.84 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6092,7 +6043,6 @@
 	)
 	(label "GA1"
 		(at 243.84 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6103,7 +6053,6 @@
 	)
 	(label "GA1"
 		(at 180.975 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6114,7 +6063,6 @@
 	)
 	(label "GA0"
 		(at 55.245 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6125,7 +6073,6 @@
 	)
 	(label "~{CAS}"
 		(at 118.11 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6136,7 +6083,6 @@
 	)
 	(label "GA7"
 		(at 118.11 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6147,7 +6093,6 @@
 	)
 	(label "~{DINX}"
 		(at 180.975 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6158,7 +6103,6 @@
 	)
 	(label "GA0"
 		(at 118.11 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6169,7 +6113,6 @@
 	)
 	(label "GA3"
 		(at 180.975 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6180,7 +6123,6 @@
 	)
 	(label "GA7"
 		(at 55.245 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6191,7 +6133,6 @@
 	)
 	(label "GA5"
 		(at 55.245 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6202,7 +6143,6 @@
 	)
 	(label "~{CAS}"
 		(at 55.245 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6213,7 +6153,6 @@
 	)
 	(label "GA1"
 		(at 243.84 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6224,7 +6163,6 @@
 	)
 	(label "GA6"
 		(at 118.11 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6235,7 +6173,6 @@
 	)
 	(label "GA1"
 		(at 118.11 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6246,7 +6183,6 @@
 	)
 	(label "GA5"
 		(at 180.975 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6257,7 +6193,6 @@
 	)
 	(label "GA2"
 		(at 118.11 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6268,7 +6203,6 @@
 	)
 	(label "~{CAS}"
 		(at 118.11 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6279,7 +6213,6 @@
 	)
 	(label "GA4"
 		(at 118.11 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6290,7 +6223,6 @@
 	)
 	(label "~{DINX}"
 		(at 118.11 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6301,7 +6233,6 @@
 	)
 	(label "GA3"
 		(at 118.11 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6312,7 +6243,6 @@
 	)
 	(label "GA6"
 		(at 180.975 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6323,7 +6253,6 @@
 	)
 	(label "~{WRITE}"
 		(at 243.84 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6334,7 +6263,6 @@
 	)
 	(label "~{CAS}"
 		(at 55.245 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6345,7 +6273,6 @@
 	)
 	(label "~{WRITE}"
 		(at 118.11 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6356,7 +6283,6 @@
 	)
 	(label "~{CAS}"
 		(at 243.84 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6367,7 +6293,6 @@
 	)
 	(label "~{CAS}"
 		(at 180.975 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6378,7 +6303,6 @@
 	)
 	(label "GA3"
 		(at 55.245 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6389,7 +6313,6 @@
 	)
 	(label "GA7"
 		(at 118.11 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6400,7 +6323,6 @@
 	)
 	(label "GA5"
 		(at 55.245 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6411,7 +6333,6 @@
 	)
 	(label "GA6"
 		(at 118.11 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6422,7 +6343,6 @@
 	)
 	(label "GA3"
 		(at 55.245 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6433,7 +6353,6 @@
 	)
 	(label "~{WRITE}"
 		(at 243.84 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6444,7 +6363,6 @@
 	)
 	(label "GA4"
 		(at 118.11 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
