@@ -720,6 +720,63 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 0 10.16 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 7.62 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 5.08 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 3.81)
@@ -1311,6 +1368,63 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 0 10.16 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 7.62 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 5.08 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output inverted
 					(at 7.62 0 180)
 					(length 3.81)
@@ -1895,6 +2009,63 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 10.16 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 7.62 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 5.08 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2867,6 +3038,63 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 10.16 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 7.62 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 5.08 180)
+					(length 3.81)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8156,7 +8384,7 @@
 		(dnp no)
 		(uuid "3142fe4c-8f80-42a4-b128-8f4a5a130907")
 		(property "Reference" "IC68"
-			(at 55.626 185.42 0)
+			(at 48.006 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8164,7 +8392,7 @@
 			)
 		)
 		(property "Value" "74LS30"
-			(at 58.166 185.42 0)
+			(at 50.546 186.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8230,6 +8458,15 @@
 		)
 		(pin "3"
 			(uuid "cbc612ed-5f9e-4009-bfbc-7663eb85f489")
+		)
+		(pin "9"
+			(uuid "eb4f6cbd-b87d-46ef-9366-a0221a6ec9a7")
+		)
+		(pin "10"
+			(uuid "55ce3435-d902-4fe8-a936-444b36e5cbbc")
+		)
+		(pin "13"
+			(uuid "19ff6fc7-90db-4099-ad1b-1fdfedad4d91")
 		)
 		(instances
 			(project "gdp"
@@ -8324,6 +8561,15 @@
 		)
 		(pin "3"
 			(uuid "f966d716-e538-49c4-9b91-5bf96994a0bb")
+		)
+		(pin "9"
+			(uuid "6cd4b47d-6bcd-435d-a419-e28433dbd011")
+		)
+		(pin "10"
+			(uuid "c159598c-53cb-42f5-bb3d-f3d93f0e0228")
+		)
+		(pin "13"
+			(uuid "d40c7ce7-0e3f-414e-a3c6-baef1374d3d0")
 		)
 		(instances
 			(project ""
@@ -9242,7 +9488,7 @@
 		(dnp no)
 		(uuid "9bd18c00-72f9-4823-b1f9-ee314febc5cd")
 		(property "Reference" "IC70"
-			(at 55.88 96.52 0)
+			(at 48.006 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9250,7 +9496,7 @@
 			)
 		)
 		(property "Value" "74LS30"
-			(at 58.42 96.52 0)
+			(at 50.546 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9316,6 +9562,15 @@
 		)
 		(pin "3"
 			(uuid "cbc612ed-5f9e-4009-bfbc-7663eb85f48a")
+		)
+		(pin "13"
+			(uuid "e7e88d17-ded6-4e79-b833-6f62226c35a8")
+		)
+		(pin "10"
+			(uuid "2dbdd9b0-8d0a-47cb-8cb5-29a5a3cb9eb9")
+		)
+		(pin "9"
+			(uuid "51ff183a-ab87-4ce7-9963-f6f6fab85f13")
 		)
 		(instances
 			(project "gdp"
@@ -10095,6 +10350,15 @@
 		)
 		(pin "3"
 			(uuid "3ded6403-559e-49ce-b22c-ca417e11dcc4")
+		)
+		(pin "10"
+			(uuid "f63c4a2d-7f62-4c7e-abb4-9ddf7a471548")
+		)
+		(pin "13"
+			(uuid "bb351335-8c9d-45c0-a8fe-04563ac29684")
+		)
+		(pin "9"
+			(uuid "2acac232-08fb-42d7-b23f-c914282cafff")
 		)
 		(instances
 			(project "gdp"
