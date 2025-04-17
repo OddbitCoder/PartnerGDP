@@ -3873,6 +3873,16 @@
 		)
 		(uuid "84f3c6e8-baec-4f7b-bad5-4f2b78f6d7cc")
 	)
+	(label "X_IC6_7"
+		(at 124.46 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b466a24-1a17-4c2e-9713-ffdb8ab75202")
+	)
 	(label "D0"
 		(at 168.91 115.57 0)
 		(effects
@@ -3912,6 +3922,16 @@
 			(justify left bottom)
 		)
 		(uuid "ca696560-4ab7-4102-9726-2a79f4776144")
+	)
+	(label "X_IC6_5"
+		(at 124.46 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da2b73f8-a123-4143-b2be-bc5de29fa198")
 	)
 	(label "D1"
 		(at 168.91 118.11 0)
