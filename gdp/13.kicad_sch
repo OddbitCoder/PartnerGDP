@@ -2474,6 +2474,12 @@
 		(uuid "4da73c72-ab38-440c-8fe4-5e2c5532b515")
 	)
 	(junction
+		(at 124.46 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "628e4824-5a9a-49a2-a720-52dc2cd4ae40")
+	)
+	(junction
 		(at 185.42 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2728,6 +2734,16 @@
 			(type default)
 		)
 		(uuid "34300397-a10c-4d26-a0b0-f7d9ab05cafb")
+	)
+	(wire
+		(pts
+			(xy 124.46 59.69) (xy 124.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388d07ea-4799-4a0a-8e6f-0c0c44565a75")
 	)
 	(wire
 		(pts
@@ -3258,6 +3274,16 @@
 			(type default)
 		)
 		(uuid "d5fef7ba-a9b3-4f2b-95fb-4ecce04bc43a")
+	)
+	(wire
+		(pts
+			(xy 124.46 54.61) (xy 132.08 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c04316-7cc8-46c2-aa6d-28859e4b94ce")
 	)
 	(wire
 		(pts
@@ -5279,6 +5305,73 @@
 			(project "gdp"
 				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/123266b5-995d-4527-ad06-2cb8a9732efd"
 					(reference "#PWR0185")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 124.46 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d79936f-54f2-4281-bc1c-32608a6fb338")
+		(property "Reference" "CK65"
+			(at 120.015 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 120.015 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "N/A"
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N/A"
+			(at 124.46 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85df718a-f03c-4513-ac19-18842477fca3")
+		)
+		(pin "2"
+			(uuid "edc8bd8c-083f-4c52-a89e-755b2f1f6996")
+		)
+		(instances
+			(project "gdp"
+				(path "/95aff260-2720-4733-a81d-a7a2136fdd14/123266b5-995d-4527-ad06-2cb8a9732efd"
+					(reference "CK65")
 					(unit 1)
 				)
 			)
