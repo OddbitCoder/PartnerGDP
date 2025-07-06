@@ -1,91 +1,88 @@
 # SHEET 6
-
 IC14/10 DAD3
-IC14/8  DAD2
-IC14/3  DAD1
-IC14/1  DAD0
+IC14/8 DAD2
+IC14/3 DAD1
+IC14/1 DAD0
 IC14/11 SCRL4
-IC14/7  SCRL5
-IC14/4  SCRL6
+IC14/7 SCRL5
+IC14/4 SCRL6
 IC14/16 SCRL7
 IC14/13 IC10
 IC14/14 SOUT
-IC14/9  IC25/11
-IC14/6  IC25/13
-IC14/2  IC25/15
+IC14/9 IC25/11
+IC14/6 IC25/13
+IC14/2 IC25/15
 IC14/15 IC25/17
 IC10/13 GND
 IC10/10 P0
-IC10/8  DAD6
-IC10/3  DAD5
-IC10/1  DAD4
+IC10/8 DAD6
+IC10/3 DAD5
+IC10/1 DAD4
 IC10/11 SCRL0
-IC10/7  SCRL1
-IC10/4  SCRL2
+IC10/7 SCRL1
+IC10/4 SCRL2
 IC10/16 SCRL3
-IC10/6  IC18/13
-IC10/2  IC18/15
+IC10/6 IC18/13
+IC10/2 IC18/15
 IC10/15 IC18/17
 IC18/19 MUX1
 IC18/11 GND
-IC18/9  NC
-IC18/7  GA0
-IC18/5  GA1
-IC18/3  GA2
+IC18/9 NC
+IC18/7 GA0
+IC18/5 GA1
+IC18/3 GA2
 IC25/19 MUX1
-IC25/9  GA3
-IC25/7  GA4
-IC25/5  GA5
-IC25/3  GA6
+IC25/9 GA3
+IC25/7 GA4
+IC25/5 GA5
+IC25/3 GA6
 IC32/19 NORM-
-IC32/9  GA6
-IC32/7  GA5
-IC32/5  GA4
-IC32/3  GA3
-IC18/1  NORM-
+IC32/9 GA6
+IC32/7 GA5
+IC32/5 GA4
+IC32/3 GA3
+IC18/1 NORM-
 IC18/18 GA2
 IC18/16 GA1
 IC18/14 GA0
 IC18/12 NC
-IC18/8  GND
-IC32/1  SHIFT-
-IC32/2  X9
+IC18/8 GND
+IC32/1 SHIFT-
+IC32/2 X9
 IC32/18 GA6
 IC32/16 GA5
 IC32/14 GA4
 IC32/12 GA3
-IC25/1  SHIFT-
+IC25/1 SHIFT-
 IC25/18 GA2
 IC25/16 GA1
 IC25/14 GA0
 IC25/12 NC
-IC25/8  GND
-IC25/2  IC32/17
-IC25/4  IC18/2
-IC25/6  IC18/6
-IC32/8  IC32/15
-IC18/4  DAD5
-IC10/9  IC18/6
+IC25/8 GND
+IC25/2 IC32/17
+IC25/4 IC18/2
+IC25/6 IC18/6
+IC32/8 IC32/15
+IC18/4 DAD5
+IC10/9 IC18/6
 IC32/13 IC32/6
-IC32/4  IC32/11
-IC10/1  IC25/4
+IC32/4 IC32/11
+IC10/1 IC25/4
 IC14/10 IC25/2
-IC32/8  IC14/8
-IC14/3  IC32/6
-IC32/4  IC14/1
-
+IC32/8 IC14/8
+IC14/3 IC32/6
+IC32/4 IC14/1
 # SHEET 1
-
-IC8/1  TSC-
+IC8/1 TSC-
 IC8/19 GND
-IC8/2  D0B
-IC8/3  D1B
-IC8/4  D2B
-IC8/5  D3B
-IC8/6  D4B
-IC8/7  D5B
-IC8/8  D6B
-IC8/9  D7B
+IC8/2 D0B
+IC8/3 D1B
+IC8/4 D2B
+IC8/5 D3B
+IC8/6 D4B
+IC8/7 D5B
+IC8/8 D6B
+IC8/9 D7B
 IC8/18 D0
 IC8/17 D1
 IC8/16 D2
@@ -94,12 +91,12 @@ IC8/14 D4
 IC8/13 D5
 IC8/12 D6
 IC8/11 D7
-ST4/1  GND
-ST4/2  GND
-ST4/4  ST4/5
-ST4/4  ST5/4
-ST4/5  ST5/5
-ST4/8  IEI
+ST4/1 GND
+ST4/2 GND
+ST4/4 ST4/5
+ST4/4 ST5/4
+ST4/5 ST5/5
+ST4/8 IEI
 ST4/11 RES-
 ST4/15 INT-
 ST4/17 PHI
@@ -114,10 +111,10 @@ ST4/29 D4B
 ST4/30 D5B
 ST4/31 D6B
 ST4/32 D7B
-ST4/3  NC
-ST4/6  NC
-ST4/7  NC
-ST4/9  NC
+ST4/3 NC
+ST4/6 NC
+ST4/7 NC
+ST4/9 NC
 ST4/10 NC
 ST4/12 NC
 ST4/13 NC
@@ -128,12 +125,12 @@ ST4/21 NC
 ST4/23 NC
 ST4/24 NC
 ST4/27 NC
-ST5/1  GND
-ST5/2  GND
-ST5/4  VCC
-ST5/5  VCC
-ST5/6  VDD
-ST5/6  ST4/6
+ST5/1 GND
+ST5/2 GND
+ST5/4 VCC
+ST5/5 VCC
+ST5/6 VDD
+ST5/6 ST4/6
 ST5/12 M1-
 ST5/16 RD-
 ST5/17 A0
@@ -144,10 +141,10 @@ ST5/21 A4
 ST5/22 A5
 ST5/23 A6
 ST5/24 A7
-ST5/3  NC
-ST5/7  NC
-ST5/8  NC
-ST5/9  NC
+ST5/3 NC
+ST5/7 NC
+ST5/8 NC
+ST5/9 NC
 ST5/10 NC
 ST5/11 NC
 ST5/13 NC
@@ -161,98 +158,95 @@ ST5/29 NC
 ST5/30 NC
 ST5/31 NC
 ST5/32 NC
-ST2/1  GND
-ST2/2  IC3/1
-ST2/3  IC11/1
-ST2/4  GND
-ST2/5  NC
-ST2/6  NC
-IC3/7  NC
-IC3/5  GND
-IC3/6  GND
-IC3/3  ST3/4
-IC3/2  ST3/6
+ST2/1 GND
+ST2/2 IC3/1
+ST2/3 IC11/1
+ST2/4 GND
+ST2/5 NC
+ST2/6 NC
+IC3/7 NC
+IC3/5 GND
+IC3/6 GND
+IC3/3 ST3/4
+IC3/2 ST3/6
 IC11/2 ST3/2
 IC11/3 R14/1
 IC11/4 ST3/9
-ST3/1  R15/2
-ST3/3  R12/2
-ST3/5  R14/2
-ST3/7  R10/1
-ST3/8  GND
+ST3/1 R15/2
+ST3/3 R12/2
+ST3/5 R14/2
+ST3/7 R10/1
+ST3/8 GND
 ST3/10 NC
-ST1/1  GND
-ST1/3  GND
-ST1/6  SH3/2
-
-R10/2   +5
-R15/2   +5
-R9/2   +5
-R8/2      GND
-R8/1     IC3/3
-R9/1     IC3/3
-R15/1     IC11/4
-R13/1    IC3/1
-R13/2     +5
-R13/2     R21/1
-R21/2     IC11/2
-R21/2     R12/1
-R12/1     R14/1
-R11/1     IC3/2
-R11/2     R14/2
-ST1/5     NC
-ST1/2     ST1/4
-ST1/2     +5
-CK23/1    +5
-CK23/2    GND
-ST1/6     +12
-SH1/2     +5
-SH1/1     VCC
-SH3/1     VDD
-SH2/2     GND
-SH2/1     LPEN
-
+ST1/1 GND
+ST1/3 GND
+ST1/6 SH3/2
+R10/2 +5
+R15/2 +5
+R9/2 +5
+R8/2 GND
+R8/1 IC3/3
+R9/1 IC3/3
+R15/1 IC11/4
+R13/1 IC3/1
+R13/2 +5
+R13/2 R21/1
+R21/2 IC11/2
+R21/2 R12/1
+R12/1 R14/1
+R11/1 IC3/2
+R11/2 R14/2
+ST1/5 NC
+ST1/2 ST1/4
+ST1/2 +5
+CK23/1 +5
+CK23/2 GND
+ST1/6 +12
+SH1/2 +5
+SH1/1 VCC
+SH3/1 VDD
+SH2/2 GND
+SH2/1 LPEN
 # SHEET 2
-
 (IC17)
-15    RBNK
-14  WBNK
-13  XORM
-12  FM0
-10  FM1
-9   GINT-
-8   AVINT-
-7   SCRLM
-27  NC
-28  CA1
-29  CA2
-30  CA3
-31  CA4
-32  CA5
-33  CA6
-34  CA7
-19  D0
-20  D1
-1   D2
-40  D3
-39  D4
-38  D5
-3   D6
-2   D7
-25  PHI
-6   A1
-5   A0
+15 RBNK
+14 WBNK
+13 XORM
+12 FM0
+10 FM1
+9 GINT-
+8 AVINT-
+7 SCRLM
+27 NC
+28 CA1
+29 CA2
+30 CA3
+31 CA4
+32 CA5
+33 CA6
+34 CA7
+19 D0
+20 D1
+1 D2
+40 D3
+39 D4
+38 D5
+3 D6
+2 D7
+25 PHI
+6 A1
+5 A0
 17 AVDINT-
 16 GDPINT-
-24  IEI
-4   IC7/14
-35  IC7/6
-36  IC7/9
-37  IC7/17
-21  NC
-18  NC
-22  NC
-23  IC7/8
+24 IEI
+4 IC7/14
+35 IC7/6
+36 IC7/9
+37 IC7/17
+21 NC
+18 NC
+22 NC
+23 IC7/8
 (IC7)
 19 NC
 18 DIN-
@@ -261,1304 +255,1147 @@ SH2/1     LPEN
 13 TSC-
 12 GDP-
 11 NC
-9  IORQ-
-8  INT-
-7  M1-
-6  RD-
-5  A4
-4  A3
-3  A2
-2  RES-
-1  IC6/6
-
+9 IORQ-
+8 INT-
+7 M1-
+6 RD-
+5 A4
+4 A3
+3 A2
+2 RES-
+1 IC6/6
 (IC6)
-
-5  NC
+5 NC
 7 NC
-1  A7
+1 A7
 14 A6
-11  A5
+11 A5
 9 GND
-15  R20/2
-15  SH9/1
-13  R18/2
-13  SH8/1
-12  R19/2
-10  GND
-2   GND
-4   GND
-12  SH7/1
-3   +5
-
-SH9/2  +5
-SH8/2  +5
-SH7/2  +5
-R19/1  GND
-R18/1  GND
-R20/1  GND
-
+15 R20/2
+15 SH9/1
+13 R18/2
+13 SH8/1
+12 R19/2
+10 GND
+2 GND
+4 GND
+12 SH7/1
+3 +5
+SH9/2 +5
+SH8/2 +5
+SH7/2 +5
+R19/1 GND
+R18/1 GND
+R20/1 GND
 # SHEET 3
-
-(ic49)
-12 gint-
-13 sout
-14 gdpint-
-15 nc
-16 nc
-17 x3
-18 ga7
-19 po
-11 gnd
-9 scrlm
-8 wbnk
-7 rbnk
-6 ic23/35
-5 ic22/9
-
-(ic23)
-
-22 all-
-24 ic22/2
-25 ic22/9
-34 gdpsy
-16 nc
-13 ic49/12
-13 r36/2
-8 ic22/18
-33 d0
-32 d1
-31 d2
-30 d3
-29 d4
-26 d7
-
-(ic22)
-
-19 shld
-17 load
-16 write-
-15 cas-
-14 all16-
-13 ens-
-12 white-
-11 eoc
-8 fm1
-7 fm0
-5 qb
-4 qa
-3 ic23/22
-3 ic24/1
-
-(ic24)
-
-19 nc
-18 nc
-17 nc
-16 dinx-
-15 dout
-14 all1
-13 norm-
-12 shift-
+(IC49)
+12 GINT-
+13 SOUT
+14 GDPINT-
+15 NC
+16 NC
+17 X3
+18 GA7
+19 PO
+11 GND
+9 SCRLM
+8 WBNK
+7 RBNK
+6 IC23/35
+5 IC22/9
+(IC23)
+22 ALL-
+24 IC22/2
+25 IC22/9
+34 GDPSY
+16 NC
+13 IC49/12
+13 R36/2
+8 IC22/18
+33 D0
+32 D1
+31 D2
+30 D3
+29 D4
+26 D7
+(IC22)
+19 SHLD
+17 LOAD
+16 WRITE-
+15 CAS-
+14 ALL16-
+13 ENS-
+12 WHITE-
+11 EOC
+8 FM1
+7 FM0
+5 QB
+4 QA
+3 IC23/22
+3 IC24/1
+(IC24)
+19 NC
+18 NC
+17 NC
+16 DINX-
+15 DOUT
+14 ALL1
+13 NORM-
+12 SHIFT-
 15 5
-2 mux1
-3 dout1
-4 dout2
-6 xorm
-8 r23/1
-9 r22/1
-11 r52/1
-
-r52/2 +5
-r22/2 +5
-r23/2 +5
-r36/1 +5
-ic23/17 gdp-
-
-#sheet4
-
-(ic40)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras0
-14 gdo0
-
-
-(ic59)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras1
-14 gdo1
-
-(ic57)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras2
-14 gdo2
-
-(ic60)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras3
-14 gdo3
-
-(ic58)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras4
-14 gdo4
-
-(ic42)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras5
-14 gdo5
-
-(ic43)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras6
-14 gdo6
-
-(ic41)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras7
-14 gdo7
-
-(ic54)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras8
-14 gdo8
-
-(ic39)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras9
-14 gdo9
-
-(ic36)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras10
-14 gdo10
-
-(ic37)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras11
-14 gdo11
-
-(ic53)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras12
-14 gdo12
-
-(ic38)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras13
-14 gdo13
-
-(ic55)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras14
-14 gdo14
-
-(ic56)
-
-15 cas-
-3 write-
-5 ga0
-7 ga1
-6 ga2
-12 ga3
-11 ga4
-10 ga5
-13 ga6
-9 ga7
-1 nc
-2 dinx-
-4 ras15
-14 gdo15
-
-#sheet5
-
-(ic30)
-
-3 ras0
-2 ras1
-1 ras2
-19 ras3
-18 ras4
-8 ras5
-9 ras6
-11 ras7
-12 all16-
-4 gnd
-5 gnd
-6 x0
-7 x1
-17 x2
-13 all-
-14 qc
-15 x3
-16 ens-
-
-(ic29)
-
-3 ras8
-2 ras9
-1 ras10
-19 ras11
-18 ras12
-8 ras13
-9 ras14
-11 ras15
-16 ens-
-15 all1
-14 qc
-13 x3
-17 x2
-7 x1
-6 x0
-12 all16-
-4 gnd
-5 gnd
-
-(ic69)
-
-13 gvid-
-6 gnd
-7 hck-
-15 shld
-9 white-
-2 ic70/1
-3 ic70/12
-4 ic70/4
-5 ic70/5
-10 ic70/11
-11 ic70/6
-12 ic70/2
-14 ic70/3
-2 gdo7
-3 gdo6
-4 gdo5
-5 gdo4
-10 gdo3
-11 gdo2
-12 gdo1
-14 gdo0
-
-(ic67)
-
-13 ic69/1
-6 gnd
-7 hck-
-15 shld
-9 white-
+2 MUX1
+3 DOUT1
+4 DOUT2
+6 XORM
+8 R23/1
+9 R22/1
+11 R52/1
+R52/2 +5
+R22/2 +5
+R23/2 +5
+R36/1 +5
+IC23/17 GDP-
+# SHEET 4
+(IC40)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS0
+14 GDO0
+(IC59)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS1
+14 GDO1
+(IC57)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS2
+14 GDO2
+(IC60)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS3
+14 GDO3
+(IC58)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS4
+14 GDO4
+(IC42)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS5
+14 GDO5
+(IC43)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS6
+14 GDO6
+(IC41)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS7
+14 GDO7
+(IC54)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS8
+14 GDO8
+(IC39)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS9
+14 GDO9
+(IC36)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS10
+14 GDO10
+(IC37)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS11
+14 GDO11
+(IC53)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS12
+14 GDO12
+(IC38)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS13
+14 GDO13
+(IC55)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS14
+14 GDO14
+(IC56)
+15 CAS-
+3 WRITE-
+5 GA0
+7 GA1
+6 GA2
+12 GA3
+11 GA4
+10 GA5
+13 GA6
+9 GA7
+1 NC
+2 DINX-
+4 RAS15
+14 GDO15
+# SHEET 5
+(IC30)
+3 RAS0
+2 RAS1
+1 RAS2
+19 RAS3
+18 RAS4
+8 RAS5
+9 RAS6
+11 RAS7
+12 ALL16-
+4 GND
+5 GND
+6 X0
+7 X1
+17 X2
+13 ALL-
+14 QC
+15 X3
+16 ENS-
+(IC29)
+3 RAS8
+2 RAS9
+1 RAS10
+19 RAS11
+18 RAS12
+8 RAS13
+9 RAS14
+11 RAS15
+16 ENS-
+15 ALL1
+14 QC
+13 X3
+17 X2
+7 X1
+6 X0
+12 ALL16-
+4 GND
+5 GND
+(IC69)
+13 GVID-
+6 GND
+7 HCK-
+15 SHLD
+9 WHITE-
+2 IC70/1
+3 IC70/12
+4 IC70/4
+5 IC70/5
+10 IC70/11
+11 IC70/6
+12 IC70/2
+14 IC70/3
+2 GDO7
+3 GDO6
+4 GDO5
+5 GDO4
+10 GDO3
+11 GDO2
+12 GDO1
+14 GDO0
+(IC67)
+13 IC69/1
+6 GND
+7 HCK-
+15 SHLD
+9 WHITE-
 1 +5
-2 ic68/1
-3 ic68/3
-4 ic68/2
-5 ic68/6
-10 ic68/4
-11 ic68/5
-12 ic68/11
-14 ic68/12
-2 gdo15
-3 gdo14
-4 gdo13
-5 gdo12
-10 gdo11
-11 gdo10
-12 gdo9
-14 gdo8
-
-ic68/8 dout2
-ic70/8 dout1
-
-(rn3)
-
-2 gdo7
-4 gdo6
-9 gdo5
-6 gdo4
-5 gdo3
-8 gdo3
-3 gdo1
-7 gdo0
+2 IC68/1
+3 IC68/3
+4 IC68/2
+5 IC68/6
+10 IC68/4
+11 IC68/5
+12 IC68/11
+14 IC68/12
+2 GDO15
+3 GDO14
+4 GDO13
+5 GDO12
+10 GDO11
+11 GDO10
+12 GDO9
+14 GDO8
+IC68/8 DOUT2
+IC70/8 DOUT1
+(RN3)
+2 GDO7
+4 GDO6
+9 GDO5
+6 GDO4
+5 GDO3
+8 GDO3
+3 GDO1
+7 GDO0
 1 +5
-
-(rn2)
-
-3 gdo15
-2 gdo14
-5 gdo13
-9 gdo12
-8 gdo11
-6 gdo10
-7 gdo9
-4 gdo8
+(RN2)
+3 GDO15
+2 GDO14
+5 GDO13
+9 GDO12
+8 GDO11
+6 GDO10
+7 GDO9
+4 GDO8
 1 +5
-
-r53/1 ic67/15
-r53/2 gnd
-r49/1 hck-
-r49/2 gnd
-
-#sheet7
-
-(ic15)
-
-13 d7
-11 d4
-12 restrict-
-14 ic1/5
-15 ic2/7
-
-(ic1)
-
-6 nc
+R53/1 IC67/15
+R53/2 GND
+R49/1 HCK-
+R49/2 GND
+# SHEET 7
+(IC15)
+13 D7
+11 D4
+12 RESTRICT-
+14 IC1/5
+15 IC2/7
+(IC1)
+6 NC
 1 +5
 4 +5
-2 dout
-3 load
-
-(ic2)
-
-4 nc
-9 nc
-10 nc
-11 nc
-12 buffer-
-13 wr-
-14 a1
-15 a0
-1 ic28/11
-2 ic35/11
-3 ic9/11
-5 ic21/1
-6 ic48/1
-
-(ic9)
-
-1 gnd
-2 scrl0
-5 scrl1
-6 scrl2
-9 scrl3
-12 scrl4
-15 scrl5
-16 scrl6
-19 scrl7
-3 d0
-4 d1
-7 d2
-8 d3
-13 d4
-14 d5
-17 d6
-18 d7
-
-(ic35)
-
-1 wdb-
-3 d0
-4 d1
-7 d2
-8 d3
-13 d4
-14 d5
-17 d6
-18 d7
-2 attd0
-5 attd1
-6 attd2
-9 attd3
-12 Attd4
-15 attd5
-16 attd6
-19 attd7
-
-(ic48)
-
-2 d0
-5 d1
-6 d2
-9 d3
-12 d4
-15 d5
-16 d6
-19 d7
-3 attd0
-4 attd1
-7 attd2
-8 attd3
-13 attd4
-14 attd5
-17 attd6
-18 attd7
-
-(ic28)
-
-3 d0
-4 d1
-7 d2
-8 d3
-13 d4
-14 d5
-17 d6
-18 d7
-1 wdb-
-2 ascd0
-5 ascd1
-6 ascd2
-9 ascd3
-12 ascd4
-15 ascd5
-16 ascd6
-19 ascd7
-
-(ic21)
-
-11 rdb-
-11 ic48/11
-2 d0
-5 d1
-6 d2
-9 d3
-12 d4
-15 d5
-16 d6
-19 d7
-3 ascd0
-4 ascd1
-7 ascd2
-8 ascd3
-13 ascd4
-14 ascd5
-17 ascd6
-18 ascd7
-
-#sheet8
-
-(ic5)
-
-36 master
-16 cclk-
-35 avint-
-7 cursor
-17 blank
-18 avscs
-19 ahsync
-4 wdb-
-5 rdv-
-6 bce-
-34 da0
-33 da1
-32 da2
-31 da3
-30 da4
-29 da5
-28 da6
-27 da7
-26 da8
-25 da9
-24 da10
-23 da11
-22 da12
-21 da13
-2 r1/2
-3 r2/2
-1 r5/2
-37 r4/2
-38 r3/2
-39 r6/2
-8  ic13/18
-9 ic13/16
-10 ic13/14
-11 ic13/12
-12 rn1/6
-13 rn1/7
-14 rn1/8
-15 rn1/9
-
-(ic16)
-
-18 d0
-17 d1
-16 d2
-15 d3
-14 d4
-13 d5
-12 d6
-11 d7
-1 wr-
-19 avdc-
-2 ic13/18
-3 ic13/16
-4 ic13/14
-5 ic13/12
-6 ic13/9
-7 ic13/7
-8 ic13/5
-9 ic13/3
-
-(ic13)
-
-9 rn1/6
-7 rn1/7
-5 rn1/8
-3 rn1/9
-11 ascd4
-13 ascd5
-15 ascd6
-17 ascd7
-19 row-
-1 row-
-2 ascd0
-4 ascd1
-6 ascd2
-8 ascd3
-18 rn1/2
-16 rn1/3
-14 rn1/4
-12 rn1/5
-
-(ic4)
-
-3 r4/2
-5 r3/2
-7 r6/2
-9 r1/2
-13 r2/2
-11 r5/2
-14 wr-
-12 rd-
-10 avdc-
+2 DOUT
+3 LOAD
+(IC2)
+4 NC
+9 NC
+10 NC
+11 NC
+12 BUFFER-
+13 WR-
+14 A1
+15 A0
+1 IC28/11
+2 IC35/11
+3 IC9/11
+5 IC21/1
+6 IC48/1
+(IC9)
+1 GND
+2 SCRL0
+5 SCRL1
+6 SCRL2
+9 SCRL3
+12 SCRL4
+15 SCRL5
+16 SCRL6
+19 SCRL7
+3 D0
+4 D1
+7 D2
+8 D3
+13 D4
+14 D5
+17 D6
+18 D7
+(IC35)
+1 WDB-
+3 D0
+4 D1
+7 D2
+8 D3
+13 D4
+14 D5
+17 D6
+18 D7
+2 ATTD0
+5 ATTD1
+6 ATTD2
+9 ATTD3
+12 ATTD4
+15 ATTD5
+16 ATTD6
+19 ATTD7
+(IC48)
+2 D0
+5 D1
+6 D2
+9 D3
+12 D4
+15 D5
+16 D6
+19 D7
+3 ATTD0
+4 ATTD1
+7 ATTD2
+8 ATTD3
+13 ATTD4
+14 ATTD5
+17 ATTD6
+18 ATTD7
+(IC28)
+3 D0
+4 D1
+7 D2
+8 D3
+13 D4
+14 D5
+17 D6
+18 D7
+1 WDB-
+2 ASCD0
+5 ASCD1
+6 ASCD2
+9 ASCD3
+12 ASCD4
+15 ASCD5
+16 ASCD6
+19 ASCD7
+(IC21)
+11 RDB-
+11 IC48/11
+2 D0
+5 D1
+6 D2
+9 D3
+12 D4
+15 D5
+16 D6
+19 D7
+3 ASCD0
+4 ASCD1
+7 ASCD2
+8 ASCD3
+13 ASCD4
+14 ASCD5
+17 ASCD6
+18 ASCD7
+# SHEET 8
+(IC5)
+36 MASTER
+16 CCLK-
+35 AVINT-
+7 CURSOR
+17 BLANK
+18 AVSCS
+19 AHSYNC
+4 WDB-
+5 RDV-
+6 BCE-
+34 DA0
+33 DA1
+32 DA2
+31 DA3
+30 DA4
+29 DA5
+28 DA6
+27 DA7
+26 DA8
+25 DA9
+24 DA10
+23 DA11
+22 DA12
+21 DA13
+2 R1/2
+3 R2/2
+1 R5/2
+37 R4/2
+38 R3/2
+39 R6/2
+8 IC13/18
+9 IC13/16
+10 IC13/14
+11 IC13/12
+12 RN1/6
+13 RN1/7
+14 RN1/8
+15 RN1/9
+(IC16)
+18 D0
+17 D1
+16 D2
+15 D3
+14 D4
+13 D5
+12 D6
+11 D7
+1 WR-
+19 AVDC-
+2 IC13/18
+3 IC13/16
+4 IC13/14
+5 IC13/12
+6 IC13/9
+7 IC13/7
+8 IC13/5
+9 IC13/3
+(IC13)
+9 RN1/6
+7 RN1/7
+5 RN1/8
+3 RN1/9
+11 ASCD4
+13 ASCD5
+15 ASCD6
+17 ASCD7
+19 ROW-
+1 ROW-
+2 ASCD0
+4 ASCD1
+6 ASCD2
+8 ASCD3
+18 RN1/2
+16 RN1/3
+14 RN1/4
+12 RN1/5
+(IC4)
+3 R4/2
+5 R3/2
+7 R6/2
+9 R1/2
+13 R2/2
+11 R5/2
+14 WR-
+12 RD-
+10 AVDC-
 15 1
-1 lrow
-2 a0
-4 a1
-6 a2
-
-r16/2 ic25/35
-r19/1 +5
-rn1/1 gnd
-r6/1
+1 LROW
+2 A0
+4 A1
+6 A2
+R16/2 IC25/35
+R19/1 +5
+RN1/1 GND
+R6/1
 +5
-r3/1 +5
-r5/1 +5
-r1/1 gnd
-r2/1 gnd
-r4/1 gnd
-
-#sheet 9
-
-(ic19)
-
-8 da0
-7 da1
-6 da2
-5 da3
-4 da4
-3 da5
-2 da6
-1 da7
-23 da8
-22 da9
-19 da10
-9 ascd0
-10 ascd1
-11 ascd2
-13 ascd3
-14 ascd4
-15 ascd5
-16 ascd6
-17 ascd7
-20 gnd
-
-(ic20)
-
-8 da0
-7 da1
-6 da2
-5 da3
-4 da4
-3 da5
-2 da6
-1 da7
-23 da8
-22 da9
-19 da10
-9 ascd0
-10 ascd1
-11 ascd2
-13 ascd3
-14 ascd4
-15 ascd5
-16 ascd6
-17 ascd7
-20 gnd
-
-(ic45)
-
-8 da0
-7 da1
-6 da2
-5 da3
-4 da4
-3 da5
-2 da6
-1 da7
-23 da8
-22 da9
-19 da10
-9 attd0
-10 attd1
-11 attd2
-13 attd3
-14 attd4
-15 attd5
-16 attd6
-17 attd7
-20 gnd
-18 crl-
-21 wdb-
-18 ic20/18
-21 ic20/21
-21 ic44/21
-21 ic19/21
-
-(ic44)
-
-8 da0
-7 da1
-6 da2
-5 da3
-4 da4
-3 da5
-2 da6
-1 da7
-23 da8
-22 da9
-19 da10
-9 attd0
-10 attd1
-11 attd2
-13 attd3
-14 attd4
-15 attd5
-16 attd6
-17 attd7
-20 gnd
-18 crh-
-18 ic19/18
-
-#sheet 10
-
-(ic50)
-
-29 ttlv2
-28 ttlv1
-27 vidgp1
-26 vidgp2
-33 cclk-
-32 dclk
-15 gnd
-35 ca6
-34 ca5
-13 da10
-12 blank
-11 da11
-7 r33/1
-8 cursor
-9 ca1
-10 attd3
-31 r32/1
-30 ca2
-17 ca4
-18 attd5
-23 ca3
-22 attd6
-25 attd4
-21 attd7
-16 attd0
-19 attd1
-14 adouble
-24 r35/1
+R3/1 +5
+R5/1 +5
+R1/1 GND
+R2/1 GND
+R4/1 GND
+# SHEET 9
+(IC19)
+8 DA0
+7 DA1
+6 DA2
+5 DA3
+4 DA4
+3 DA5
+2 DA6
+1 DA7
+23 DA8
+22 DA9
+19 DA10
+9 ASCD0
+10 ASCD1
+11 ASCD2
+13 ASCD3
+14 ASCD4
+15 ASCD5
+16 ASCD6
+17 ASCD7
+20 GND
+(IC20)
+8 DA0
+7 DA1
+6 DA2
+5 DA3
+4 DA4
+3 DA5
+2 DA6
+1 DA7
+23 DA8
+22 DA9
+19 DA10
+9 ASCD0
+10 ASCD1
+11 ASCD2
+13 ASCD3
+14 ASCD4
+15 ASCD5
+16 ASCD6
+17 ASCD7
+20 GND
+(IC45)
+8 DA0
+7 DA1
+6 DA2
+5 DA3
+4 DA4
+3 DA5
+2 DA6
+1 DA7
+23 DA8
+22 DA9
+19 DA10
+9 ATTD0
+10 ATTD1
+11 ATTD2
+13 ATTD3
+14 ATTD4
+15 ATTD5
+16 ATTD6
+17 ATTD7
+20 GND
+18 CRL-
+21 WDB-
+18 IC20/18
+21 IC20/21
+21 IC44/21
+21 IC19/21
+(IC44)
+8 DA0
+7 DA1
+6 DA2
+5 DA3
+4 DA4
+3 DA5
+2 DA6
+1 DA7
+23 DA8
+22 DA9
+19 DA10
+9 ATTD0
+10 ATTD1
+11 ATTD2
+13 ATTD3
+14 ATTD4
+15 ATTD5
+16 ATTD6
+17 ATTD7
+20 GND
+18 CRH-
+18 IC19/18
+# SHEET 10
+(IC50)
+29 TTLV2
+28 TTLV1
+27 VIDGP1
+26 VIDGP2
+33 CCLK-
+32 DCLK
+15 GND
+35 CA6
+34 CA5
+13 DA10
+12 BLANK
+11 DA11
+7 R33/1
+8 CURSOR
+9 CA1
+10 ATTD3
+31 R32/1
+30 CA2
+17 CA4
+18 ATTD5
+23 CA3
+22 ATTD6
+25 ATTD4
+21 ATTD7
+16 ATTD0
+19 ATTD1
+14 ADOUBLE
+24 R35/1
 6 5
-5 ic47/17
-36 ic47/16
-1 ck40/2
-4 ic47/15
-37 ic47/14
-3 ic47/13
-38 ic47/11
-2 ic47/10
-39 ic47/9
-
-(ic47)
-
-8 ch0
-7 ch1
-6 ch2
-5 ch3
-4 ch4
-3 ch5
-2 ch6
-1 ch7
-23 ch8
-22 ch9
-19 ch10
-18 cram-
-21 vdb-
-20 cramen-
-9 chd0
-10 chd1
-11 chd2
-13 chd3
-14 chd4
-15 chd5
-16 chd6
-17 chd7
-
-(ic46)
-
-9 chd0
-10 chd1
-11 chd2
-13 chd3
-14 chd4
-15 chd5
-16 chd6
-17 chd7
+5 IC47/17
+36 IC47/16
+1 CK40/2
+4 IC47/15
+37 IC47/14
+3 IC47/13
+38 IC47/11
+2 IC47/10
+39 IC47/9
+(IC47)
+8 CH0
+7 CH1
+6 CH2
+5 CH3
+4 CH4
+3 CH5
+2 CH6
+1 CH7
+23 CH8
+22 CH9
+19 CH10
+18 CRAM-
+21 VDB-
+20 CRAMEN-
+9 CHD0
+10 CHD1
+11 CHD2
+13 CHD3
+14 CHD4
+15 CHD5
+16 CHD6
+17 CHD7
+(IC46)
+9 CHD0
+10 CHD1
+11 CHD2
+13 CHD3
+14 CHD4
+15 CHD5
+16 CHD6
+17 CHD7
 20 18
-18 crom-
-8 ch0
-7 ch1
-6 ch2
-5 ch3
-4 ch4
-3 ch5
-2 ch6
-1 ch7
-23 ch8
-22 ch9
-19 ch10
-21 ch11
-
-ck40/1 gnd
-ck40/2 r26/2
-r26/1 +5
-r35/2 +5
-r32/2 +5
-r33/2 +5
-
-#sheet 11
-
-(ic33)
-
-9 chd4
-7 chd5
-5 chd6
-3 chd7
-11 ascd4
-13 ascd5
-15 ascd6
-17 ascd7
-19 ic34/19
-
-(ic34)
-
-9 chd0
-7 chd1
-5 chd2
-3 chd3
-11 ascd0
-13 ascd1
-15 ascd2
-17 ascd3
-
-(ic27)
-
-2 ch4
-5 ch5
-6 ch6
-9 ch7
-12 ch8
-15 ch9
-16 ch10
-19 ch11
-11 cclk+
-1 ic26/1
-3 ascd0
-4 ascd1
-7 ascd2
-8 ascd3
-13 ascd4
-14 ascd5
-17 ascd6
-18 ascd7
-
-(ic26)
-
-1 dspen-
-11 blnk-
-2 adouble
-5 restrict-
-6 nc
-9 nc
-12 ch0
-15 ch1
-16 ch2
-19 ch3
-4 da13
-3 da9
-7 da1
-8 da2
-13 da4
-14 da5
-17 da6
-18 da7
-
-(ic15)
-
-1 lden-
-2 da0
-4 da1
-6 da2
-10 da3
-3 ch0
-5 ch1
-7 ch2
-9 ch3
-1 ic33/1
-1 ic34/19
-
-(ic33)
-
-1 ic34/1
-18 ch4
-16 ch5
-14 ch6
-12 ch7
-2 da4
-4 da5
-6 da6
-8 da7
-
-(ic34)
-
-18 ch8
-16 ch9
-14 ch10
-12 ch11
-2 da8
-4 da9
-6 da10
-8 da11
-
-#sheet 12
-
-(ic71)
-
-4 blnk-
-6 cclk+
-5 cclk-
-3 blank
-2 dsp1-
-1 lden-
-6 ic12/1
-3 ic66/2
-
-(ic66)
-
-3 row-
-1 cursor
-
-(ic12)
-
-12 lden-
-13 cram-
-14 nc
-15 avdint-
-16 cramen-
-17 crom-
-18 crl-
-19 crh-
-11 gnd
-2 avint-
-3 da11
-4 da12
-5 da13
-5 bce-
-7 wdb-
-8 attd2
-9 r17/1
-
-r17/2 +5
-
-(ic64)
-
-5 lrow
-12 nc
-6 ck55/2
-7 ck55/1
+18 CROM-
+8 CH0
+7 CH1
+6 CH2
+5 CH3
+4 CH4
+3 CH5
+2 CH6
+1 CH7
+23 CH8
+22 CH9
+19 CH10
+21 CH11
+CK40/1 GND
+CK40/2 R26/2
+R26/1 +5
+R35/2 +5
+R32/2 +5
+R33/2 +5
+# SHEET 11
+(IC33)
+9 CHD4
+7 CHD5
+5 CHD6
+3 CHD7
+11 ASCD4
+13 ASCD5
+15 ASCD6
+17 ASCD7
+19 IC34/19
+(IC34)
+9 CHD0
+7 CHD1
+5 CHD2
+3 CHD3
+11 ASCD0
+13 ASCD1
+15 ASCD2
+17 ASCD3
+(IC27)
+2 CH4
+5 CH5
+6 CH6
+9 CH7
+12 CH8
+15 CH9
+16 CH10
+19 CH11
+11 CCLK+
+1 IC26/1
+3 ASCD0
+4 ASCD1
+7 ASCD2
+8 ASCD3
+13 ASCD4
+14 ASCD5
+17 ASCD6
+18 ASCD7
+(IC26)
+1 DSPEN-
+11 BLNK-
+2 ADOUBLE
+5 RESTRICT-
+6 NC
+9 NC
+12 CH0
+15 CH1
+16 CH2
+19 CH3
+4 DA13
+3 DA9
+7 DA1
+8 DA2
+13 DA4
+14 DA5
+17 DA6
+18 DA7
+(IC15)
+1 LDEN-
+2 DA0
+4 DA1
+6 DA2
+10 DA3
+3 CH0
+5 CH1
+7 CH2
+9 CH3
+1 IC33/1
+1 IC34/19
+(IC33)
+1 IC34/1
+18 CH4
+16 CH5
+14 CH6
+12 CH7
+2 DA4
+4 DA5
+6 DA6
+8 DA7
+(IC34)
+18 CH8
+16 CH9
+14 CH10
+12 CH11
+2 DA8
+4 DA9
+6 DA10
+8 DA11
+# SHEET 12
+(IC71)
+4 BLNK-
+6 CCLK+
+5 CCLK-
+3 BLANK
+2 DSP1-
+1 LDEN-
+6 IC12/1
+3 IC66/2
+(IC66)
+3 ROW-
+1 CURSOR
+(IC12)
+12 LDEN-
+13 CRAM-
+14 NC
+15 AVDINT-
+16 CRAMEN-
+17 CROM-
+18 CRL-
+19 CRH-
+11 GND
+2 AVINT-
+3 DA11
+4 DA12
+5 DA13
+5 BCE-
+7 WDB-
+8 ATTD2
+9 R17/1
+R17/2 +5
+(IC64)
+5 LROW
+12 NC
+6 CK55/2
+7 CK55/1
 11 +5
-10 sh14/2
-9 gnd
-7 r48/2
-
-(ic51)
-
-4 vsync-
+10 SH14/2
+9 GND
+7 R48/2
+(IC51)
+4 VSYNC-
 3 2
-2 vsync+
-2 sh13/1
-1 r27/2
-1 ck50/1
-6 r27/1
-6 hcsync-
-5 sh10/2
-6 ic1/13
-2 sh12/1
-
-(ic1)
-
-9 nc
-8 clken
-11 sh5/2
-11 sh4/2
+2 VSYNC+
+2 SH13/1
+1 R27/2
+1 CK50/1
+6 R27/1
+6 HCSYNC-
+5 SH10/2
+6 IC1/13
+2 SH12/1
+(IC1)
+9 NC
+8 CLKEN
+11 SH5/2
+11 SH4/2
 12 10
 10 +5
-
-sh4/1 gnd
-sh5/1 ahsync
-sh10/1 avscs
-sh14/1 avscs
-r48/1 +5
-sh12/2 sh6/1
-sh12/2 master
-sh6/1 +5
-sh11/1 gdpsync
-sh11/2 hcsync+
-ic51/5 hcsync+
-
-#sheet 13
-
-(ic63)
-
-1 ic72/6
-3 ttlv2
-11 ttlv1
-9 vidgp2
-5 vidgp1
-13 hcsync-
-13 sh19/1
-4 r24/1
+SH4/1 GND
+SH5/1 AHSYNC
+SH10/1 AVSCS
+SH14/1 AVSCS
+R48/1 +5
+SH12/2 SH6/1
+SH12/2 MASTER
+SH6/1 +5
+SH11/1 GDPSYNC
+SH11/2 HCSYNC+
+IC51/5 HCSYNC+
+# SHEET 13
+(IC63)
+1 IC72/6
+3 TTLV2
+11 TTLV1
+9 VIDGP2
+5 VIDGP1
+13 HCSYNC-
+13 SH19/1
+4 R24/1
 2 4
-10 r44/1
-8 r38/1
-6 r45/1
-12 r41/1
-4 r43/1
-10 r25/1
-8 r46/1
-6 r37/1
-12 r47/1
-
-
-ic72 gvid-
-
-(st7)
-
-1 gnd
-2 st6/1
-3 st6/2
-4 st6/3
-5 nc
-6 sh18/2
-6 sh19/2
+10 R44/1
+8 R38/1
+6 R45/1
+12 R41/1
+4 R43/1
+10 R25/1
+8 R46/1
+6 R37/1
+12 R47/1
+IC72 GVID-
+(ST7)
+1 GND
+2 ST6/1
+3 ST6/2
+4 ST6/3
+5 NC
+6 SH18/2
+6 SH19/2
 7 +12
-10 gnd
-
-sh16/2 sh17/2
-sh18/1 hcsync+
-sh16/1 vsync+
-sh17/1 vsync-
-r43/2 r29/1
-r29/2 +12
-r43/2 r25/2
-r25/2 r46/2
-r46/2 r37/2
-r37/2 r47/2
-r31/2 gnd
-r31/1 sh15/1
-sh5/2 gnd
-r30/2 +12
-ck53/2 +12
-r39/2 +12
-r40/2 +12
-t2/1 sh15/1
-t2/3 r40/1
-t2/2 r39/1
-r39/1 r42/2
-r42/2 r44/2
-r44/2 r38/2
-r45/2 r38/2
-r41/2 r45/2
-t1/2 r29/1
-t1/3 r30/1
-t1/1 r24/2
-r24/1 ck53/1
-
-#sheet14
-
-(ic52)
-
-3 dclk
-2 clken
+10 GND
+SH16/2 SH17/2
+SH18/1 HCSYNC+
+SH16/1 VSYNC+
+SH17/1 VSYNC-
+R43/2 R29/1
+R29/2 +12
+R43/2 R25/2
+R25/2 R46/2
+R46/2 R37/2
+R37/2 R47/2
+R31/2 GND
+R31/1 SH15/1
+SH5/2 GND
+R30/2 +12
+CK53/2 +12
+R39/2 +12
+R40/2 +12
+T2/1 SH15/1
+T2/3 R40/1
+T2/2 R39/1
+R39/1 R42/2
+R42/2 R44/2
+R44/2 R38/2
+R45/2 R38/2
+R41/2 R45/2
+T1/2 R29/1
+T1/3 R30/1
+T1/1 R24/2
+R24/1 CK53/1
+# SHEET14
+(IC52)
+3 DCLK
+2 CLKEN
 8 1
 6 9
 11 10
-4 ca7
-13 ic72/10
-12 ic51/8
-5 ic66/4
-
-(ic72)
-
-11 ca7
-8 hck-
+4 CA7
+13 IC72/10
+12 IC51/8
+5 IC66/4
+(IC72)
+11 CA7
+8 HCK-
 9 4
-9 r28/2
+9 R28/2
 3 2
-3 r54/2
-3 o1/1
-1 ck62/2
-1 r54/1
-12 ck62/1
-12 r50/2
-13 r50/1
-13 ck63/2
-13 o1/2
-4 ic61/2
-4 ic66/4
-
-(ic65)
-
-9 nc
-8 muks1
+3 R54/2
+3 O1/1
+1 CK62/2
+1 R54/1
+12 CK62/1
+12 R50/2
+13 R50/1
+13 CK63/2
+13 O1/2
+4 IC61/2
+4 IC66/4
+(IC65)
+9 NC
+8 MUKS1
 13 +5
 10 +5
-12 qc
-11 qa
-5 ic66/5
-6 ic66/13
+12 QC
+11 QA
+5 IC66/5
+6 IC66/13
 6 2
 1 4
 4 +5
-3 ic64/1
-
-(ic66)
-
-12 hck-
+3 IC64/1
+(IC66)
+12 HCK-
 11 10
 6 9
-8 ic64/2
-
-(ic64)
-
+8 IC64/2
+(IC64)
 3 +5
-15 r34/1
-14 ck52/2
+15 R34/1
+14 CK52/2
 13 1
-4 ic51/9
-
-(ic61)
-
-14 nc
-13 qa
-11 qc
-15 eoc
-6 gnd
-5 gnd
-4 gnd
-3 gnd
+4 IC51/9
+(IC61)
+14 NC
+13 QA
+11 QC
+15 EOC
+6 GND
+5 GND
+4 GND
+3 GND
 1 10
-9 r51/1
+9 R51/1
 9 +5
-
-r28/1 gnd
-ck63/2 gnd
-r34/2 +5
-ck52/1 ic64/15
+R28/1 GND
+CK63/2 GND
+R34/2 +5
+CK52/1 IC64/15

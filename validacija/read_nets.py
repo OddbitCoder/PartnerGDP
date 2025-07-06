@@ -88,18 +88,99 @@ def process_file(filepath):
     merged_sets = merge_networks(initial_sets)
 
     # Now, strip out anything that's not a pin (i.e., doesn't contain a '/')
-    # final_nets = [
-    #     sorted(item for item in net if "/" in item)
-    #     for net in merged_sets
-    #     if any("/" in i for i in net)
-    # ]
+    final_nets = [
+        {item for item in net if "/" in item}
+        for net in merged_sets
+        if any("/" in i for i in net)
+    ]
 
-    # return final_nets
-    return merged_sets
+    return final_nets
+
+
+def find_best_matches(sch_nets: dict[str, set], vld_nets: list[set]):
+    results = []
+
+    for i, vld_net in enumerate(vld_nets):
+        best_match_name = None
+        best_match_score = 0
+        best_match_sch_set = set()
+
+        for name, sch_set in sch_nets.items():
+            intersection = vld_net & sch_set
+            union = vld_net | sch_set
+            score = len(intersection) / len(union) if union else 0
+
+            if score > best_match_score:
+                best_match_score = score
+                best_match_name = name
+                best_match_sch_set = sch_set
+
+        if best_match_score == 1.0:
+            result = f"vld_net[{i}] PERFECT MATCH with sch_net '{best_match_name}'\n"
+        else:
+            only_in_vld = vld_net - best_match_sch_set
+            only_in_sch = best_match_sch_set - vld_net
+            result = f"vld_net[{i}] best match: '{best_match_name}' ({best_match_score:.2%} overlap)\n"
+            if only_in_vld:
+                result += f"  Only in vld_net[{i}]: {only_in_vld}\n"
+            if only_in_sch:
+                result += f"  Only in sch_net['{best_match_name}']: {only_in_sch}\n"
+
+        results.append(result)
+
+    return results
+
+
+def swap(name: str, vld_nets: list[set]):
+    for net in vld_nets:
+        for pin in list(net):  # use list to avoid modifying set during iteration
+            if pin.startswith(name):
+                net.remove(pin)
+                parts = pin.split("/")
+                assert len(parts) == 2
+                pin_number = parts[1]
+                if pin_number == "1":
+                    other_pin_number = "2"
+                elif pin_number == "2":
+                    other_pin_number = "1"
+                else:
+                    assert False
+                new_pin = f"{parts[0]}/{other_pin_number}"
+                net.add(new_pin)
 
 
 if __name__ == "__main__":
     sch_nets = process_kicad_file("../gdp/gdp.net")
-    nets = process_file("gdp_validacija.txt")
-    for i, net in enumerate(nets, 1):
-        print(f"Net {i}: {net}")
+    vld_nets = process_file("gdp_validacija.txt")
+    # incorrect pin assignment for resistors and capacitors
+    for comp in {
+        "CK52",
+        "CK52",
+        "O1",
+        "R43",
+        "R48",
+        "R12",
+        "R10",
+        "R13",
+        "R15",
+        "R8",
+        "R9",
+        "R21",
+        "R14",
+        "R11",
+        "CK40",
+        "CK55",
+        "R27",
+        "R25",
+        "R46",
+        "R37",
+        "R47",
+        "R30",
+        "R40",
+        "R29",
+        "R39",
+    }:
+        swap(comp, vld_nets)
+    results = find_best_matches(sch_nets, vld_nets)
+    for r in results:
+        print(r)
