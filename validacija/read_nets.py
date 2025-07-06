@@ -38,6 +38,9 @@ def parse_lines_to_sets(lines):
     for line in lines:
         line = line.strip()
 
+        if line.startswith("#"):
+            continue
+
         # Check for default ref line like: (IC7)
         m = re.match(r"^\((\w+)\)$", line)
         if m:
@@ -46,9 +49,14 @@ def parse_lines_to_sets(lines):
 
         parts = line.split()
         if len(parts) != 2:
-            continue
+            print(parts)
+            assert False
+            # continue
 
         a, b = parts
+
+        if b == "NC":
+            continue
 
         # If a is just a number, prepend default_ref
         if re.fullmatch(r"\d+", a) and default_ref:
@@ -134,7 +142,7 @@ def find_best_matches(sch_nets: dict[str, set], vld_nets: list[set]):
 def swap(name: str, vld_nets: list[set]):
     for net in vld_nets:
         for pin in list(net):  # use list to avoid modifying set during iteration
-            if pin.startswith(name):
+            if pin.startswith(name + "/"):
                 net.remove(pin)
                 parts = pin.split("/")
                 assert len(parts) == 2
@@ -149,38 +157,47 @@ def swap(name: str, vld_nets: list[set]):
                 net.add(new_pin)
 
 
+def rmv(name: str, vld_nets: list[set]):
+    for net in vld_nets:
+        for pin in list(net):
+            if pin.startswith(name + "/"):
+                net.remove(pin)
+
+
 if __name__ == "__main__":
     sch_nets = process_kicad_file("../gdp/gdp.net")
     vld_nets = process_file("gdp_validacija.txt")
     # incorrect pin assignment for resistors and capacitors
     for comp in {
+        "CK40",
         "CK52",
-        "CK52",
-        "O1",
-        "R43",
-        "R48",
-        "R12",
-        "R10",
-        "R13",
-        "R15",
+        "CK55",
         "R8",
         "R9",
-        "R21",
-        "R14",
+        "R10",
         "R11",
-        "CK40",
-        "CK55",
-        "R27",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R21",
         "R25",
-        "R46",
-        "R37",
-        "R47",
-        "R30",
-        "R40",
+        "R27",
         "R29",
+        "R30",
+        "R37",
         "R39",
+        "R40",
+        "R43",
+        "R46",
+        "R47",
+        "R48",
+        "O1",
     }:
         swap(comp, vld_nets)
+    for comp in {"SH3"}:
+        rmv(comp, vld_nets)
     results = find_best_matches(sch_nets, vld_nets)
     for r in results:
+        # if "Only in vld_net" in r:
         print(r)
