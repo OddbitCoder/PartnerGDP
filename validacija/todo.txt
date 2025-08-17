@@ -1,4 +1,6 @@
 [ ] validacija GND layer (iz fotografije)
 [ ] validacija pad/via oblike, velikosti
 [ ] validacija +5, +12 layerja (ali ima vsak IC napajanje? kateri drugi elementi so na +5 ali +12 in ali so pravilno obrnjeni?)
-[ ] validacija prenosa sheme (prenos omrezij v txt datoteko, ali so nozice cipov pravilno ostevilcene - poglej pinout sheme)
+[X] validacija prenosa sheme (prenos omrezij v txt datoteko)
+[ ] Ali so nozice cipov pravilno ostevilcene? Poglej pinout sheme.
+[ ] ponovno preveri vse konektorje
