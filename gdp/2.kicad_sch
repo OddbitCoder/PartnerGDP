@@ -3873,7 +3873,7 @@
 		)
 		(uuid "84f3c6e8-baec-4f7b-bad5-4f2b78f6d7cc")
 	)
-	(label "x-IC6-7"
+	(label "unconnected-IC6-7"
 		(at 124.46 121.92 0)
 		(effects
 			(font
@@ -3923,7 +3923,7 @@
 		)
 		(uuid "ca696560-4ab7-4102-9726-2a79f4776144")
 	)
-	(label "x-IC6-5"
+	(label "unconnected-IC6-5"
 		(at 124.46 119.38 0)
 		(effects
 			(font

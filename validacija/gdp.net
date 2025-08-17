@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "C:\\Work\\Gdp\\gdp\\gdp.kicad_sch")
-    (date "2025-08-17T16:39:49+0200")
+    (date "2025-08-17T18:56:58+0200")
     (tool "Eeschema 9.0.0")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -5580,9 +5580,9 @@
       (node (ref "R40") (pin "1") (pintype "passive"))
       (node (ref "ST1") (pin "6") (pinfunction "Pin_6") (pintype "passive"))
       (node (ref "ST7") (pin "7") (pinfunction "Pin_7") (pintype "passive")))
-    (net (code "4") (name "/2/x-IC6-5") (class "Default")
+    (net (code "4") (name "/2/unconnected-IC6-5") (class "Default")
       (node (ref "IC6") (pin "5") (pinfunction "A>B") (pintype "output+no_connect")))
-    (net (code "5") (name "/2/x-IC6-7") (class "Default")
+    (net (code "5") (name "/2/unconnected-IC6-7") (class "Default")
       (node (ref "IC6") (pin "7") (pinfunction "A<B") (pintype "output+no_connect")))
     (net (code "6") (name "A0") (class "Default")
       (node (ref "IC17") (pin "5") (pinfunction "DS") (pintype "input"))

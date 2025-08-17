@@ -107,6 +107,7 @@ def process_file(filepath):
 
 def find_best_matches(sch_nets: dict[str, set], vld_nets: list[set]):
     results = []
+    matched = set()
 
     for i, vld_net in enumerate(vld_nets):
         best_match_name = None
@@ -123,6 +124,7 @@ def find_best_matches(sch_nets: dict[str, set], vld_nets: list[set]):
                 best_match_name = name
                 best_match_sch_set = sch_set
 
+        matched.add(best_match_name)
         if best_match_score == 1.0:
             result = f"vld_net[{i}] PERFECT MATCH with sch_net '{best_match_name}'\n"
         else:
@@ -138,6 +140,10 @@ def find_best_matches(sch_nets: dict[str, set], vld_nets: list[set]):
                 result += f"  sch_net: {best_match_sch_set}\n"
 
         results.append(result)
+
+    print("We didn't match against:")
+    print({item for item in (sch_nets.keys() - matched) if "unconnected" not in item})
+    print()
 
     return results
 
