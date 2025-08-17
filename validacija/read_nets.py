@@ -165,7 +165,7 @@ def rmv(name: str, vld_nets: list[set]):
 
 
 if __name__ == "__main__":
-    sch_nets = process_kicad_file("../gdp/gdp.net")
+    sch_nets = process_kicad_file("gdp.net")
     vld_nets = process_file("gdp_validacija.txt")
     # incorrect pin assignment for resistors and capacitors
     for comp in {
