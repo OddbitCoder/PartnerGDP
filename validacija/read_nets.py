@@ -133,6 +133,9 @@ def find_best_matches(sch_nets: dict[str, set], vld_nets: list[set]):
                 result += f"  Only in vld_net[{i}]: {only_in_vld}\n"
             if only_in_sch:
                 result += f"  Only in sch_net['{best_match_name}']: {only_in_sch}\n"
+            if only_in_vld or only_in_sch:
+                result += f"  vld_net: {vld_net}\n"
+                result += f"  sch_net: {best_match_sch_set}\n"
 
         results.append(result)
 
@@ -166,7 +169,10 @@ def rmv(name: str, vld_nets: list[set]):
 
 if __name__ == "__main__":
     sch_nets = process_kicad_file("gdp.net")
+    print(sch_nets)
     vld_nets = process_file("gdp_validacija.txt")
+    print("****************************************************************")
+    print(vld_nets)
     # incorrect pin assignment for resistors and capacitors
     for comp in {
         "CK40",
@@ -199,5 +205,5 @@ if __name__ == "__main__":
         rmv(comp, vld_nets)
     results = find_best_matches(sch_nets, vld_nets)
     for r in results:
-        # if "Only in vld_net" in r:
-        print(r)
+        if "Only in" in r:
+            print(r)
