@@ -1,0 +1,63 @@
+CK1,CK2,CK3,CK4,CK5,CK6,CK7,CK8,CK9,CK10,CK11,CK12,CK13,CK14,CK15,CK16,CK17,CK18,CK19,CK20,CK21,CK22,CK24,CK25,CK26,CK27,CK28,CK29,CK30,CK31,CK32,CK33,CK34,CK35,CK36,CK37,CK38,CK39,CK40,CK41,CK42,CK43,CK44,CK45,CK46,CK47,CK48,CK49,CK50,CK51,CK54,CK56,CK57,CK58,CK59,CK60,CK61 57      U10
+CK23    1       10U
+CK52    1       22P
+CK53    1       U22
+CK55    1       2N2
+CK62    1       22U
+CK63    1       10P
+CK64,CK65       2       ~
+IC1,IC65        2       74LS74  pins=14
+IC2     1       74LS42  pins=16
+IC3     1       LM393   pins=8
+IC4,IC15        2       74LS367 pins=16
+IC5     1       SCN2674 pins=40
+IC6     1       74LS85  pins=16
+IC7,IC22        2       PAL16L8 pins=20
+IC8,IC16        2       74LS245 pins=20
+IC9,IC21,IC26,IC27,IC28,IC35,IC48       7       74LS374 pins=20
+IC10,IC14       2       74LS83  pins=16
+IC11,IC63       2       7406    pins=14
+IC12,IC49       2       PAL16R4 pins=20
+IC13,IC18,IC25,IC32,IC33,IC34   6       74LS244 pins=20
+IC17    1       MK3881  pins=40
+IC19,IC20,IC44,IC45,IC47        5       HM6116  pins=24
+IC23    1       EF9367  pins=40
+IC24    1       PAL10L8 pins=20
+IC29,IC30       2       74LS538 pins=20
+IC36,IC37,IC38,IC39,IC40,IC41,IC42,IC43,IC53,IC54,IC55,IC56,IC57,IC58,IC59,IC60 16      4164-15 pins=16
+IC46    1       2732    pins=24
+IC50    1       SCB2675 pins=40
+IC51    1       74LS14  pins=14
+IC52    1       74LS00  pins=14
+IC61    1       74LS163 pins=16
+IC64    1       74LS123 pins=16
+IC66    1       74S00   pins=14
+IC67,IC69       2       74LS166 pins=16
+IC68,IC70       2       74LS30  pins=14
+IC71,IC72       2       74LS04  pins=14
+O1      1       Crystal
+R1,R2,R3,R4,R5,R6,R25,R28,R42,R48,R51   11      1K0
+R7,R14,R16,R17,R18,R19,R20,R22,R23,R32,R33,R35,R36,R45,R49,R52,R53,R55,R56      19      2K2
+R8,R9,R10,R11,R12       5       10K
+R13     1       3K3
+R15,R21 2       330R
+R24     1       120R
+R26     1       47R
+R27,R29 2       220R
+R30,R31 2       75R
+R34,R50,R54     3       470R
+R37,R44 2       1K5
+R38     1       1K8
+R39     1       180R
+R40     1       50R
+R41,R46 2       1K2
+R43     1       680R
+R47     1       820R
+RN1,RN2,RN3     3       8x2K2
+SH1,SH2,SH4,SH5,SH6,SH7,SH8,SH9,SH10,SH11,SH12,SH13,SH14,SH15,SH16,SH17,SH18,SH19       18      SCHALT
+ST1,ST2 2       6
+ST3,ST7 2       10
+ST4,ST5 2       32
+ST6     1       3
+ST8     1       Conn_01x01
+T1,T2   2       2N2905A
