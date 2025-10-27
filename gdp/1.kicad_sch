@@ -8805,7 +8805,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "300R (330R)"
 			(at 177.8 111.76 0)
 			(effects
 				(font
@@ -10293,7 +10293,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330R"
+		(property "Value" "300R (330R)"
 			(at 224.79 111.125 90)
 			(effects
 				(font
