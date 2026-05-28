@@ -9059,6 +9059,12 @@
 		(uuid "012540c2-b5bd-4fbd-939b-bf2b52c7e105")
 	)
 	(junction
+		(at 154.94 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bd838b9-2f87-4daf-b035-097222195f03")
+	)
+	(junction
 		(at 48.26 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9161,12 +9167,6 @@
 		(uuid "99e61067-f73c-498c-ac76-c8e78e5ce400")
 	)
 	(junction
-		(at 154.94 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4e5b4d2-731c-4383-85c3-e5672c9403cf")
-	)
-	(junction
 		(at 71.12 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9183,12 +9183,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd9ecdb1-dba1-44ca-a58a-7132a6e374f9")
-	)
-	(junction
-		(at 154.94 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3094fdc-b82f-4a97-8369-01c56480fb04")
 	)
 	(junction
 		(at 168.91 69.85)
@@ -9348,6 +9342,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 82.55) (xy 154.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17cb4349-cbd4-4017-b3a3-a5b5201c373f")
+	)
+	(wire
+		(pts
 			(xy 43.18 106.68) (xy 52.07 106.68)
 		)
 		(stroke
@@ -9378,16 +9382,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 77.47) (xy 154.94 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a9acbe-7608-4fbe-a284-c4e1060de3cd")
-	)
-	(wire
-		(pts
 			(xy 161.29 48.26) (xy 168.91 48.26)
 		)
 		(stroke
@@ -9405,6 +9399,16 @@
 			(type default)
 		)
 		(uuid "255d46da-a602-44a8-9be3-d6587b342fe7")
+	)
+	(wire
+		(pts
+			(xy 154.94 50.8) (xy 154.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b53fa8-b476-4ab0-b6c4-f8d65efc5740")
 	)
 	(wire
 		(pts
@@ -9458,7 +9462,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 77.47) (xy 170.18 77.47)
+			(xy 165.1 82.55) (xy 167.64 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9878,16 +9882,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 50.8) (xy 154.94 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84b272ab-7ba1-4e47-bab8-323673992c54")
-	)
-	(wire
-		(pts
 			(xy 133.35 39.37) (xy 133.35 50.8)
 		)
 		(stroke
@@ -10265,16 +10259,6 @@
 			(type default)
 		)
 		(uuid "c55a1716-960c-47f9-8641-e1d25f5b9a59")
-	)
-	(wire
-		(pts
-			(xy 154.94 82.55) (xy 246.38 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c60bf33d-4195-4f21-bca6-7030fcbf0576")
 	)
 	(wire
 		(pts
@@ -11718,7 +11702,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 170.18 77.47 0)
+		(at 167.64 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11727,7 +11711,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fad68a3-d5fb-4f7f-882e-5642e38210fb")
 		(property "Reference" "#PWR062"
-			(at 170.18 83.82 0)
+			(at 167.64 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11736,7 +11720,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 81.28 0)
+			(at 167.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11744,7 +11728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 77.47 0)
+			(at 167.64 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11753,7 +11737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 77.47 0)
+			(at 167.64 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11762,7 +11746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 170.18 77.47 0)
+			(at 167.64 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13562,7 +13546,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 77.47 90)
+		(at 161.29 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13570,7 +13554,7 @@
 		(dnp no)
 		(uuid "b2cc4dde-53fb-4978-8233-3cfdfba17845")
 		(property "Reference" "R49"
-			(at 157.48 76.2 0)
+			(at 160.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13579,7 +13563,7 @@
 			)
 		)
 		(property "Value" "2K2"
-			(at 160.02 76.2 0)
+			(at 162.56 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13588,7 +13572,7 @@
 			)
 		)
 		(property "Footprint" "GDP:R_XL"
-			(at 158.75 79.248 90)
+			(at 161.29 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13597,7 +13581,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 158.75 77.47 0)
+			(at 161.29 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13606,7 +13590,7 @@
 			)
 		)
 		(property "Description" "N/A"
-			(at 158.75 77.47 0)
+			(at 161.29 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
