@@ -9065,12 +9065,6 @@
 		(uuid "088ce919-aee1-4877-8761-f86d6a1287b6")
 	)
 	(junction
-		(at 154.94 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bd838b9-2f87-4daf-b035-097222195f03")
-	)
-	(junction
 		(at 48.26 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9183,6 +9177,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1696561-3f45-43b1-aaa3-44aea0c56f8e")
+	)
+	(junction
+		(at 154.94 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7aecaca-205c-4b0b-b643-acbecf358827")
 	)
 	(junction
 		(at 132.08 50.8)
@@ -9352,7 +9352,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 82.55) (xy 154.94 82.55)
+			(xy 157.48 80.01) (xy 154.94 80.01)
 		)
 		(stroke
 			(width 0)
@@ -9412,16 +9412,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 50.8) (xy 154.94 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25b53fa8-b476-4ab0-b6c4-f8d65efc5740")
-	)
-	(wire
-		(pts
 			(xy 71.12 50.8) (xy 74.93 50.8)
 		)
 		(stroke
@@ -9472,13 +9462,23 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 167.64 82.55)
+			(xy 165.1 80.01) (xy 167.64 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3174391c-9b2f-479f-9894-1e7a4e48b95f")
+	)
+	(wire
+		(pts
+			(xy 154.94 50.8) (xy 154.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fef374-d547-430e-a160-6d2211e94485")
 	)
 	(wire
 		(pts
@@ -10029,6 +10029,16 @@
 			(type default)
 		)
 		(uuid "a47f5121-d202-4781-8625-ea37d57719a7")
+	)
+	(wire
+		(pts
+			(xy 154.94 80.01) (xy 154.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4cea98c-6c64-4361-b38a-66afec2c07c4")
 	)
 	(wire
 		(pts
@@ -11712,7 +11722,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 167.64 82.55 180)
+		(at 167.64 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11720,7 +11730,7 @@
 		(dnp no)
 		(uuid "2fad68a3-d5fb-4f7f-882e-5642e38210fb")
 		(property "Reference" "#PWR062"
-			(at 167.64 76.2 0)
+			(at 167.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11729,7 +11739,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 78.74 0)
+			(at 167.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11737,7 +11747,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 82.55 0)
+			(at 167.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11746,7 +11756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 82.55 0)
+			(at 167.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11755,7 +11765,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 167.64 82.55 0)
+			(at 167.64 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13555,7 +13565,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 82.55 90)
+		(at 161.29 80.01 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13563,7 +13573,7 @@
 		(dnp no)
 		(uuid "b2cc4dde-53fb-4978-8233-3cfdfba17845")
 		(property "Reference" "R49"
-			(at 160.02 81.28 0)
+			(at 160.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13572,7 +13582,7 @@
 			)
 		)
 		(property "Value" "2K2"
-			(at 162.56 81.28 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13581,7 +13591,7 @@
 			)
 		)
 		(property "Footprint" "GDP:R_XL"
-			(at 161.29 84.328 90)
+			(at 161.29 81.788 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13590,7 +13600,7 @@
 			)
 		)
 		(property "Datasheet" "N/A"
-			(at 161.29 82.55 0)
+			(at 161.29 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13599,7 +13609,7 @@
 			)
 		)
 		(property "Description" "N/A"
-			(at 161.29 82.55 0)
+			(at 161.29 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
