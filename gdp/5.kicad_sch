@@ -8282,7 +8282,7 @@
 		(dnp no)
 		(uuid "3142fe4c-8f80-42a4-b128-8f4a5a130907")
 		(property "Reference" "IC68"
-			(at 48.006 186.436 0)
+			(at 56.134 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8290,7 @@
 			)
 		)
 		(property "Value" "74LS30"
-			(at 50.546 186.436 0)
+			(at 58.674 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9386,7 +9386,7 @@
 		(dnp no)
 		(uuid "9bd18c00-72f9-4823-b1f9-ee314febc5cd")
 		(property "Reference" "IC70"
-			(at 48.006 97.536 0)
+			(at 56.134 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9394,7 +9394,7 @@
 			)
 		)
 		(property "Value" "74LS30"
-			(at 50.546 97.536 0)
+			(at 58.674 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
