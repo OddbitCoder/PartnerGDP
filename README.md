@@ -13,7 +13,7 @@
 | R7 | 2K2 | 2K2 | |
 | R8 | 10K | 10K | |
 | R9 | 10K | 10K | |
-| R10 | 10K | 10K | |
+| R10 | 10K | 10K | 20K |
 | R11 | 10K | 10K | |
 | R12 | 10K | 10K | |
 | R13 | 3K3 | 3K3 | |
@@ -170,3 +170,25 @@ The document (Odprava-napak-graficne-kartice.pdf, "Tresenje slike na graficnih P
 11. Connect pin 13 of IC1 to pin 8 of IC71.
 
 This mod is NOT implemented on the original board.
+
+## Keyboard Comparator Threshold Mod
+
+Replace R10 (10K) with a 20K resistor. Keep the TTL keyboard jumpers on ST3 (ST3/5–ST3/8 and ST3/6–ST3/7) as they are.
+
+### Why
+
+IC3A (LM393) receives keyboard data on ST3/4 and passes it to the motherboard on ST2/2.
+
+- **IC3/3 (+ input):** keyboard data. R8/R9 (10K/10K) hold it at 2.5V when no keyboard is connected.
+- **IC3/2 (− input):** reference level. In TTL mode, the jumpers connect it to R10 (10K to +5V) and R11 (10K to GND), so it also sits at 2.5V.
+
+With the keyboard unplugged, both inputs are at 2.5V, so the output is undefined. It depends on part tolerances and noise. If it ends up low or switching, the motherboard sees a constant break or garbage on its keyboard input. The firmware then gets stuck and the AVDC text display does not work. The keyboard has to stay connected, or ST2 has to be unplugged.
+
+The original board happens to settle high (idle), so it works by luck. The replica settled low.
+
+Changing R10 to 20K lowers the reference on IC3/2 to about 1.7V:
+
+- **Keyboard unplugged:** IC3/3 (2.5V) is clearly above IC3/2 (1.7V), so the output idles high (about 4.6V on IC3/1).
+- **Keyboard connected:** 1.7V is close to the standard TTL threshold, so keyboard highs and lows are detected with good margin. The old 2.5V threshold was marginal even for valid TTL highs (2.4V minimum).
+
+This mod is implemented on the replica board. It is NOT implemented on the original board and is not shown in the KiCad schematic.
